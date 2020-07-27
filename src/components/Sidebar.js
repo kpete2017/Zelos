@@ -20,7 +20,7 @@ export default class Sidebar extends React.Component {
 
     handleStoreClick = () => {
         window.scrollTo({
-            top: 1600,
+            top: 1575,
             left: 0,
             behavior: 'smooth'
           });
@@ -28,7 +28,7 @@ export default class Sidebar extends React.Component {
 
     handleTeamClick = () => {
         window.scrollTo({
-            top: 2475,
+            top: 2550,
             left: 0,
             behavior: 'smooth'
           });
