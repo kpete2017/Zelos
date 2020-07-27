@@ -11,6 +11,15 @@ export default class FooterContent extends React.Component {
         });
     }
 
+    handleOnInstaClick = () => {
+        window.open('https://www.instagram.com/zeloscompete/')
+    }
+
+    handleOnTwitterClick = () => {
+        window.open('https://twitter.com/ZelosCompete')
+    }
+
+
     render() {
         return (
             <div className="footer">
@@ -29,8 +38,8 @@ export default class FooterContent extends React.Component {
                 </div>
                 <div className="social">
                     <h4>SOCIAL</h4>
-                    <p>Instagram</p>
-                    <p>Twitter</p>
+                    <p onClick={this.handleOnInstaClick}>Instagram</p>
+                    <p onClick={this.handleOnTwitterClick}>Twitter</p>
                 </div>
                 <img id="zelos-footer-logo" height="400" width="600"src={logo} alt="Zelos Esports"></img>
             </div>

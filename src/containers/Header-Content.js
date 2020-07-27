@@ -1,5 +1,7 @@
 import React from 'react'
 import logo from '../assets/Zelos7_3.png'
+import insta from '../assets/insta.png'
+import twitter from '../assets/twitter.png'
 
 export default class HeaderContent extends React.Component {
 
@@ -44,6 +46,15 @@ export default class HeaderContent extends React.Component {
         });
     }
 
+    handleOnInstaClick = () => {
+        window.open('https://www.instagram.com/zeloscompete/')
+    }
+
+    handleOnTwitterClick = () => {
+        window.open('https://twitter.com/ZelosCompete')
+    }
+
+
     render() {
         return(
             <header>
@@ -57,6 +68,10 @@ export default class HeaderContent extends React.Component {
                     <h4 id="nav-item" onClick={this.handleStoreClick}>STORE</h4>
                     <h4 id="nav-item" onClick={this.handleScheduleClick}>SCHEDULE</h4>
                     <h4 id="nav-item" onClick={this.handleTeamClick}>TEAMS</h4>
+                    <div className="plugs">
+                        <img src={insta} width="35" height="35" alt="Zelos Esports" onClick={this.handleOnInstaClick} id="insta"></img>
+                        <img src={twitter} width="35" height="35" alt="Zelos Esports" onClick={this.handleOnTwitterClick} id="twitter"></img>
+                    </div>
                 </div>
             </header>
         )
