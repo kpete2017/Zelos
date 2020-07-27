@@ -1,38 +1,225 @@
-.App {
-  text-align: center;
+:root {
+  font-size: 16px;
+  font-family: 'Open Sans';
+  color: #ececec;
+  --text-primary: #FFFFFF;
+  --text-secondary: #b6b6b6;
+  --bg-primary: #121212;
+  --bg-secondary: #242424;
+  --transition-speed: 400ms;
+  --body-margins: 10rem;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+::-webkit-scrollbar {
+  width: 10px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+::-webkit-scrollbar-track {
+  background: black;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+::-webkit-scrollbar-thumb {
+  background: #888;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+
+body {
+  color: var(--text-primary);
+  background-color: var(--bg-primary);
+}
+
+
+/*--------- HEADER ----------*/
+
+header {
+  position: fixed;
+  z-index: 1;
+  opacity: 0.9;
+  padding: 1rem;
+  width: 100%;
+  height: 5vh;
   display: flex;
-  flex-direction: column;
+  justify-content: space-between;
   align-items: center;
+  background-color: var(--bg-secondary);
+}
+
+.title-card {
+  margin-left: 5rem;
+  display:flex;
+  justify-content: space-between;
+  width: 10rem;
+}
+
+.nav {
+  margin-right: 5rem;
+  width: 40rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  transition: var(--transition-speed);
+}
+
+.title-card > img:hover {
+  background-color: var(--bg-primary);
+  cursor: pointer;
+}
+
+.nav > h4 {
+  transition: var(--transition-speed);
+  padding: 1rem;
+}
+
+.nav > h4:hover {
+  color: var(--text-secondary);
+  background-color: var(--bg-primary);
+  font-size: large;
+  transition: var(--transition-speed);
+  cursor: pointer;
+}
+
+/*---------- BODY ----------*/
+
+/* Sidebar */
+
+
+/* TITLE PAGE */
+
+.title {
+  background-image: url("../src/assets/background.jpeg");
+  background-attachment: fixed;
+  height: 100vh;
+}
+
+.title h1 {
+  font-size: 4rem;
+  margin: 0;
+  position: absolute;
+  top: 20vh;
+  width: 50rem;
+  margin: 10rem;
+
+}
+
+#zelos-logo {
+  position: absolute;
+  right: 10rem;
+  top: 18.5rem;
+}
+
+/* ABOUT */
+
+.about {
+  height: 90vh;
+  background: var(--bg-secondary);
+}
+
+.about h1 {
+  position: relative;
+  top: 10rem;
+  font-size: 4rem;
+  margin-top: 10rem;
+  width: 50rem;
+  margin: 10rem;
+}
+
+.about p {
+  position: relative;
+  top: 15rem;
+  font-size: 1rem;
+  margin: 0;
+  width: 50rem;
+  margin: 10rem;
+}
+
+.about h2 {
+  padding: 1rem;
+  background-color: var(--bg-secondary);
+  cursor: pointer;
+  position: relative;
+  top: 17rem;
+  width: fit-content;
+  margin: 0;
+  margin: 10rem;
+  transition: var(--transition-speed);
+}
+
+.about h2:hover {
+  color: var(--text-secondary);
+  font-size: 1.75rem;
+  transition: var(--transition-speed);
+}
+
+/* FEATURED ITEMS */
+
+.featured-items {
+  background-color: var(--bg-primary);
+  height: 50vh;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.item {
+  padding: 4rem;
+  margin: 1rem;
+  background-color: var(--bg-secondary)
+}
+
+
+/* SCHEDULE */
+
+
+.schedule {
+  background-color: var(--bg-secondary);
+  height: 50vh;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.events {
+  padding: 4rem;
+  margin: 1rem;
+  background-color: var(--bg-primary)
+}
+
+/* TEAMS */
+
+.teams {
+  background-color: var(--bg-primary);
+  height: 80vh;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.team {
+  padding: 10rem;
+    margin: 1rem;
+  background-color: var(--bg-secondary)
+}
+
+/* SPONSOR */
+
+.sponsors {
+  background-color: var(--bg-secondary);
+  height: 15vh;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.sponsor {
+  padding: 2rem;
+  margin: 1rem;
+  background-color: var(--bg-primary)
+}
+
+/* ------- FOOTER ------- */
+
+.footer {
+  background-color: var(--bg-primary);
+  height: 30vh;
+  display: flex;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
 }
