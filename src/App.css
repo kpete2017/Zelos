@@ -268,19 +268,35 @@ header {
   background-color: var(--bg-secondary);
 }
 
-#rl {
+.rl {
   background-color: var(--bg-secondary);
-  margin: 4rem;
+  height: 30rem;
+  width: 30rem;
+  margin: 8rem;
+  margin-top: 2rem;
   padding: 1rem;
-  width: 35rem;
+  opacity: 80%;
 }
 
-#r6 {
+.r6 {
   background-color: var(--bg-secondary);
-  margin: 4rem;
+  height: 30rem;
+  width: 30rem;
+  margin: 8rem;
+  margin-top: 2rem;
   padding: 1rem;
-  width: 35rem;
+  opacity: 80%;
 }
+
+.r6 h1 {
+  color: var(--text-primary);
+  opacity: 100;
+}
+
+.rl h1 {
+  opacity: 100;
+}
+
 
 #teams-text {
   text-align: center;
@@ -292,7 +308,7 @@ header {
 
 .sponsors {
   background-color: var(--bg-secondary);
-  height: 15vh;
+  height: 20vh;
   display: flex;
   justify-content: space-evenly;
 }
@@ -304,6 +320,19 @@ header {
   background-color: var(--bg-primary);
   cursor: pointer;
 }
+
+#sponsor1 {
+  background-color: var(--bg-primary);
+  padding: 1rem;
+  margin: .5rem;
+}
+
+#sponsor2 {
+  background-color: var(--bg-primary);
+  padding: 1rem;
+  margin: .5rem;
+}
+
 
 /* ------- FOOTER ------- */
 

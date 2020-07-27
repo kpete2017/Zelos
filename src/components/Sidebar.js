@@ -28,7 +28,7 @@ export default class Sidebar extends React.Component {
 
     handleTeamClick = () => {
         window.scrollTo({
-            top: 2550,
+            top: 2750,
             left: 0,
             behavior: 'smooth'
           });
