@@ -12,7 +12,7 @@ export default class BodyContent extends React.Component {
 
     render() {
         return(
-            <>
+            <div className="body">
                 <Sidebar />
                 <Title />
                 <About />
@@ -20,7 +20,7 @@ export default class BodyContent extends React.Component {
                 <Schedule />
                 <Teams />
                 <Sponsor />
-            </>
+            </div>
         )
     }
     

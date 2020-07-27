@@ -7,31 +7,31 @@ export default class Sidebar extends React.Component {
             top: 0,
             left: 0,
             behavior: 'smooth'
-          });
+        });
     }
 
     handleAboutClick = () => {
         window.scrollTo({
-            top: 800,
+            top: 900,
             left: 0,
             behavior: 'smooth'
-          });
+        });
     }
 
     handleStoreClick = () => {
         window.scrollTo({
-            top: 1575,
+            top: 1800,
             left: 0,
             behavior: 'smooth'
-          });
+        });
     }
 
     handleTeamClick = () => {
         window.scrollTo({
-            top: 2750,
+            top: 2900,
             left: 0,
             behavior: 'smooth'
-          });
+        });
     }
 
     render() {

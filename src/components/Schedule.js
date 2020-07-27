@@ -8,7 +8,7 @@ export default function schedule() {
 
     return(
         <div className="event-section">
-            <h1>Current schedule</h1>
+            <h1>Current Schedule</h1>
             <div className="schedule">
                 <div className="events">
                     <p>Pre Season League</p>

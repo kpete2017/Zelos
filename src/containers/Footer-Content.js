@@ -3,12 +3,20 @@ import logo from '../assets/Zelos_Denver_Hue.png'
 
 export default class FooterContent extends React.Component {
 
+    handleAboutClick = () => {
+        window.scrollTo({
+            top: 900,
+            left: 0,
+            behavior: 'smooth'
+        });
+    }
+
     render() {
         return (
             <div className="footer">
                 <div className="company">
                     <h4>COMPANY</h4>
-                    <p>About</p>
+                    <p onClick={this.handleAboutClick}>About</p>
                     <p>Contact</p>
                     <p>Become a partner</p>
                     <p>Store</p>
