@@ -11,12 +11,6 @@ export default function schedule() {
             <div className="team">
                 <h1>Team Stuff</h1>
             </div>
-            <div className="team">
-                <h1>Team Stuff</h1>
-            </div>
-            <div className="team">
-                <h1>Team Stuff</h1>
-            </div>
         </div>
     )
 

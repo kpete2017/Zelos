@@ -93,11 +93,18 @@ header {
 }
 
 .dot li {
-  padding: 1rem;
   margin-top: 1rem;
   cursor: pointer;
   font-size:  2rem;
+  transition: 200ms;
 }
+
+
+.dot li:hover {
+  transition: 200ms;
+  color: grey;
+}
+
 
 
 /* TITLE PAGE */
@@ -136,7 +143,7 @@ header {
 
 .about {
   margin-top: -10rem;
-  height: 90vh;
+  height: 95vh;
   background: var(--bg-secondary);
 }
 
