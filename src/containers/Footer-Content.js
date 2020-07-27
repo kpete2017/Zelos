@@ -10,6 +10,7 @@ export default class FooterContent extends React.Component {
                     <h4>COMPANY</h4>
                     <p>About</p>
                     <p>Contact</p>
+                    <p>Become a partner</p>
                     <p>Store</p>
                     <p>Privacy Policy</p>
                 </div>
@@ -20,7 +21,7 @@ export default class FooterContent extends React.Component {
                 </div>
                 <div className="social">
                     <h4>SOCIAL</h4>
-                    <p>Insta</p>
+                    <p>Instagram</p>
                     <p>Twitter</p>
                 </div>
                 <img id="zelos-footer-logo" height="400" width="600"src={logo} alt="Zelos Esports"></img>

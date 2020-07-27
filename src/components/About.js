@@ -1,4 +1,5 @@
 import React from 'react'
+import logo from '../assets/Zelos5.png'
 
 export default function about() {
     return(
