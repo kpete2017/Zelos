@@ -68,54 +68,78 @@ header {
   cursor: pointer;
 }
 
-.nav > h4 {
-  transition: var(--transition-speed);
+#nav-item{
+  transition: 1s;
   padding: 1rem;
 }
 
-.nav > h4:hover {
+#nav-item:hover {
   color: var(--text-secondary);
   background-color: var(--bg-primary);
   font-size: large;
   transition: var(--transition-speed);
   cursor: pointer;
+} 
+
+/*------- BODY ----------*/
+/* SIDEBAR */
+/*GOOD LUCK KYRU!*/
+
+.sidebar {
+  right: 2rem;
+  position: fixed;
+  top: 20rem;
+  z-index: 1;
 }
 
-/*---------- BODY ----------*/
-
-/* Sidebar */
+.dot li {
+  padding: 1rem;
+  margin-top: 1rem;
+  cursor: pointer;
+  font-size:  2rem;
+}
 
 
 /* TITLE PAGE */
 
 .title {
-  background-image: url("../src/assets/background.jpeg");
+  background-image: url("../src/assets/Denver_Hue_1.jpg");
+  background-size: cover;
   background-attachment: fixed;
-  height: 100vh;
+  transition: 400ms;
+  height: 95vh;
 }
 
-.title h1 {
+.title:hover {
+  background-color: var(--bg-primary);
+  transition: 400ms;
+}
+
+#zelos-title {
+  margin-top: 1rem;
   font-size: 4rem;
   margin: 0;
   position: absolute;
-  top: 20vh;
-  width: 50rem;
+  text-align: center;
+  top: 28vh;
   margin: 10rem;
-
 }
 
 #zelos-logo {
+  margin-bottom: 1rem;
   position: absolute;
-  right: 10rem;
-  top: 18.5rem;
+  left: 28.5%;
+  top: 2.5rem;
 }
 
 /* ABOUT */
 
 .about {
+  margin-top: -10rem;
   height: 90vh;
   background: var(--bg-secondary);
 }
+
 
 .about h1 {
   position: relative;
@@ -128,7 +152,7 @@ header {
 
 .about p {
   position: relative;
-  top: 15rem;
+  top: 12rem;
   font-size: 1rem;
   margin: 0;
   width: 50rem;
@@ -140,7 +164,7 @@ header {
   background-color: var(--bg-secondary);
   cursor: pointer;
   position: relative;
-  top: 17rem;
+  top: 12rem;
   width: fit-content;
   margin: 0;
   margin: 10rem;
@@ -151,6 +175,7 @@ header {
   color: var(--text-secondary);
   font-size: 1.75rem;
   transition: var(--transition-speed);
+  background-color: var(--bg-primary);
 }
 
 /* FEATURED ITEMS */

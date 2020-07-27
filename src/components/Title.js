@@ -1,5 +1,5 @@
 import React from 'react'
-import logo from '../assets/Zelos5.png'
+import logo from '../assets/Zelos_Denver_Hue.png'
 
 export default class Title extends React.Component {
 

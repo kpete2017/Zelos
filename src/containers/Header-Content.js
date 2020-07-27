@@ -11,12 +11,12 @@ export default class HeaderContent extends React.Component {
                     <img src={logo} width="200" height="50" alt="Zelos Esports"></img>
                 </div>
                 <div className="nav">
-                    <h4>About</h4>
-                    <h4>News</h4>
-                    <h4>Media</h4>
-                    <h4>Schedule</h4>
-                    <h4>Teams</h4>
-                    <h4>Store</h4>
+                    <h4 id="nav-item">About</h4>
+                    <h4 id="nav-item">News</h4>
+                    <h4 id="nav-item">Media</h4>
+                    <h4 id="nav-item">Schedule</h4>
+                    <h4 id="nav-item">Teams</h4>
+                    <h4 id="nav-item">Store</h4>
                 </div>
             </header>
         )
