@@ -1,5 +1,7 @@
 import React from 'react'
 import logo from '../assets/Zelos_Denver_Hue.png'
+import Fade from 'react-reveal/Fade';
+
 
 export default class Title extends React.Component {
 

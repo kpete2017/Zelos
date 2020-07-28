@@ -203,15 +203,8 @@ header {
   width: fit-content;
   margin: 0;
   margin: 10rem;
-  transition: var(--transition-speed);
 }
 
-.about h2:hover {
-  color: var(--text-secondary);
-  font-size: 1.75rem;
-  transition: var(--transition-speed);
-  background-color: var(--bg-primary);
-}
 
 /* FEATURED ITEMS */
 
