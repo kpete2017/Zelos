@@ -54,6 +54,10 @@
     margin: 2rem;
   }
 
+  .player {
+    font-weight: 600;
+  }
+
   .player:hover {
     cursor: pointer;
     color: goldenrod;

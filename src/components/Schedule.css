@@ -4,6 +4,7 @@
     background-color: var(--bg-secondary);
     text-align: center;
     height: 42vh;
+    font-weight: 600;
   }
   
   .schedule {
