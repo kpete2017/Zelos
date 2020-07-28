@@ -1,6 +1,7 @@
 import React from 'react'
 import sponsor1 from '../assets/THINKAOR.PNG'
 import sponsor2 from '../assets/Iron_Cross_Sponsor.jpg'
+import './Sponsor.css'
 
 
 export default class Sponsor extends React.Component {

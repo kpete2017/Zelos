@@ -1,5 +1,6 @@
 import React from 'react'
 import logo from '../assets/Zelos_Denver_Hue.png'
+import './Footer.css'
 
 export default class FooterContent extends React.Component {
 

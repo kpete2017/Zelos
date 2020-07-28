@@ -1,5 +1,6 @@
 import React from 'react'
 import Fade from 'react-reveal/Fade';
+import './About.css'
 
 export default class about extends React.Component {
 

@@ -2,6 +2,7 @@ import React from 'react'
 import logo from '../assets/Zelos7_3.png'
 import insta from '../assets/insta.png'
 import twitter from '../assets/twitter.png'
+import './Header.css'
 
 export default class HeaderContent extends React.Component {
 

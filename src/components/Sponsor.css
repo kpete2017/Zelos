@@ -1,0 +1,29 @@
+.sponsors-section {
+    background-color: var(--bg-secondary);
+    height: 30vh;
+    text-align: center;
+  }
+  
+  .sponsors {
+    display: flex;
+    justify-content: space-evenly;
+  }
+  
+  .sponsor {
+    z-index: 1;
+    padding: 2rem;
+    margin: 1rem;
+    background-color: var(--bg-primary);
+    cursor: pointer;
+  }
+  
+  #sponsor1 {
+    background-color: var(--bg-primary);
+    padding: 1rem;
+  
+  }
+  
+  #sponsor2 {
+    background-color: var(--bg-primary);
+    padding: 1rem;
+  }

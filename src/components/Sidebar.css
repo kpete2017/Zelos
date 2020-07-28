@@ -1,0 +1,19 @@
+.sidebar {
+    right: -1rem;
+    position: fixed;
+    top: 20rem;
+    z-index: 1;
+  }
+  
+  .dot li {
+    margin-top: 1rem;
+    cursor: pointer;
+    font-size:  2rem;
+    transition: 200ms;
+  }
+  
+  
+  .dot li:hover {
+    transition: 200ms;
+    color: grey;
+  }

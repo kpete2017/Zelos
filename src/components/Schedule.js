@@ -3,6 +3,7 @@ import HomeLogo from '../assets/Zelos5.png'
 import vsOutdone from '../assets/outdone_movement.png'
 import vsFractured from '../assets/fractured.png'
 import Fade from 'react-reveal/Fade';
+import './Schedule.css'
 
 
 export default function schedule() {

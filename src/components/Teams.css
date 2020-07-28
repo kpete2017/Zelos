@@ -1,0 +1,54 @@
+.teams {
+  
+    line-height: 1.5rem;
+    background-color: var(--bg-primary);
+    height: 80vh;
+    display: flex;
+    justify-content: space-evenly;
+  }
+  
+  .team-r6 {
+    background-image: url("../assets/dims.jfif");
+    background-attachment: fixed;
+    background-size: cover;
+    width: 43rem;
+    margin: 2rem;
+    text-align: center;
+    background-color: var(--bg-secondary)
+  }
+  
+  .team-rl {
+    background-image: url("../assets/RocketLeague.jpg");
+    background-attachment: fixed;
+    background-size: cover;
+  
+    width: 43rem;
+    margin: 2rem;
+    text-align: center;
+    background-color: var(--bg-secondary);
+  }
+  
+  .rl {
+    z-index: 1;
+    background-color: rgba(14, 14, 14, .8);
+    height: 30rem;
+    width: 30rem;
+    margin: 6rem;
+    margin-top: 2rem;
+    padding: 1rem;
+  }
+  
+  .r6 {
+    z-index: 1;
+    background-color: rgba(14, 14, 14, .8);
+    height: 30rem;
+    width: 30rem;
+    margin: 6rem;
+    margin-top: 2rem;
+    padding: 1rem;
+  }
+  
+  #teams-text {
+    text-align: center;
+    margin: 2rem;
+  }
