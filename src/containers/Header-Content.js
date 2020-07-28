@@ -6,14 +6,6 @@ import './Header.css'
 
 export default class HeaderContent extends React.Component {
 
-    handleAboutClick = () => {
-        window.scrollTo({
-            top: 900,
-            left: 0,
-            behavior: 'smooth'
-        });
-    }
-
     handleScheduleClick = () => {
         window.scrollTo({
             top: 2300,
@@ -60,15 +52,15 @@ export default class HeaderContent extends React.Component {
         return(
             <header>
                 <div className="title-card">
-                    <img src={logo} width="200" height="50" alt="Zelos Esports" onClick={this.handleTitleClick}></img>
+                    <img src={logo} width="200" height="50" alt="Zelos Esports" onClick={() => this.props.titlePage()}></img>
                 </div>
                 <div className="nav">
-                    <h4 id="nav-item" onClick={this.handleAboutClick}>ABOUT</h4>
-                    <h4 id="nav-item">NEWS</h4>
-                    <h4 id="nav-item">MEDIA</h4>
-                    <h4 id="nav-item" onClick={this.handleStoreClick}>STORE</h4>
-                    <h4 id="nav-item" onClick={this.handleScheduleClick}>SCHEDULE</h4>
-                    <h4 id="nav-item" onClick={this.handleTeamClick}>TEAMS</h4>
+                <h4 id="nav-item" onClick={() => this.props.titlePage()}>HOME</h4>
+                    <h4 id="nav-item" onClick={() => this.props.aboutPage()}>ABOUT</h4>
+                    <h4 id="nav-item" onClick={() => this.props.mediaPage()}>MEDIA</h4>
+                    <h4 id="nav-item" onClick={() => this.props.storePage()}>STORE</h4>
+                    <h4 id="nav-item" onClick={() => this.props.schedulePage()}>SCHEDULE</h4>
+                    <h4 id="nav-item" onClick={() => this.props.teamPage()}>TEAMS</h4>
                     <div className="plugs">
                         <img src={insta} width="35" height="35" alt="Zelos Esports" onClick={this.handleOnInstaClick} id="insta"></img>
                         <img src={twitter} width="35" height="35" alt="Zelos Esports" onClick={this.handleOnTwitterClick} id="twitter"></img>

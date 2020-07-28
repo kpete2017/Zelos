@@ -13,7 +13,7 @@ export default class Sidebar extends React.Component {
 
     handleAboutClick = () => {
         window.scrollTo({
-            top: 900,
+            top: 950,
             left: 0,
             behavior: 'smooth'
         });

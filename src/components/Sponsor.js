@@ -6,7 +6,6 @@ import './Sponsor.css'
 
 export default class Sponsor extends React.Component {
 
-
     render() {
         return(
             <div className="sponsors-section">

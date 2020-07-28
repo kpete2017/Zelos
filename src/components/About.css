@@ -6,7 +6,7 @@
   
 .about h1 {
     position: relative;
-    top: 10rem;
+    top: 7rem;
     font-size: 4rem;
     margin-top: 10rem;
     width: 50rem;
@@ -15,21 +15,18 @@
   
 .about p {
     position: relative;
-    top: 12rem;
+    top: 1rem;
     font-size: 1rem;
-    margin: 0;
     width: 50rem;
-    margin: 10rem;
+    margin-left: 10rem;
   }
   
 .about h2 {
     padding: 1rem;
     background-color: var(--bg-secondary);
     cursor: pointer;
-    position: relative;
-    top: 12rem;
     width: fit-content;
-    margin: 0;
-    margin: 10rem;
+    margin-left: 10rem;
+    margin-top: 3rem;
   }
   
