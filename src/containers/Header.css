@@ -1,5 +1,6 @@
 header {
     position: fixed;
+    margin-top: 0;
     z-index: 2;
     opacity: 0.9;
     padding: 1rem;
@@ -62,4 +63,3 @@ header {
     margin: 1rem;
     cursor: pointer;
   }
-  

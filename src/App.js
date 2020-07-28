@@ -102,7 +102,7 @@ class App extends React.Component {
   
 
   render() {
-    
+
     let bodyRender
 
     if(this.state.titlePage) {
@@ -126,7 +126,7 @@ class App extends React.Component {
           aboutPage={this.handleAboutPage} 
           mediaPage={this.handleMediaPage}
           storePage={this.handleStorePage}
-          schedulePage={this.handleStorePage}
+          schedulePage={this.handleSchedulePage}
           teamPage={this.handleTeamPage}
           />
         {bodyRender}

@@ -12,18 +12,27 @@
 }
 
 #zelos-title {
-  margin-top: 1rem;
+  margin-top: 13rem;
   font-size: 4rem;
-  margin: 0;
   position: absolute;
+  top: 50%;
+  left: 50%;
+  /* bring your own prefixes */
+  transform: translate(-50%, -50%);
   text-align: center;
   top: 28vh;
-  margin: 10rem;
+}
+
+#rivals {
+  font-size: 5rem;
 }
 
 #zelos-logo {
   margin-bottom: 1rem;
   position: absolute;
-  left: 28.5%;
-  top: 2.5rem;
+  top: 50%;
+  left: 50%;
+  /* bring your own prefixes */
+  transform: translate(-50%, -50%);
+  top: 12rem;
 }

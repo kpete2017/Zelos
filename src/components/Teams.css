@@ -1,6 +1,6 @@
 .teams {
   
-    line-height: 1.5rem;
+    line-height: 1.0rem;
     background-color: var(--bg-primary);
     height: 80vh;
     display: flex;
@@ -39,6 +39,7 @@
   }
   
   .r6 {
+    line-height: 1;
     z-index: 1;
     background-color: rgba(14, 14, 14, .8);
     height: 30rem;
@@ -51,4 +52,13 @@
   #teams-text {
     text-align: center;
     margin: 2rem;
+  }
+
+  .player:hover {
+    cursor: pointer;
+    color: goldenrod;
+  }
+
+  #captain {
+    color: hsla(360, 100%, 40%, 1);
   }
