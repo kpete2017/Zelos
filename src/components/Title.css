@@ -12,6 +12,7 @@
 }
 
 #zelos-title {
+  line-height: 1;
   margin-top: 13rem;
   font-size: 4rem;
   position: absolute;

@@ -6,6 +6,7 @@ import Teams from '../components/Teams'
 import FeaturedItems from '../components/FeaturedItems'
 import Sponsor from '../components/Sponsor'
 import Sidebar from '../components/Sidebar'
+import Twitch from '../components/Twitch'
 
 export default class BodyContent extends React.Component {
     
@@ -13,13 +14,14 @@ export default class BodyContent extends React.Component {
     render() {
         return(
             <div className="body">
-                <Sidebar />
                 <Title />
                 <About />
                 <FeaturedItems />
                 <Schedule />
                 <Teams />
                 <Sponsor />
+                <Sidebar />
+                <Twitch />
             </div>
         )
     }

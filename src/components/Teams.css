@@ -1,6 +1,4 @@
 .teams {
-  
-    line-height: 1.0rem;
     background-color: var(--bg-primary);
     height: 80vh;
     display: flex;
@@ -21,7 +19,8 @@
     background-image: url("../assets/RocketLeague.jpg");
     background-attachment: fixed;
     background-size: cover;
-  
+
+    line-height: 1;
     width: 43rem;
     margin: 2rem;
     text-align: center;

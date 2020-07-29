@@ -1,0 +1,21 @@
+#twitch {
+    position: fixed;
+    bottom: 4rem;
+    right: 4rem;
+}
+
+#exit {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    z-index: 2;
+    position: fixed;
+    bottom: 19rem;
+    right: 4.5rem;
+    transition: 400ms;
+}
+
+#exit:hover {
+    color: #df49a6;
+    transform: rotate(-180deg);
+    transition: 400ms;
+    cursor: pointer;
+}

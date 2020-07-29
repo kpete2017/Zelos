@@ -17,15 +17,15 @@ export default function FeaturedItems() {
                 <div className="featured-items">
                     <div className="item">
                         <img id="tee-1" height="200" width="400"src={tee1} alt="Zelos Esports"></img>
-                        <h4 className="item-desc">Sick Nasty makes you cool shirt</h4>
+                        <h4 className="item-desc">Zelos Long Sleeve</h4>
                     </div>
                     <div className="item">
                         <img id="tee-2" height="200" width="400"src={tee2} alt="Zelos Esports"></img>
-                        <h4 className="item-desc">The fuck you give me money collection</h4>
+                        <h4 className="item-desc">Poseidon Collection 2020 Jersey</h4>
                     </div>
                     <div className="item">
                         <img id="tee-3" height="200" width="400"src={tee3} alt="Zelos Esports"></img>
-                        <h4 className="item-desc">The Awesome guys buy this collection</h4>
+                        <h4 className="item-desc">Zelos Windbreaker</h4>
                     </div>
                 </div>
             </div>

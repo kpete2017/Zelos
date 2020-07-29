@@ -6,7 +6,6 @@ import FooterContent from './containers/Footer-Content'
 import AboutContent from './containers/About-Content'
 import MediaContent from './containers/Media-Content';
 import StoreContent from './containers/Store-Content';
-import ScheduleContent from './containers/Schedule-Content';
 import TeamContent from './containers/Team-Content';
 
 
@@ -35,7 +34,6 @@ class App extends React.Component {
       aboutPage: false,
       mediaPage: false,
       storePage: false,
-      schedulePage: false,
       teamPage: false
     })
   }
@@ -47,7 +45,6 @@ class App extends React.Component {
       aboutPage: true,
       mediaPage: false,
       storePage: false,
-      schedulePage: false,
       teamPage: false
     })
   }
@@ -59,7 +56,6 @@ class App extends React.Component {
       aboutPage: false,
       mediaPage: true,
       storePage: false,
-      schedulePage: false,
       teamPage: false
     })
   }
@@ -71,7 +67,6 @@ class App extends React.Component {
       aboutPage: false,
       mediaPage: false,
       storePage: true,
-      schedulePage: false,
       teamPage: false
     })
   }
@@ -83,7 +78,6 @@ class App extends React.Component {
       aboutPage: false,
       mediaPage: false,
       storePage: false,
-      schedulePage: true,
       teamPage: false
     })
   }
@@ -95,7 +89,6 @@ class App extends React.Component {
       aboutPage: false,
       mediaPage: false,
       storePage: false,
-      schedulePage: false,
       teamPage: true
     })
   }
@@ -113,8 +106,6 @@ class App extends React.Component {
       bodyRender = <MediaContent />
     } else if (this.state.storePage) {
       bodyRender = <StoreContent />
-    } else if (this.state.schedulePage) {
-      bodyRender = <ScheduleContent />
     } else if (this.state.teamPage) {
       bodyRender = <TeamContent />
     }

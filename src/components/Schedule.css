@@ -1,37 +1,38 @@
 .event-section {
-    line-height: 1rem;
-    padding: 1rem;
-    background-color: var(--bg-secondary);
-    text-align: center;
-    height: 42vh;
-    font-weight: 600;
-  }
-  
-  .schedule {
-    display: flex;
-    justify-content: space-evenly;
-  }
-  
-  .events {
-    padding: 2.2rem;
-    background-color: var(--bg-primary);
-    text-align: center;
-    width: 15rem;
-  }
-  
-  .vs {
-    display: flex;
-    flex-wrap: nowrap;
-  }
-  
-  #zelos-home-logo {
-    margin-left: -1.2rem;
-  }
-  
-  .vs-text {
-    margin-left: 1.8rem;
-    margin-right: -.4rem;
-    display: flex;
-    justify-content: space-between;
-    flex-wrap: nowrap;
-  }
+  line-height: 1rem;
+  padding: 1rem;
+  background-color: var(--bg-secondary);
+  text-align: center;
+  height: 42vh;
+  font-weight: 600;
+}
+
+.schedule {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.events {
+  padding: 2rem;
+  background-color: var(--bg-primary);
+  text-align: center;
+  width: 15rem;
+  height: 16rem;
+}
+
+.vs {
+  display: flex;
+  flex-wrap: nowrap;
+}
+
+#zelos-home-logo {
+  margin-left: -1.2rem;
+}
+
+.vs-text {
+  margin-left: 1.8rem;
+  margin-right: -.4rem;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: nowrap;
+}

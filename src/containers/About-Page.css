@@ -1,4 +1,42 @@
-.about {
+.about-page {
+    position: relative;
+    top: 5rem;
+    height: 95vh;
+    margin-bottom: 70rem;
+    margin-left: 5rem;
+}
+
+.about-page h1 {
+    font-size: 4rem;
+}
+
+.about-page h4 {
+    margin-left: 5rem;
+    margin-right: 50rem;
+}
+
+.business {
+    position: relative;
+    display: flex;
+    justify-content: space-evenly;
+    margin-right: 10rem;
+    justify-content: center;
+    text-align: center;
+    background-color: var(--bg-primary);
+}
+
+.people {
+    margin: 2rem;
+    background-color: var(--bg-secondary);
+    width: 20rem;
+    padding: 1rem;
+}
+
+.headshot {
     position: relative;
     top: 1rem;
+}
+
+#current-games {
+    line-height: normal;
 }
