@@ -2,7 +2,7 @@
     position: relative;
     top: 5rem;
     height: 95vh;
-    margin-bottom: 70rem;
+    margin-bottom: 80rem;
     margin-left: 5rem;
 }
 
@@ -39,4 +39,24 @@
 
 #current-games {
     line-height: normal;
+}
+
+#founders-text {
+    margin-top: 10rem;
+}
+
+#about-zelos-text {
+    margin-top: 10rem;
+}
+
+.games {
+    margin-left: 2rem;
+}
+
+#mailing {
+    margin-left: 2rem;
+}
+
+#contact-about {
+    margin-left: 2rem;
 }
