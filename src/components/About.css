@@ -1,33 +1,63 @@
 .about {
-    margin-top: -10rem;
-    height: 95vh;
-    background: var(--bg-primary);
-    line-height: 2.7rem;
-  }
+  margin-top: -10rem;
+  height: 95vh;
+  width: 100vw;
+  background: var(--bg-primary);
+  line-height: 2.7rem;
+}
   
 .about h1 {
-    position: relative;
-    top: 7rem;
-    font-size: 4rem;
-    margin-top: 10rem;
-    width: 50rem;
-    margin: 10rem;
-  }
+  position: relative;
+  top: 7rem;
+  font-size: 4rem;
+  margin-top: 10rem;
+  width: 50rem;
+  margin: 10rem;
+}
   
 .about p {
-    position: relative;
-    top: 1rem;
-    font-size: 1rem;
-    width: 50rem;
-    margin-left: 10rem;
-  }
+  position: relative;
+  top: 1rem;
+  font-size: 1rem;
+  width: 50rem;
+  margin-left: 10rem;
+}
   
 .about h2 {
-    padding: 1rem;
-    background-color: var(--bg-secondary);
-    cursor: pointer;
-    width: fit-content;
-    margin-left: 10rem;
-    margin-top: 3rem;
-  }
-  
+  padding: 1rem;
+  background-color: var(--bg-secondary);
+  cursor: pointer;
+  width: fit-content;
+  margin-left: 10rem;
+  margin-top: 3rem;
+}
+
+#rl1 {
+  padding-bottom: .2rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  background-color: var(--bg-secondary);
+  position: absolute;
+  left: 74.4rem;
+  top: 92.85rem;
+}
+
+#rl2 {
+  padding-bottom: .2rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  background-color: var(--bg-secondary);
+  position: absolute;
+  left: 74.4rem;
+  top: 62rem;
+}
+
+#rl3 {
+  padding-bottom: .2rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  background-color: var(--bg-secondary);
+  position: absolute;
+  left: 94.5rem;
+  top: 77.45rem;
+}
