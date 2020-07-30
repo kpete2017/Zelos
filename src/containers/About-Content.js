@@ -22,29 +22,33 @@ export default function AboutContent(props) {
                         <img className="headshot" height="200" width="200"src={WeirdFace} alt="Zelos Esports"></img>
                     </div>
                     <div className="people" id="garret">
-                        <h2>Garret Gallant <br/>-<br/> Office Bitch</h2>
+                        <h2>Garret Gallant <br/>-<br/> CTO</h2>
                         <img className="headshot" height="200" width="200"src={WeirdFace} alt="Zelos Esports"></img>
                     </div>
                     <div className="people" id="nate">
                         <h2>Nate Spomer <br/>-<br/> Manager</h2>
                         <img className="headshot" height="200" width="200"src={WeirdFace} alt="Zelos Esports"></img>
                     </div>
+                    <div className="people" id="nate">
+                        <h2>Ian Loudboi <br/>-<br/>Investor</h2>
+                        <img className="headshot" height="200" width="200"src={WeirdFace} alt="Zelos Esports"></img>
+                    </div>
                 </div>
             </Fade>
             <Fade bottom>
-                <h1 id="current-games">Current Games we participate in</h1>
+                <h2 id="current-games">Current Games we participate in</h2>
                 <div className="games">
                     <p>Tom Clancy's Rainbow Six Siege</p>
                     <p>Rocket League</p>
                 </div>
             </Fade>
-            <Fade>
+            <Fade bottom>
                 <h2>Mailing address</h2>
                 <div id="mailing">
                     <p> 1234 S Street St <br/> Littleton, CO 80128</p>
                 </div>
             </Fade>
-            <Fade>
+            <Fade bottom>
                 <h2>Conact</h2>
                 <div id="contact-about">
                     <p>
