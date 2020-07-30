@@ -14,7 +14,6 @@ export default class HeaderContent extends React.Component {
         window.open('https://twitter.com/ZelosCompete')
     }
 
-
     render() {
         return(
             <header>
@@ -22,9 +21,9 @@ export default class HeaderContent extends React.Component {
                     <img src={logo} width="200" height="50" alt="Zelos Esports" onClick={() => this.props.titlePage()}></img>
                 </div>
                 <div className="nav">
-                <h4 id="nav-item" onClick={() => this.props.titlePage()}>HOME</h4>
+                    <h4 id="nav-item" onClick={() => this.props.titlePage()}>HOME</h4>
                     <h4 id="nav-item" onClick={() => this.props.aboutPage()}>ABOUT</h4>
-                    <h4 id="nav-item" onClick={() => this.props.mediaPage()}>MEDIA</h4>
+                    {/* <h4 id="nav-item" onClick={() => this.props.mediaPage()}>MEDIA</h4> */}
                     <h4 id="nav-item" onClick={() => this.props.storePage()}>STORE</h4>
                     <h4 id="nav-item" onClick={() => this.props.teamPage()}>TEAMS</h4>
                     <div className="plugs">
