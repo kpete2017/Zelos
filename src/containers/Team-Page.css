@@ -1,0 +1,151 @@
+.team-page {
+    position: relative;
+    top: 5rem;
+    height: 250vh;
+    margin-bottom: 80rem;
+}
+
+.team-page h1 {
+    margin-left: 10rem;
+}
+
+.r6team {
+    margin-left: 10rem;
+    margin-right: 10rem;
+    background-color: var(--bg-secondary);
+}
+
+.rlteam {
+    margin-left: 10rem;
+    margin-right: 10rem;
+    background-color: var(--bg-secondary);
+}
+
+#player-card {
+    border: 1px solid white;
+    height: 15rem;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.players-r6 {
+    margin-top: 5rem;
+    margin-bottom: 0;
+    margin-left: 10rem;
+}
+
+.team-page h2 {
+    margin: 1rem;
+}
+
+.team-page p {
+    margin: 1rem;
+}
+
+.column1 {
+    line-height: 2;
+    margin-bottom: 1rem;
+    width: 139rem;
+}
+
+.bio {
+    margin-top: 4rem;
+    margin-bottom: 4rem;
+    line-height: 1;
+    font-size: 15px;
+}
+
+.column3 {
+    margin-right: 2rem;
+    margin-left: 3rem;
+}
+
+@media only screen and (max-width: 1560px) {
+    .team-page p {
+        font-size: 12px;
+    }
+
+    .team-page h2 {
+        font-size: 20px;
+    }
+
+    .team-page #insta {
+        width: 20px;
+        height: 20px;
+    }
+
+    .team-page #twitter {
+        width: 20px;
+        height: 20px;
+    }
+
+    .team-page #twitch {
+        width: 20px;
+        height: 20px;
+    }
+
+    .headshot {
+        height: 150px;
+        width: 150px;
+    }
+}
+
+@media only screen and (max-width: 1200px) {
+    .team-page p {
+        font-size: 8px;
+    }
+
+    .team-page h2 {
+        font-size: 15px;
+    }
+
+    .team-page #insta {
+        width: 15px;
+        height: 15px;
+    }
+
+    .team-page #twitter {
+        width: 15px;
+        height: 15px;
+    }
+
+    .team-page #twitch {
+        width: 15px;
+        height: 15px;
+    }
+
+    .headshot {
+        height: 100px;
+        width: 100px;
+    }
+}
+
+@media only screen and (max-width: 900px) {
+    .team-page p {
+        font-size: 6px;
+    }
+
+    .team-page h2 {
+        font-size: 10px;
+    }
+
+    .team-page #insta {
+        width: 12px;
+        height: 12px;
+    }
+
+    .team-page #twitter {
+        width: 12px;
+        height: 12px;
+    }
+
+    .team-page #twitch {
+        width: 12px;
+        height: 12px;
+    }
+
+    .headshot {
+        height: 75px;
+        width: 75px;
+    }
+}
