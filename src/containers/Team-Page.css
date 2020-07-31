@@ -1,35 +1,77 @@
 .team-page {
     position: relative;
     top: 5rem;
-    height: 250vh;
-    margin-bottom: 80rem;
+    height: 220vh;
+    margin-bottom: 110rem;
+    background-color: #111111;
+}
+
+.header-banner {
+    height: 20rem;
+    position: relative;
+    left: 14rem;
+    right: 14rem;
+    width: 90rem;
+    background-image: url("../assets/r6header.jpg");
+}
+
+.gradient-div {
+    height: 20rem;
+    background-color: transparent;
+    background-image: linear-gradient(180deg, rgba(14, 14, 14, 0) 0%, #111111 95%);
+    opacity: 1;
+    transition: background 0.3s, border-radius 0.3s, opacity 0.3s;
+}
+
+.header-banner2 {
+    height: 20rem;
+    position: relative;
+    left: 14rem;
+    right: 14rem;
+    width: 90rem;
+    background-image: url("../assets/rlbanner.jpg");
+    background-position: center;
+}
+
+.gradient-div2 {
+    height: 20rem;
+    background-color: transparent;
+    background-image: linear-gradient(180deg, rgba(14, 14, 14, 0) 0%, #111111 95%);
+    opacity: 1;
+    transition: background 0.3s, border-radius 0.3s, opacity 0.3s;
 }
 
 .team-page h1 {
-    margin-left: 10rem;
+    position: relative;
+    font-weight: 900;
+    left: 3rem;
+    top: 16rem;
+}
+
+.team-headshot {
+    margin-top: 1rem;
 }
 
 .r6team {
     margin-left: 10rem;
     margin-right: 10rem;
-    background-color: var(--bg-secondary);
+    background-color: rgb(26, 26, 26);
 }
 
 .rlteam {
     margin-left: 10rem;
     margin-right: 10rem;
-    background-color: var(--bg-secondary);
+    background-color: rgb(26, 26, 26);
 }
 
 #player-card {
     border: 1px solid white;
     height: 15rem;
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-between;
 }
 
 .players-r6 {
-    margin-top: 5rem;
     margin-bottom: 0;
     margin-left: 10rem;
 }
@@ -45,11 +87,12 @@
 .column1 {
     line-height: 2;
     margin-bottom: 1rem;
-    width: 139rem;
+    width: 13rem;
 }
 
-.bio {
-    margin-top: 4rem;
+.column2 {
+    width: 48rem;
+    margin-top: 2rem;
     margin-bottom: 4rem;
     line-height: 1;
     font-size: 15px;
@@ -84,7 +127,7 @@
         height: 20px;
     }
 
-    .headshot {
+    .team-headshot {
         height: 150px;
         width: 150px;
     }
@@ -114,7 +157,7 @@
         height: 15px;
     }
 
-    .headshot {
+    .team-headshot {
         height: 100px;
         width: 100px;
     }
@@ -144,7 +187,7 @@
         height: 12px;
     }
 
-    .headshot {
+    .team-headshot {
         height: 75px;
         width: 75px;
     }
