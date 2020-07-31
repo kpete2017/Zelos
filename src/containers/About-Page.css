@@ -1,9 +1,55 @@
 .about-page {
     position: relative;
     top: 5rem;
-    height: 95vh;
-    margin-bottom: 65rem;
+    width: 100vw;
+    height: 60rem;
+    margin-bottom: 52rem;
+}
+
+.intro-section {
     margin-left: 5rem;
+}
+
+.company-info {
+    background-image: url("../assets/rl-background.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+    margin-top: -.9rem;
+    background-color: rgba(14, 14, 14, .8);;
+}
+
+.background-black {
+    height: 40rem;
+    background-color: rgba(14, 14, 14, .8);
+}
+
+.company-info h2 {
+    position: relative;
+    top: 3rem;
+    margin-left: 2rem;
+}
+
+.company-info p {
+    position: relative;
+    top: 2rem;
+    margin-left: 4rem;
+}
+
+.founders-section {
+    height: 40rem;
+    margin-top: 3rem;
+    padding: .2rem;
+    background-color: var(--bg-secondary);
+}
+
+#zelos-about-logo {
+    position: absolute;
+    margin-top: -8rem;
+    margin-left: 60rem;
+}
+
+.about-page h2 {
+    font-size: 1rem;
 }
 
 .about-page h1 {
@@ -11,30 +57,30 @@
 }
 
 .about-page h4 {
-    margin-left: 5rem;
-    margin-right: 50rem;
+    width: 40rem;
+    position: relative;
+    top: -5rem;
+    left: 4rem;
 }
 
 .business {
-    position: relative;
     display: flex;
-    justify-content: space-evenly;
-    margin-right: 10rem;
     justify-content: center;
     text-align: center;
-    background-color: var(--bg-primary);
+    background-color: var(--bg-secondary);
 }
 
 .people {
-    margin: 2rem;
-    background-color: var(--bg-secondary);
+    font-size: 5px;
+    margin: 1rem;
+    background-color: var(--bg-primary);
     width: 20rem;
     padding: 1rem;
 }
 
 .headshot {
     position: relative;
-    top: 1rem;
+    bottom: 1rem;
 }
 
 #current-games {
@@ -42,7 +88,8 @@
 }
 
 #founders-text {
-    margin-top: 10rem;
+    text-align: center;
+    margin-top: 3rem;
 }
 
 #about-zelos-text {
@@ -60,3 +107,70 @@
 #contact-about {
     margin-left: 2rem;
 }
+
+@media only screen and (max-width: 1050px) {
+    .people {
+        font-size: 10px;
+    }
+}
+
+@media only screen and (max-width: 800px) {
+
+    .business {
+        justify-content: left;
+        overflow: auto;
+    }
+}
+
+@media only screen and (max-width: 752px) {
+    .about-page h4 {
+        width: 20rem;
+    }
+    .about-page{
+        height: 70rem;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+
+    .about-page h1 {
+        font-size: 20px;
+    }
+
+    .business {
+        margin-left: -5rem;
+        margin-right: -5rem;
+        right: 5rem;
+    }
+
+    .about-page h4 {
+        font-size: 12px;
+        width: 20rem;
+    }
+
+    .about-page{
+        height: 40rem;
+    }
+
+    #about-zelos-text{
+        margin-top: 1rem;
+        margin-left: 2rem;
+    }
+
+    #what-is-zelos{
+        position: relative;
+        right: 6rem;
+    }
+
+    #founders-text{
+        position: relative;
+        right: 6rem;
+        margin-top: 3rem;
+    }
+
+    .about-page p {
+        line-height: 1;
+    }
+}
+
+
