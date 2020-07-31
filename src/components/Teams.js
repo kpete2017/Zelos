@@ -35,7 +35,7 @@ export default function schedule() {
                     <div className="team-r6">
                         <div className="r6">
                             <h1 id="r6">Tom Clancy's Rainbow Six Siege</h1>
-                            <p>
+                            <div>
                                 <br/>
                                 <div className="player" id="captain">Spooman -  Flex</div>
                                 <br/>
@@ -49,7 +49,7 @@ export default function schedule() {
                                 <div className="player">Blueberry - Support</div>
                                 <br/>
                                 <br/>
-                                <div className="player">Boxy - Support</div>
+                                <div className="player">Boxy - Support/IGL</div>
                                 <br/>
                                 <br/>
                                 <br/>
@@ -57,8 +57,7 @@ export default function schedule() {
                                 <br/>
                                 <div className="player">OffBrandPanda - Sub</div>
                                 <br/>
-                                <div className="player">Juicy - Sub</div>
-                            </p>
+                            </div>
                         </div>
                     </div>
                 </div>
