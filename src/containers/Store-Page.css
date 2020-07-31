@@ -1,13 +1,13 @@
-.store-section {
+.store-page {
     background-image: url("../assets/rainbow-background.jpg");
     background-size: cover;
     background-attachment: fixed;
-    height: 25.5rem;
+    height: 50.5rem;
     width: 100%;
   }
 
   .black-background {
-    height: 25.5rem;
+    height: 50.5rem;
     background-color: rgba(14, 14, 14, .8);
 }
   
@@ -19,12 +19,12 @@
   .item-section {
     cursor: pointer;
     height: 14rem;
-    background-color: var(--bg-primary);
+    background-color: var(--bg-secondary);
   }
 
   .featured-item {
     line-height: 1;
-    background-color: var(--bg-primary);
+    background-color: var(--bg-secondary);
     transition: 400ms;
   }
 
@@ -33,7 +33,11 @@
     margin-right: 2rem;
     margin-left: 15rem;
     text-align: center;
-    background-color: var(--bg-secondary);
+    background-color: var(--bg-primary);
+  }
+
+  #zelos-merch-text {
+    margin-left: 2rem;
   }
   
   .purchase-button:hover {

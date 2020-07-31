@@ -38,4 +38,5 @@ body {
   font-style: normal;
   line-height: 3.6rem;
   letter-spacing: 2px;
+  overflow-x: hidden;
 }

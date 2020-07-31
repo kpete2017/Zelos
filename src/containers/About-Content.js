@@ -12,7 +12,7 @@ export default function AboutContent(props) {
                 <div className="intro-section">
                     <h1 id="what-is-zelos">What is Zelos?</h1>
                     <img id="zelos-about-logo" height="400" width="500"src={logo} alt="Zelos Esports"></img>
-                    <h4 id="about-zelos-text">Founded in 2018 by Joe "JoeYang" Dikeman, Zelos aims to build a community in Colorado focused on competition, content creation, and fashion</h4>
+                    <h4 id="about-zelos-text">Founded in 2020 by Joe "JoeYang" Dikeman, Zelos aims to build a community in Colorado focused on competition, content creation, and fashion</h4>
                 </div>
             </Fade>
             <Fade bottom>
@@ -63,9 +63,9 @@ export default function AboutContent(props) {
                             </p>
                         </div>
                     </div>
-                    <Twitch/>
                 </div>
             </Fade>
+            <Twitch/>
         </div>
     )
 }
