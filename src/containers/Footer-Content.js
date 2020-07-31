@@ -35,7 +35,7 @@ export default class FooterContent extends React.Component {
                 <div className ="team-footer">
                     <h4>TEAMS</h4>
                     <p>Rocket League</p>
-                    <p>Tom Clancy's Rainbw Six Siege</p>
+                    <p>Tom Clancy's Rainbow Six Siege</p>
                 </div>
                 <div className="social">
                     <h4>SOCIAL</h4>
