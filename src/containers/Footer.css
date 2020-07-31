@@ -1,5 +1,4 @@
 
-
 .footer {
   font-size: small;
   line-height: 1.3rem;
@@ -20,3 +19,32 @@
   cursor: pointer;
   color: var(--text-secondary);
 }
+
+@media only screen and (max-width: 1190px) {
+  .footer {
+      font-size: 10px
+  }
+}
+
+@media only screen and (max-width: 1050px){
+  #zelos-footer-logo{
+    height: 200px;
+    width: 300px;
+    margin-top: -3rem;
+  }
+}
+
+@media only screen and (max-width: 1050px){
+  .footer{
+    font-size: 8px;
+  }
+}
+
+@media only screen and (max-width: 950px){
+  .team-footer{
+      padding-left: 2rem;
+      padding-right: 2rem;
+  }
+}
+
+
