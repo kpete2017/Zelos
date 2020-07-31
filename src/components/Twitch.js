@@ -18,7 +18,7 @@ export default class twitch extends React.Component {
             return(
                 <>
                 <p id="exit" onClick={this.handleClick}>X</p>
-                <iframe title="twitch" id="twitch" src="https://player.twitch.tv/?channel=zeloscompete&parent=zelos-a9142.web.app" frameborder="0" allowfullscreen="true" scrolling="no" height="300" width="400" autoplay="true"></iframe>
+                <iframe title="twitch" id="twitch-viewer" src="https://player.twitch.tv/?channel=zeloscompete&parent=zelos-a9142.web.app" frameborder="0" allowfullscreen="true" scrolling="no" height="400" width="500" autoplay="true"></iframe>
                 </>
             ) 
         } else {
