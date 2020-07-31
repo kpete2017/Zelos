@@ -3,8 +3,9 @@
   padding: 1rem;
   background-color: var(--bg-secondary);
   text-align: center;
-  height: 42vh;
+  height: 28.3rem;
   font-weight: 600;
+  width: 98%;
 }
 
 .schedule {
