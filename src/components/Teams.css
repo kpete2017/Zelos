@@ -3,6 +3,7 @@
     height: 80vh;
     display: flex;
     justify-content: space-evenly;
+    width: 100%;
   }
   
   .team-r6 {
@@ -30,10 +31,8 @@
   .rl {
     z-index: 1;
     background-color: rgba(14, 14, 14, .8);
-    height: 30rem;
-    width: 30rem;
-    margin: 6rem;
-    margin-top: 2rem;
+    height: 42.5rem;
+    width: 41rem;
     padding: 1rem;
   }
   
@@ -41,16 +40,14 @@
     line-height: 1;
     z-index: 1;
     background-color: rgba(14, 14, 14, .8);
-    height: 30rem;
-    width: 30rem;
-    margin: 6rem;
-    margin-top: 2rem;
+    height: 42.5rem;
+    width: 41rem;
     padding: 1rem;
   }
   
   #teams-text {
     text-align: center;
-    margin: 2rem;
+    margin: 1rem;
   }
 
   .player {
