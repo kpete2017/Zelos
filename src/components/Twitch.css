@@ -1,14 +1,14 @@
-#twitch {
-    position: fixed;
-    bottom: 4rem;
+#twitch-viewer {
+    position: absolute;
+    top: 80rem;
     right: 4rem;
 }
 
 #exit {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     z-index: 2;
-    position: fixed;
-    bottom: 19rem;
+    position: absolute;
+    top: 78rem;
     right: 4.5rem;
     transition: 400ms;
 }
