@@ -1,0 +1,52 @@
+.store-section {
+    background-image: url("../assets/rainbow-background.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+    height: 25.5rem;
+    width: 100%;
+  }
+
+  .black-background {
+    height: 25.5rem;
+    background-color: rgba(14, 14, 14, .8);
+}
+  
+  .featured-items {
+    display: flex;
+    justify-content: space-evenly;
+  }
+  
+  .item-section {
+    cursor: pointer;
+    height: 14rem;
+    background-color: var(--bg-primary);
+  }
+
+  .featured-item {
+    line-height: 1;
+    background-color: var(--bg-primary);
+    transition: 400ms;
+  }
+
+  .purchase-button {
+    padding: .3rem;
+    margin-right: 2rem;
+    margin-left: 15rem;
+    text-align: center;
+    background-color: var(--bg-secondary);
+  }
+  
+  .purchase-button:hover {
+    transition: 400ms;
+    cursor: pointer;
+    background-color: black;
+  }
+  
+  #team-speak {
+    text-align: center;
+  }
+  
+  .item-desc {
+    text-align: center;
+  }
+  
