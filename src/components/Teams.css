@@ -62,3 +62,76 @@
   #captain {
     color: hsla(360, 100%, 40%, 1);
   }
+
+@media only screen and (max-width: 1200px) { 
+  .rl {
+    height: 29.1rem;
+    width: 30rem;
+    padding: 1rem;
+  }
+
+  .team-rl {
+    width: 30rem;
+  }
+
+  .r6 {
+    height: 29.1rem;
+    width: 30rem;
+    padding: 1rem;
+  }
+
+  .team-r6 {
+    width: 30rem;
+  }
+}
+
+@media only screen and (max-width: 1000px) { 
+
+  .rl {
+    height: 29.1rem;
+    width: 20rem;
+    padding: 1rem;
+  }
+
+  .team-rl {
+    width: 20rem;
+  }
+
+  .r6 {
+    height: 29.1rem;
+    width: 20rem;
+    padding: 1rem;
+  }
+
+  .team-r6 {
+    width: 20rem;
+  }
+
+}
+
+@media only screen and (max-width: 750px) {
+  .teams {
+    display: block;
+    height: 70rem;
+  }
+
+  .rl {
+    height: 29.1rem;
+    width: 40rem;
+    padding: 1rem;
+  }
+
+  .team-rl {
+    width: 40rem;
+  }
+
+  .r6 {
+    height: 29.1rem;
+    width: 40rem;
+    padding: 1rem;
+  }
+
+  .team-r6 {
+    width: 40rem;
+  }
+}

@@ -65,7 +65,7 @@ export default function AboutContent(props) {
                     </div>
                 </div>
             </Fade>
-            <Twitch/>
+            {/* <Twitch/> */}
         </div>
     )
 }

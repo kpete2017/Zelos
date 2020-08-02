@@ -2,8 +2,12 @@
     position: relative;
     top: 5rem;
     width: 100vw;
-    height: 65rem;
-    margin-bottom: 52rem;
+    height: 68rem;
+    margin-bottom: 60rem;
+}
+
+#nate {
+    margin-right: 1rem;
 }
 
 .intro-section {
@@ -14,6 +18,7 @@
     background-image: url("../assets/rl-background.jpg");
     background-size: cover;
     background-attachment: fixed;
+    margin-top: 5rem;
     margin-top: -.9rem;
     background-color: rgba(14, 14, 14, .8);;
 }
@@ -109,12 +114,22 @@
 }
 
 @media only screen and (max-width: 1050px) {
+
+    .company-info {
+        margin-top: 5rem;
+    }
+
     .people {
         font-size: 10px;
     }
 }
 
 @media only screen and (max-width: 800px) {
+
+
+    .company-info {
+        margin-top: 5rem;
+    }
 
     .business {
         justify-content: left;

@@ -99,7 +99,10 @@ class App extends React.Component {
     let bodyRender
 
     if(this.state.titlePage) {
-      bodyRender = <BodyContent />
+      bodyRender = <BodyContent 
+      aboutPage={this.handleAboutPage}
+      teamPage={this.handleTeamPage}
+      />
     } else if (this.state.aboutPage) {
       bodyRender = <AboutContent />
     } else if (this.state.mediaPage) {

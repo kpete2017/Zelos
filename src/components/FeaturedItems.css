@@ -1,52 +1,149 @@
 .store-section {
-    background-image: url("../assets/rainbow-background.jpg");
-    background-size: cover;
-    background-attachment: fixed;
-    height: 25.5rem;
-    width: 100%;
+  background-image: url("../assets/rainbow-background.jpg");
+  background-size: cover;
+  background-attachment: fixed;
+  height: 25.5rem;
+  width: 100%;
 }
 
-  .black-background {
-    height: 25.5rem;
-    background-color: rgba(14, 14, 14, .8);
+.black-background {
+  height: 25.5rem;
+  background-color: rgba(14, 14, 14, .8);
+}
+
+.featured-items {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.item-section {
+  cursor: pointer;
+  background-color: var(--bg-primary);
+}
+
+.featured-item {
+  line-height: 1;
+  background-color: var(--bg-primary);
+  transition: 400ms;
+}
+
+#purchase-button {
+  padding: .3rem;
+  font-size: 1rem;
+  margin-left: 10rem;
+  margin-right: 2rem;
+  text-align: center;
+  background-color: var(--bg-primary);
+}
+
+#purchase-button:hover {
+  transition: 400ms;
+  cursor: pointer;
+  background-color: black;
+}
+
+#team-speak {
+  text-align: center;
+}
+
+.item-desc {
+  text-align: center;
 }
   
-  .featured-items {
-    display: flex;
-    justify-content: space-evenly;
-  }
-  
-  .item-section {
-    cursor: pointer;
-    height: 14rem;
-    background-color: var(--bg-primary);
+@media only screen and (max-width: 1200px) { 
+
+  #purchase-button {
+    font-size: .8rem;
+    margin-left: 6rem;
+    margin-right: 2rem;
   }
 
   .featured-item {
-    line-height: 1;
-    background-color: var(--bg-primary);
-    transition: 400ms;
+    width: 18.7rem;
+    line-height: .8;
   }
 
-  .purchase-button {
-    padding: .3rem;
-    margin-right: 2rem;
-    margin-left: 15rem;
-    text-align: center;
-    background-color: var(--bg-secondary);
+  #tee-1 {
+    height: 120px;
+    width: 300px;
   }
-  
-  .purchase-button:hover {
-    transition: 400ms;
-    cursor: pointer;
-    background-color: black;
+
+  #tee-2 {
+    height: 120px;
+    width: 300px;
   }
-  
-  #team-speak {
-    text-align: center;
+
+  #tee-3 {
+    height: 120px;
+    width: 300px;
+  }
+}
+
+@media only screen and (max-width: 940px) { 
+
+  .store-section {
+    height: 20rem;
   }
   
   .item-desc {
-    text-align: center;
+    font-size: .6rem;
+  }
+  #purchase-button {
+    font-size: .7rem;
+    margin-left: 2rem;
+    margin-right: 2rem;
+  }
+
+  .featured-item {
+    width: 11.3rem;
+    line-height: .8;
+  }
+
+  #tee-1 {
+    height: 80px;
+    width: 180px;
+  }
+
+  #tee-2 {
+    height: 80px;
+    width: 180px;
+  }
+
+  #tee-3 {
+    height: 80px;
+    width: 180px;
+  }
+}
+
+@media only screen and (max-width: 600px) { 
+
+  .store-section {
+    height: 20rem;
   }
   
+  #purchase-button {
+    font-size: .7rem;
+    margin-left: 2rem;
+    margin-right: 2rem;
+  }
+
+  .featured-item {
+    width: 9.5rem;
+    line-height: .8;
+  }
+
+  #tee-1 {
+    height: 60px;
+    width: 150px;
+  }
+
+  #tee-2 {
+    height: 60px;
+    width: 150px;
+  }
+
+  #tee-3 {
+    height: 60px;
+    width: 150px;
+  }
+}

@@ -3,7 +3,7 @@ import Fade from 'react-reveal/Fade';
 import './Teams.css'
 
 
-export default function schedule() {
+export default function teams(props) {
 
 
     return(
@@ -18,17 +18,17 @@ export default function schedule() {
                             <h1 id="rl">Rocket League</h1>
                             <div>
                                 <br/>
-                                <div className="player" id="captain">JoeYang</div>
+                                <div className="player" id="captain" onClick={() => props.teamPage()}>JoeYang</div>
                                 <br/>
                                 <br/>
-                                <div className="player">ReedTheZephyr</div>
+                                <div className="player" onClick={() => props.teamPage()}>ReedTheZephyr</div>
                                 <br/>
                                 <br/>
-                                <div className="player">Bonvie</div>
+                                <div className="player" onClick={() => props.teamPage()}>Bonvie</div>
                                 <br/>
                                 <br/>
                                 <br/>
-                                <div className="player">justaboink- sub</div>
+                                <div className="player" onClick={() => props.teamPage()}>justaboink- sub</div>
                             </div>
                         </div>
                     </div>
@@ -37,25 +37,25 @@ export default function schedule() {
                             <h1 id="r6">Tom Clancy's Rainbow Six Siege</h1>
                             <div>
                                 <br/>
-                                <div className="player" id="captain">Spooman -  Flex</div>
+                                <div className="player" id="captain" onClick={() => props.teamPage()}>Spooman -  Flex</div>
                                 <br/>
                                 <br/>
-                                <div className="player">IanMoments - Fragger</div>
+                                <div className="player" onClick={() => props.teamPage()}>IanMoments - Fragger</div>
                                 <br/>
                                 <br/>
-                                <div className="player">Lxgan - Fragger</div>
+                                <div className="player" onClick={() => props.teamPage()}>Lxgan - Fragger</div>
                                 <br/>
                                 <br/>
-                                <div className="player">Blueberry - Support</div>
+                                <div className="player" onClick={() => props.teamPage()}>Blueberry - Support</div>
                                 <br/>
                                 <br/>
-                                <div className="player">Boxy - Support/IGL</div>
+                                <div className="player" onClick={() => props.teamPage()}>Boxy - Support/IGL</div>
                                 <br/>
                                 <br/>
                                 <br/>
-                                <div className="player">YaBoiTex - Analyst</div>
+                                <div className="player" onClick={() => props.teamPage()}>YaBoiTex - Analyst</div>
                                 <br/>
-                                <div className="player">OffBrandPanda - Sub</div>
+                                <div className="player" onClick={() => props.teamPage()}>OffBrandPanda - Sub</div>
                                 <br/>
                             </div>
                         </div>

@@ -53,14 +53,14 @@
 }
 
 .r6team {
-    margin-left: 10rem;
-    margin-right: 10rem;
+    margin-left: 5rem;
+    margin-right: 5rem;
     background-color: rgb(26, 26, 26);
 }
 
 .rlteam {
-    margin-left: 10rem;
-    margin-right: 10rem;
+    margin-left: 5rem;
+    margin-right: 5rem;
     background-color: rgb(26, 26, 26);
 }
 
@@ -73,7 +73,7 @@
 
 .players-r6 {
     margin-bottom: 0;
-    margin-left: 10rem;
+    margin-left: 5rem;
 }
 
 .team-page h2 {
@@ -81,7 +81,8 @@
 }
 
 .team-page p {
-    margin: 1rem;
+    margin-bottom: 1rem;
+    margin-left: 1rem;
 }
 
 .column1 {
@@ -104,13 +105,6 @@
 }
 
 @media only screen and (max-width: 1560px) {
-    .team-page p {
-        font-size: 12px;
-    }
-
-    .team-page h2 {
-        font-size: 20px;
-    }
 
     .team-page #insta {
         width: 20px;
@@ -131,11 +125,20 @@
         height: 150px;
         width: 150px;
     }
+
+    .team-page h1 {
+        font-size: 1.5rem;
+    }
 }
 
 @media only screen and (max-width: 1200px) {
+
+    #player-card {
+        height: 17rem;
+    }
+
     .team-page p {
-        font-size: 8px;
+        font-size: 12px;
     }
 
     .team-page h2 {
@@ -164,8 +167,17 @@
 }
 
 @media only screen and (max-width: 900px) {
+
+    .team-page {
+        margin-bottom: 190rem;
+    }
+
+    #player-card {
+        height: 20rem;
+    }
+
     .team-page p {
-        font-size: 6px;
+        font-size: 10px;
     }
 
     .team-page h2 {
@@ -192,3 +204,8 @@
         width: 75px;
     }
 }
+
+@media only screen and (max-width: 600px) {
+
+
+ }

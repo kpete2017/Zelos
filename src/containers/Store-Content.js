@@ -7,8 +7,8 @@ import tee3 from '../assets/Zelos_Winbreaker_1.png'
 
 export default function StoreContent(props) {
     return(
-        <div className="store-page">
-            <div className="black-background">
+        <div className="store-page2">
+            <div className="black-background2">
                 <img id="zelos-store-logo" height="300" width="500"src={logo} alt="Zelos Esports"></img>
                 <h1 id="zelos-merch-text">Current Zelos Merch</h1>
                 <div className="store-background-section">

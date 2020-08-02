@@ -29,7 +29,7 @@ export default function TeamContent(props) {
                         </div>
                     </div>
                     <div className="column2">
-                        <p className="bio">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque aliquam ut nibh ut bibendum. Sed sed felis placerat, congue ex sit amet, facilisis elit. Nulla tempor, odio a rutrum vestibulum, mauris tellus volutpat mauris, vel commodo purus turpis ut sapien. Pellentesque viverra, erat in imperdiet lacinia, augue nibh tincidunt sem, a molestie massa metus in ligula. Sed vel lacus convallis, posuere risus nec, lacinia est. Duis sed mi odio. Aliquam venenatis sagittis tortor, et luctus tortor consequat eu. Mauris viverra sollicitudin neque, semper rutrum velit faucibus et. Etiam nec ante sed massa euismod vestibulum. Maecenas sollicitudin lacinia ullamcorper. Morbi ut tortor sed risus blandit fermentum.</p>
+                        <p className="bio">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque aliquam ut nibh ut bibendum. Sed sed felis placerat</p>
                     </div>
                     <div className="column3">
                         <img className="team-headshot" height="200" width="200"src={WeirdFace} alt="Zelos Esports"></img>
@@ -63,7 +63,7 @@ export default function TeamContent(props) {
                         </div>
                     </div>
                     <div className="column2">
-                        <p className="bio">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque aliquam ut nibh ut bibendum. Sed sed felis placerat, congue ex sit amet, facilisis elit. Nulla tempor, odio a rutrum vestibulum, mauris tellus volutpat mauris, vel commodo purus turpis ut sapien. Pellentesque viverra, erat in imperdiet lacinia, augue nibh tincidunt sem, a molestie massa metus in ligula. Sed vel lacus convallis, posuere risus nec, lacinia est. Duis sed mi odio. Aliquam venenatis sagittis tortor, et luctus tortor consequat eu. Mauris viverra sollicitudin neque, semper rutrum velit faucibus et. Etiam nec ante sed massa euismod vestibulum. Maecenas sollicitudin lacinia ullamcorper. Morbi ut tortor sed risus blandit fermentum.</p>
+                        <p className="bio">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque aliquam ut nibh ut bibendum. Sed sed felis placerat</p>
                     </div>
                     <div className="column3">
                         <img className="team-headshot" height="200" width="200"src={WeirdFace} alt="Zelos Esports"></img>
@@ -79,7 +79,7 @@ export default function TeamContent(props) {
                         </div>
                     </div>
                     <div className="column2">
-                        <p className="bio">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque aliquam ut nibh ut bibendum. Sed sed felis placerat, congue ex sit amet, facilisis elit. Nulla tempor, odio a rutrum vestibulum, mauris tellus volutpat mauris, vel commodo purus turpis ut sapien. Pellentesque viverra, erat in imperdiet lacinia, augue nibh tincidunt sem, a molestie massa metus in ligula. Sed vel lacus convallis, posuere risus nec, lacinia est. Duis sed mi odio. Aliquam venenatis sagittis tortor, et luctus tortor consequat eu. Mauris viverra sollicitudin neque, semper rutrum velit faucibus et. Etiam nec ante sed massa euismod vestibulum. Maecenas sollicitudin lacinia ullamcorper. Morbi ut tortor sed risus blandit fermentum.</p>
+                        <p className="bio">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque aliquam ut nibh ut bibendum. Sed sed felis placerat</p>
                     </div>
                     <div className="column3">
                         <img className="team-headshot" height="200" width="200"src={WeirdFace} alt="Zelos Esports"></img>
@@ -96,7 +96,7 @@ export default function TeamContent(props) {
                         </div>
                     </div>
                     <div className="column2">
-                        <p className="bio">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque aliquam ut nibh ut bibendum. Sed sed felis placerat, congue ex sit amet, facilisis elit. Nulla tempor, odio a rutrum vestibulum, mauris tellus volutpat mauris, vel commodo purus turpis ut sapien. Pellentesque viverra, erat in imperdiet lacinia, augue nibh tincidunt sem, a molestie massa metus in ligula. Sed vel lacus convallis, posuere risus nec, lacinia est. Duis sed mi odio. Aliquam venenatis sagittis tortor, et luctus tortor consequat eu. Mauris viverra sollicitudin neque, semper rutrum velit faucibus et. Etiam nec ante sed massa euismod vestibulum. Maecenas sollicitudin lacinia ullamcorper. Morbi ut tortor sed risus blandit fermentum.</p>
+                        <p className="bio">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque aliquam ut nibh ut bibendum. Sed sed felis placerat</p>
                     </div>
                     <div className="column3">
                         <img className="team-headshot" height="200" width="200"src={WeirdFace} alt="Zelos Esports"></img>
@@ -113,7 +113,7 @@ export default function TeamContent(props) {
                         </div>
                     </div>
                     <div className="column2">
-                        <p className="bio">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque aliquam ut nibh ut bibendum. Sed sed felis placerat, congue ex sit amet, facilisis elit. Nulla tempor, odio a rutrum vestibulum, mauris tellus volutpat mauris, vel commodo purus turpis ut sapien. Pellentesque viverra, erat in imperdiet lacinia, augue nibh tincidunt sem, a molestie massa metus in ligula. Sed vel lacus convallis, posuere risus nec, lacinia est. Duis sed mi odio. Aliquam venenatis sagittis tortor, et luctus tortor consequat eu. Mauris viverra sollicitudin neque, semper rutrum velit faucibus et. Etiam nec ante sed massa euismod vestibulum. Maecenas sollicitudin lacinia ullamcorper. Morbi ut tortor sed risus blandit fermentum.</p>
+                        <p className="bio">sit amet, facilisis elit. Nulla tempor, odio a rutrum vestibulum, mauris telecenas sollicitudin lacinia ullamcorper. Morbi ut tortor sed risus blandit fermentum.</p>
                     </div>
                     <div className="column3">
                         <img className="team-headshot" height="200" width="200"src={WeirdFace} alt="Zelos Esports"></img>
@@ -130,7 +130,7 @@ export default function TeamContent(props) {
                         </div>
                     </div>
                     <div className="column2">
-                        <p className="bio">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque aliquam ut nibh ut bibendum. Sed sed felis placerat, congue ex sit amet, facilisis elit. Nulla tempor, odio a rutrum vestibulum, mauris tellus volutpat mauris, vel commodo purus turpis ut sapien. Pellentesque viverra, erat in imperdiet lacinia, augue nibh tincidunt sem, a molestie massa metus in ligula. Sed vel lacus convallis, posuere risus nec, lacinia est. Duis sed mi odio. Aliquam venenatis sagittis tortor, et luctus tortor consequat eu. Mauris viverra sollicitudin neque, semper rutrum velit faucibus et. Etiam nec ante sed massa euismod vestibulum. Maecenas sollicitudin lacinia ullamcorper. Morbi ut tortor sed risus blandit fermentum.</p>
+                        <p className="bio">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque aliquam ut nibh ut bibendum. Sed sed felis placerat</p>
                     </div>
                     <div className="column3">
                         <img className="team-headshot" height="200" width="200"src={WeirdFace} alt="Zelos Esports"></img>
@@ -157,7 +157,7 @@ export default function TeamContent(props) {
                         </div>
                     </div>
                     <div className="column2">
-                        <p className="bio">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque aliquam ut nibh ut bibendum. Sed sed felis placerat, congue ex sit amet, facilisis elit. Nulla tempor, odio a rutrum vestibulum, mauris tellus volutpat mauris, vel commodo purus turpis ut sapien. Pellentesque viverra, erat in imperdiet lacinia, augue nibh tincidunt sem, a molestie massa metus in ligula. Sed vel lacus convallis, posuere risus nec, lacinia est. Duis sed mi odio. Aliquam venenatis sagittis tortor, et luctus tortor consequat eu. Mauris viverra sollicitudin neque, semper rutrum velit faucibus et. Etiam nec ante sed massa euismod vestibulum. Maecenas sollicitudin lacinia ullamcorper. Morbi ut tortor sed risus blandit fermentum.</p>
+                        <p className="bio">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque aliquam ut nibh ut bibendum. Sed sed felis placerat</p>
                     </div>
                     <div className="column3">
                         <img className="team-headshot" height="200" width="200"src={WeirdFace} alt="Zelos Esports"></img>
@@ -174,7 +174,7 @@ export default function TeamContent(props) {
                         </div>
                     </div>
                     <div className="column2">
-                        <p className="bio">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque aliquam ut nibh ut bibendum. Sed sed felis placerat, congue ex sit amet, facilisis elit. Nulla tempor, odio a rutrum vestibulum, mauris tellus volutpat mauris, vel commodo purus turpis ut sapien. Pellentesque viverra, erat in imperdiet lacinia, augue nibh tincidunt sem, a molestie massa metus in ligula. Sed vel lacus convallis, posuere risus nec, lacinia est. Duis sed mi odio. Aliquam venenatis sagittis tortor, et luctus tortor consequat eu. Mauris viverra sollicitudin neque, semper rutrum velit faucibus et. Etiam nec ante sed massa euismod vestibulum. Maecenas sollicitudin lacinia ullamcorper. Morbi ut tortor sed risus blandit fermentum.</p>
+                        <p className="bio">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque aliquam ut nibh ut bibendum. Sed sed felis placerat</p>
                     </div>
                     <div className="column3">
                         <img className="team-headshot" height="200" width="200"src={WeirdFace} alt="Zelos Esports"></img>
@@ -191,7 +191,7 @@ export default function TeamContent(props) {
                         </div>
                     </div>
                     <div className="column2">
-                        <p className="bio">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque aliquam ut nibh ut bibendum. Sed sed felis placerat, congue ex sit amet, facilisis elit. Nulla tempor, odio a rutrum vestibulum, mauris tellus volutpat mauris, vel commodo purus turpis ut sapien. Pellentesque viverra, erat in imperdiet lacinia, augue nibh tincidunt sem, a molestie massa metus in ligula. Sed vel lacus convallis, posuere risus nec, lacinia est. Duis sed mi odio. Aliquam venenatis sagittis tortor, et luctus tortor consequat eu. Mauris viverra sollicitudin neque, semper rutrum velit faucibus et. Etiam nec ante sed massa euismod vestibulum. Maecenas sollicitudin lacinia ullamcorper. Morbi ut tortor sed risus blandit fermentum.</p>
+                        <p className="bio">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque aliquam ut nibh ut bibendum. Sed sed felis placerat</p>
                     </div>
                     <div className="column3">
                         <img className="team-headshot" height="200" width="200"src={WeirdFace} alt="Zelos Esports"></img>
@@ -208,7 +208,7 @@ export default function TeamContent(props) {
                         </div>
                     </div>
                     <div className="column2">
-                        <p className="bio">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque aliquam ut nibh ut bibendum. Sed sed felis placerat, congue ex sit amet, facilisis elit. Nulla tempor, odio a rutrum vestibulum, mauris tellus volutpat mauris, vel commodo purus turpis ut sapien. Pellentesque viverra, erat in imperdiet lacinia, augue nibh tincidunt sem, a molestie massa metus in ligula. Sed vel lacus convallis, posuere risus nec, lacinia est. Duis sed mi odio. Aliquam venenatis sagittis tortor, et luctus tortor consequat eu. Mauris viverra sollicitudin neque, semper rutrum velit faucibus et. Etiam nec ante sed massa euismod vestibulum. Maecenas sollicitudin lacinia ullamcorper. Morbi ut tortor sed risus blandit fermentum.</p>
+                        <p className="bio">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque aliquam ut nibh ut bibendum. Sed sed felis placerat</p>
                     </div>
                     <div className="column3">
                         <img className="team-headshot" height="200" width="200"src={WeirdFace} alt="Zelos Esports"></img>

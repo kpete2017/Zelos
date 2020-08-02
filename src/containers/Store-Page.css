@@ -1,4 +1,4 @@
-.store-page {
+.store-page2 {
     background-image: url("../assets/rainbow-background.jpg");
     background-size: cover;
     background-attachment: fixed;
@@ -6,7 +6,7 @@
     width: 100%;
   }
 
-  .black-background {
+  .black-background2{
     height: 50.5rem;
     background-color: rgba(14, 14, 14, .8);
 }

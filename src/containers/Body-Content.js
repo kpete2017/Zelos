@@ -9,7 +9,6 @@ import Sidebar from '../components/Sidebar'
 // import Twitch from '../components/Twitch'
 
 export default class BodyContent extends React.Component {
-    
 
     render() {
         return(
@@ -18,7 +17,7 @@ export default class BodyContent extends React.Component {
                 <About aboutPage={this.props.aboutPage}/>
                 <FeaturedItems />
                 <Schedule />
-                <Teams />
+                <Teams teamPage={this.props.teamPage}/>
                 <Sponsor />
                 <Sidebar />
                 {/* <Twitch /> */}
