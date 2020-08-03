@@ -29,17 +29,56 @@
   }
   
   .rl {
-    z-index: -1;
-    background-color: rgba(14, 14, 14, .8);
+    z-index: 0;
     height: 30rem;
     width: 35rem;
     margin: 0 auto;
   }
+
+  .rl-black-background {
+    position: relative;
+    top: 1rem;
+    background-color: rgba(14, 14, 14, .8);
+    height: 30rem;
+    padding: 2rem;
+  }
+
+  .r6-black-background {
+    position: relative;
+    top: 1rem;
+    background-color: rgba(14, 14, 14, .8);
+    height: 30rem;
+    padding: 2rem;
+  }
+
+  @media only screen and (max-height: 780px) { 
+
+
+    .rl-black-background {
+      padding: 1.5;
+      height: 15rem;
+    }
+  
+    .r6-black-background {
+      padding: 1.5;
+      height: 25rem;
+    }
+
+    .rl {
+      font-size: 12px;
+      height: 25rem;
+    }
+
+    .r6 {
+      font-size: 12px;
+      height: 25rem;
+    }
+
+  }
   
   .r6 {
     line-height: 1;
-    z-index: -1;
-    background-color: rgba(14, 14, 14, .8);
+    z-index: 0;
     height: 30rem;
     width: 35rem;
     margin: 0 auto;

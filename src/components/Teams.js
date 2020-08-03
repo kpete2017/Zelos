@@ -15,25 +15,28 @@ export default function teams(props) {
                 <div className="teams">
                     <div className="team-rl">
                         <div className="rl">
-                            <h1 id="rl">Rocket League</h1>
-                            <div>
-                                <br/>
-                                <div className="player" id="captain" onClick={() => props.teamPage()}>JoeYang</div>
-                                <br/>
-                                <br/>
-                                <div className="player" onClick={() => props.teamPage()}>ReedTheZephyr</div>
-                                <br/>
-                                <br/>
-                                <div className="player" onClick={() => props.teamPage()}>Bonvie</div>
-                                <br/>
-                                <br/>
-                                <br/>
-                                <div className="player" onClick={() => props.teamPage()}>justaboink- sub</div>
+                            <div className="rl-black-background"> 
+                                <h1 id="rl">Rocket League</h1>
+                                <div>
+                                    <br/>
+                                    <div className="player" id="captain" onClick={() => props.teamPage()}>JoeYang</div>
+                                    <br/>
+                                    <br/>
+                                    <div className="player" onClick={() => props.teamPage()}>ReedTheZephyr</div>
+                                    <br/>
+                                    <br/>
+                                    <div className="player" onClick={() => props.teamPage()}>Bonvie</div>
+                                    <br/>
+                                    <br/>
+                                    <br/>
+                                    <div className="player" onClick={() => props.teamPage()}>justaboink- sub</div>
+                                </div>
                             </div>
                         </div>
                     </div>
                     <div className="team-r6">
                         <div className="r6">
+                            <div className="r6-black-background">
                             <h1 id="r6">Tom Clancy's Rainbow Six Siege</h1>
                             <div>
                                 <br/>
@@ -57,6 +60,7 @@ export default function teams(props) {
                                 <br/>
                                 <div className="player" onClick={() => props.teamPage()}>OffBrandPanda - Sub</div>
                                 <br/>
+                            </div>
                             </div>
                         </div>
                     </div>
