@@ -4,7 +4,6 @@ import HeaderContent from './containers/Header-Content'
 import BodyContent from './containers/Body-Content'
 import FooterContent from './containers/Footer-Content'
 import AboutContent from './containers/About-Content'
-import MediaContent from './containers/Media-Content';
 import StoreContent from './containers/Store-Content';
 import TeamContent from './containers/Team-Content';
 
@@ -14,7 +13,6 @@ class App extends React.Component {
   state = {
     titlePage: true,
     aboutPage: false,
-    mediaPage: false,
     storePage: false,
     schedulePage: false,
     teamPage: false
@@ -32,7 +30,6 @@ class App extends React.Component {
     this.setState({
       titlePage: true,
       aboutPage: false,
-      mediaPage: false,
       storePage: false,
       teamPage: false
     })
@@ -43,18 +40,6 @@ class App extends React.Component {
     this.setState({
       titlePage: false,
       aboutPage: true,
-      mediaPage: false,
-      storePage: false,
-      teamPage: false
-    })
-  }
-
-  handleMediaPage = () => {
-    this.scrollToTop()
-    this.setState({
-      titlePage: false,
-      aboutPage: false,
-      mediaPage: true,
       storePage: false,
       teamPage: false
     })
@@ -65,7 +50,6 @@ class App extends React.Component {
     this.setState({
       titlePage: false,
       aboutPage: false,
-      mediaPage: false,
       storePage: true,
       teamPage: false
     })
@@ -76,7 +60,6 @@ class App extends React.Component {
     this.setState({
       titlePage: false,
       aboutPage: false,
-      mediaPage: false,
       storePage: false,
       teamPage: false
     })
@@ -87,7 +70,6 @@ class App extends React.Component {
     this.setState({
       titlePage: false,
       aboutPage: false,
-      mediaPage: false,
       storePage: false,
       teamPage: true
     })
@@ -105,8 +87,6 @@ class App extends React.Component {
       />
     } else if (this.state.aboutPage) {
       bodyRender = <AboutContent />
-    } else if (this.state.mediaPage) {
-      bodyRender = <MediaContent />
     } else if (this.state.storePage) {
       bodyRender = <StoreContent />
     } else if (this.state.teamPage) {
@@ -118,7 +98,6 @@ class App extends React.Component {
         <HeaderContent 
           titlePage={this.handleTitlePage} 
           aboutPage={this.handleAboutPage} 
-          mediaPage={this.handleMediaPage}
           storePage={this.handleStorePage}
           schedulePage={this.handleSchedulePage}
           teamPage={this.handleTeamPage}

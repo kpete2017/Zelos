@@ -4,9 +4,11 @@ import './Store-Page.css'
 import tee1 from '../assets/Zelos_Long_Sleeve.jpg'
 import tee2 from '../assets/unknown.png'
 import tee3 from '../assets/Zelos_Winbreaker_1.png'
+import Fade from 'react-reveal/Fade';
 
 export default function StoreContent(props) {
     return(
+        <Fade>
         <div className="store-page2">
             <div className="black-background2">
                 <img id="zelos-store-logo" height="300" width="500"src={logo} alt="Zelos Esports"></img>
@@ -34,5 +36,6 @@ export default function StoreContent(props) {
                 </div>
             </div>
         </div>
+        </Fade>
     )
 }
