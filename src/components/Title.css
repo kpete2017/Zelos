@@ -3,13 +3,13 @@
   background-size: cover;
   background-attachment: fixed;
   transition: 400ms;
-  height: 50rem;
+  height: 65rem;
   width: 100%;
 }
 
 .title-black-tint {
   background-color: rgba(14, 14, 14, .2);
-  height: 57.6rem;
+  height: 65rem;
   width: 119.4rem;
 }
 
