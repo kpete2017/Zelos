@@ -25,17 +25,17 @@ export default class about extends React.Component {
                 <div className="videos">
                     <iframe width="320" height="240" id="rl1"
                             title="rl1" 
-                            // src="https://www.youtube.com/embed/1TmpqXoTCSM?rel=0;&autoplay=1&controls=0&mute=1&loop=1&showinfo=0&modestbranding=1&playlist=1TmpqXoTCSM"
+                            src="https://www.youtube.com/embed/1TmpqXoTCSM?rel=0;&autoplay=1&controls=0&mute=1&loop=1&showinfo=0&modestbranding=1&playlist=1TmpqXoTCSM"
                             >
                     </iframe>
                     <iframe width="320" height="240" id="rl2"
                             title="rl2" 
-                            // src="https://www.youtube.com/embed/ls_bjbYZZv8?rel=0;&autoplay=1&controls=0&mute=1&loop=1&showinfo=0&modestbranding=1&playlist=ls_bjbYZZv8"
+                            src="https://www.youtube.com/embed/ls_bjbYZZv8?rel=0;&autoplay=1&controls=0&mute=1&loop=1&showinfo=0&modestbranding=1&playlist=ls_bjbYZZv8"
                             >
                     </iframe>
                     <iframe width="320" height="240" id="rl3"
                             title="rl3" 
-                            // src="https://www.youtube.com/embed/jisAkfpszHA?rel=0;&autoplay=1&controls=0&mute=1&loop=1&showinfo=0&modestbranding=1&playlist=jisAkfpszHA"
+                            src="https://www.youtube.com/embed/jisAkfpszHA?rel=0;&autoplay=1&controls=0&mute=1&loop=1&showinfo=0&modestbranding=1&playlist=jisAkfpszHA"
                             >
                     </iframe>
                 </div>
