@@ -20,24 +20,24 @@ export default function AboutContent(props) {
                 <h1 id="founders-text">Company Founders</h1>
                     <div className="business">
                         <div className="people" id="joey">
-                            <h2>Joey Dikeman <br/>-<br/>Founder</h2>
-                            <img className="headshot" height="200" width="200"src={WeirdFace} alt="Zelos Esports"></img>
+                            <h2>Joey Dikeman <br/>-<br/>Founder/CEO</h2>
+                            {/* <img className="headshot" height="200" width="200"src={WeirdFace} alt="Zelos Esports"></img> */}
                         </div>
                         <div className="people" id="lamar">
                             <h2>Lamar Chhetry <br/>-<br/> Lead Marketing</h2>
-                            <img className="headshot" height="200" width="200"src={WeirdFace} alt="Zelos Esports"></img>
+                            {/* <img className="headshot" height="200" width="200"src={WeirdFace} alt="Zelos Esports"></img> */}
                         </div>
                         <div className="people" id="garret">
                             <h2>Garret Gallant <br/>-<br/> CTO</h2>
-                            <img className="headshot" height="200" width="200"src={WeirdFace} alt="Zelos Esports"></img>
+                            {/* <img className="headshot" height="200" width="200"src={WeirdFace} alt="Zelos Esports"></img> */}
                         </div>
                         <div className="people" id="nate">
-                            <h2>Ian Bronson <br/>-<br/> Manager</h2>
-                            <img className="headshot" height="200" width="200"src={WeirdFace} alt="Zelos Esports"></img>
+                            <h2>Reed Major <br/>-<br/> Rocket League Manager</h2>
+                            {/* <img className="headshot" height="200" width="200"src={WeirdFace} alt="Zelos Esports"></img> */}
                         </div>
                         <div className="people" id="nate">
-                            <h2>Nate Spomer <br/>-<br/> Manager</h2>
-                            <img className="headshot" height="200" width="200"src={WeirdFace} alt="Zelos Esports"></img>
+                            <h2>Nate Spomer <br/>-<br/> Rainbow Six Manager</h2>
+                            {/* <img className="headshot" height="200" width="200"src={WeirdFace} alt="Zelos Esports"></img> */}
                         </div>
                     </div>
                 </div>
@@ -49,16 +49,11 @@ export default function AboutContent(props) {
                         <div className="games">
                             <p>Tom Clancy's Rainbow Six Siege</p>
                             <p>Rocket League</p>
-                        </div>
-                        <h2>Mailing address</h2>
-                        <div id="mailing">
-                            <p> 1234 S Street St <br/> Littleton, CO 80128</p>
+                            <p>Valorant</p>
                         </div>
                         <h2>Contact</h2>
                         <div id="contact-about">
                             <p>
-                                Phone: 123-456-7891
-                                <br/>
                                 Email: ZelosCompete@gmail.com
                             </p>
                         </div>

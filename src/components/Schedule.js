@@ -2,6 +2,7 @@ import React from 'react'
 import HomeLogo from '../assets/Zelos5.png'
 import vsOutdone from '../assets/outdone_movement.png'
 import vsFractured from '../assets/fractured.png'
+import comingSoon from '../assets/ZEL-Placeholder-schedule.png'
 import Fade from 'react-reveal/Fade';
 import './Schedule.css'
 
@@ -18,41 +19,42 @@ export default function schedule() {
                 <div className="schedule">
                     <div className="events">
                         <p>Pre Season League</p>
-                        <p>July 29th | 6:45PM</p>
+                        <p>TBD</p>
                         <p>Tom Clancy's Rainbow Six Siege</p>
                         <div className="vs">
                             <img id="zelos-home-logo" height="75" width="120"src={HomeLogo} alt="Zelos Esports"></img>
                             <h2>     VS     </h2>
-                            <img id="zelos-vs-logo" height="75" width="120"src={vsFractured} alt="Zelos Esports"></img>
+                            <img id="zelos-vs-logo" height="75" width="75"src={comingSoon} alt="Zelos Esports"></img>
                         </div>
                         <div className="vs-text">
-                            <h4>Zelos</h4>
-                            <h4>     |     </h4>
-                            <h4>Fractured <br/> Memories</h4>
+                            {/* <h4>Zelos</h4> */}
+                            {/* <h4>  |  </h4> */}
+                            {/* <h4>TEAM <br/> NAME</h4> */}
                         </div>
                     </div>
                     <div className="events">
                         <p>Pre Season League</p>
-                        <p>July 30th | 7:00PM</p>
+                        <p>TBD</p>
                         <p>Tom Clancy's Rainbow Six Siege</p>
                         <div className="vs">
                             <img id="zelos-home-logo" height="75" width="120"src={HomeLogo} alt="Zelos Esports"></img>
                             <h2>     VS     </h2>
-                            <img id="zelos-vs-logo" height="75" width="120"src={vsOutdone} alt="Zelos Esports"></img>
+                            <img id="zelos-vs-logo" height="75" width="75"src={comingSoon} alt="Zelos Esports"></img>
                         </div>
                         <div className="vs-text">
-                            <h4>Zelos</h4>
-                            <h4>     |     </h4>
-                            <h4>OutDone <br/> Movement</h4>
+                            {/* <h4>Zelos</h4> */}
+                            {/* <h4>     |     </h4> */}
+                            {/* <h4>OutDone <br/> Movement</h4> */}
                         </div>
                     </div>
                     <div className="events">
                         <p>Rocket League Qualifiers</p>
-                        <p>August 10th | 12:24PM</p>
+                        <p>TBD</p>
                         <p>Rocket League</p>
                         <div className="vs">
                             <img id="zelos-home-logo" height="75" width="120"src={HomeLogo} alt="Zelos Esports"></img>
                             <h2>     VS     </h2>
+                            <img id="zelos-vs-logo" height="75" width="75"src={comingSoon} alt="Zelos Esports"></img>
                         </div>
                     </div>
                     <div className="events">
@@ -62,6 +64,7 @@ export default function schedule() {
                         <div className="vs">
                             <img id="zelos-home-logo" height="75" width="120"src={HomeLogo} alt="Zelos Esports"></img>
                             <h2>     VS     </h2>
+                            <img id="zelos-vs-logo" height="75" width="75"src={comingSoon} alt="Zelos Esports"></img>
                         </div>
                     </div>
                 </div>

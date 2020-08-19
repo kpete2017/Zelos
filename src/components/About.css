@@ -45,24 +45,24 @@
 }
 
 #rl1 {
-  right: 20rem;
-  top: 5rem;
+  right: -6rem;
+  top: -2rem;
   background-color: var(--bg-secondary);
-  position: absolute;
+  position: relative;
 }
 
 #rl2 {
-  right: 5rem;
-  top: 20.5rem;
+  right: -8rem;
+  top: 16rem;
   background-color: var(--bg-secondary);
-  position: absolute;
+  position: relative;
 }
 
 #rl3 {
-  right: 20rem;
-  top: 36rem;
+  right: 34.5rem;
+  top: 34rem;
   background-color: var(--bg-secondary);
-  position: absolute;
+  position: relative;
 }
 
 @media only screen and (max-width: 1200px) { 

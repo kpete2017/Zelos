@@ -4,6 +4,7 @@ import './Store-Page.css'
 import tee1 from '../assets/Zelos_Long_Sleeve.jpg'
 import tee2 from '../assets/unknown.png'
 import tee3 from '../assets/Zelos_Winbreaker_1.png'
+import merchComingSoon from '../assets/merch-coming-soon.png'
 import Fade from 'react-reveal/Fade';
 
 export default function StoreContent(props) {
@@ -12,10 +13,13 @@ export default function StoreContent(props) {
         <div className="store-page2">
             <div className="black-background2">
                 <img id="zelos-store-logo" height="300" width="500"src={logo} alt="Zelos Esports"></img>
-                <h1 id="zelos-merch-text">Current Zelos Merch</h1>
+                {/* <h1 id="zelos-merch-text">Placeholder Text</h1> */}
                 <div className="store-background-section">
                     <div className="store-section2">
-                        <div className="featured-items">
+                    <div className="coming-soon-placeholder-2">
+                        <img id="merchComingSoon" height="100" width="1200" src={merchComingSoon} alt=""></img>
+                    </div>
+                        {/* <div className="featured-items">
                         <div className="featured-item">
                             <img id="tee-1" height="200" width="400"src={tee1} alt="Zelos Esports"></img>
                             <h4 className="item-desc">Zelos Long Sleeve</h4>
@@ -31,7 +35,7 @@ export default function StoreContent(props) {
                             <h4 className="item-desc">Zelos Windbreaker</h4>
                             <h4 className="purchase-button">Purchase</h4>
                         </div>
-                        </div>
+                        </div> */}
                     </div>
                 </div>
             </div>

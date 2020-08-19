@@ -25,7 +25,7 @@ export default class about extends React.Component {
                 <div className="videos">
                     <iframe width="320" height="240" id="rl1"
                             title="rl1" 
-                            src="https://www.youtube.com/embed/1TmpqXoTCSM?rel=0;&autoplay=1&controls=0&mute=1&loop=1&showinfo=0&modestbranding=1&playlist=1TmpqXoTCSM"
+                            src="https://www.youtube.com/embed/cQCejSske2Q?rel=0;&autoplay=1&controls=0&mute=1&loop=1&showinfo=0&modestbranding=1&playlist=cQCejSske2Q"
                             >
                     </iframe>
                     <iframe width="320" height="240" id="rl2"

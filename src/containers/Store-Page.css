@@ -15,6 +15,14 @@
     display: flex;
     justify-content: space-evenly;
   }
+
+  .coming-soon-placeholder-2{
+    justify-content: center;
+    margin-left: 23rem;
+    position: relative;
+    top:5.5rem;
+    right: 12rem;
+  }
   
   .item-section {
     cursor: pointer;

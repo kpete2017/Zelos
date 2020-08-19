@@ -2,7 +2,7 @@
     position: relative;
     top: 5rem;
     width: 100vw;
-    height: 68rem;
+    height: 28rem;
     margin-bottom: 60rem;
 }
 
@@ -24,7 +24,7 @@
 }
 
 .background-black {
-    height: 40rem;
+    height: 28rem;
     background-color: rgba(14, 14, 14, .8);
 }
 
@@ -41,7 +41,7 @@
 }
 
 .founders-section {
-    height: 40rem;
+    height: 26rem;
     margin-top: 3rem;
     padding: .2rem;
     background-color: var(--bg-secondary);

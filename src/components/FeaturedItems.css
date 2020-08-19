@@ -27,6 +27,11 @@
   transition: 400ms;
 }
 
+.coming-soon-placeholder{
+  justify-content: center;
+  margin-top: 11.5rem;
+}
+
 #purchase-button {
   padding: .3rem;
   font-size: 1rem;

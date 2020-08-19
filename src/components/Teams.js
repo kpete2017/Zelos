@@ -19,7 +19,7 @@ export default function teams(props) {
                                 <h1 id="rl">Rocket League</h1>
                                 <div>
                                     <br/>
-                                    <div className="player" id="captain" onClick={() => props.teamPage()}>JoeYang</div>
+                                    <div className="player" id="captain" onClick={() => props.teamPage()}>Joeyang</div>
                                     <br/>
                                     <br/>
                                     <div className="player" onClick={() => props.teamPage()}>ReedTheZephyr</div>
@@ -58,7 +58,7 @@ export default function teams(props) {
                                 <br/>
                                 <div className="player" onClick={() => props.teamPage()}>YaBoiTex - Analyst</div>
                                 <br/>
-                                <div className="player" onClick={() => props.teamPage()}>OffBrandPanda - Sub</div>
+                                <div className="player" onClick={() => props.teamPage()}>Ace - Sub</div>
                                 <br/>
                             </div>
                             </div>
