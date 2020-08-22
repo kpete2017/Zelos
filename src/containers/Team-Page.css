@@ -1,7 +1,7 @@
 .team-page {
     position: relative;
     top: 5rem;
-    height: 220vh;
+    height: 300vh;
     margin-bottom: 140rem;
     background-color: #111111;
 }
@@ -63,6 +63,12 @@
     background-color: rgb(26, 26, 26);
 }
 
+.valorantteam {
+    margin-left: 5rem;
+    margin-right: 5rem;
+    background-color: rgb(26, 26, 26);
+}
+
 #player-card {
     border: 1px solid white;
     height: 15rem;
@@ -71,6 +77,11 @@
 }
 
 .players-r6 {
+    margin-bottom: 0;
+    margin-left: 5rem;
+}
+
+.players-valorant {
     margin-bottom: 0;
     margin-left: 5rem;
 }
