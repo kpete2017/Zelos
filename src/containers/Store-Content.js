@@ -1,9 +1,9 @@
 import React from 'react'
 import logo from '../assets/Zelos_Denver_Hue.png'
 import './Store-Page.css'
-import tee1 from '../assets/Zelos_Long_Sleeve.jpg'
-import tee2 from '../assets/unknown.png'
-import tee3 from '../assets/Zelos_Winbreaker_1.png'
+// import tee1 from '../assets/Zelos_Long_Sleeve.jpg'
+// import tee2 from '../assets/unknown.png'
+// import tee3 from '../assets/Zelos_Winbreaker_1.png'
 import merchComingSoon from '../assets/merch-coming-soon.png'
 import Fade from 'react-reveal/Fade';
 

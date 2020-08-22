@@ -1,7 +1,7 @@
 import React from 'react'
-import tee1 from '../assets/Zelos_Long_Sleeve.jpg'
-import tee2 from '../assets/unknown.png'
-import tee3 from '../assets/Zelos_Winbreaker_1.png'
+// import tee1 from '../assets/Zelos_Long_Sleeve.jpg'
+// import tee2 from '../assets/unknown.png'
+// import tee3 from '../assets/Zelos_Winbreaker_1.png'
 import merchComingSoon from '../assets/merch-coming-soon.png'
 import Fade from 'react-reveal/Fade';
 import './FeaturedItems.css'
@@ -13,8 +13,8 @@ export default function FeaturedItems() {
 
 
     return(
-        <Fade>
-            <div className="store-section">
+        <div className="store-section">
+            <Fade>
                 <div className="black-background">
                 <h1 id="team-speak"></h1>
                 <div className="featured-items">
@@ -38,8 +38,8 @@ export default function FeaturedItems() {
                     </div> */}
                 </div>
                 </div>
-            </div>
-        </Fade>
+            </Fade>
+        </div>
     )
 
 }

@@ -40,32 +40,40 @@
 }
 
 .videos {
+  display: flex;
+  flex-direction: column;
   margin-top: 5rem;
   margin-bottom: 5rem;
 }
 
 #rl1 {
-  right: -6rem;
-  top: 2rem;
+  right: 20vw;
+  top: 7vh;
+  height: 24vh;
+  width: 20vw;
   background-color: var(--bg-secondary);
   position: relative;
 }
 
 #rl2 {
-  right: -8rem;
-  top: 20rem;
+  right: 3vw;
+  top: 10vh;
+  height: 24vh;
+  width: 20vw;
   background-color: var(--bg-secondary);
   position: relative;
 }
 
 #rl3 {
-  right: 34.5rem;
-  top: 40rem;
-  background-color: var(--bg-secondary);
   position: relative;
+  right: 20vw;
+  top: 13vh;
+  height: 24vh;
+  width: 20vw;
+  background-color: var(--bg-secondary);
 }
 
-@media only screen and (max-width: 1200px) { 
+/* @media only screen and (max-width: 1200px) { 
 
   .about {
     height: 50rem;
@@ -182,4 +190,4 @@
 
   
 }
-
+ */
