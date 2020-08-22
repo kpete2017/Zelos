@@ -3,7 +3,7 @@
   padding: 1rem;
   background-color: var(--bg-secondary);
   text-align: center;
-  height: 24.3rem;
+  height: 50vh;
   font-weight: 600;
   width: 98%;
 }
@@ -14,11 +14,12 @@
 }
 
 .events {
-  padding: 2rem;
+  box-shadow: 5px 5px 15px rgba(0,0,0,0.9);
+  border-radius: 4.5px;
   background-color: var(--bg-primary);
   text-align: center;
-  width: 15rem;
-  height: 16rem;
+  width: 22vw;
+  height: 40vh;
 }
 
 .vs {
@@ -27,22 +28,21 @@
 }
 
 #zelos-home-logo {
-  margin-left: -1.2rem;
+  margin: 0 auto;
 }
 
 #zelos-vs-logo{
-  margin-left: 1.5rem;
+  margin: 0 auto;
 }
 
 .vs-text {
-  margin-left: 1.8rem;
-  margin-right: -.4rem;
+  margin: 0 auto;
   display: flex;
   justify-content: space-between;
   flex-wrap: nowrap;
 }
 
-@media only screen and (max-width: 1200px) {
+/* @media only screen and (max-width: 1200px) {
   .events {
     font-size: .6rem;
     padding: 1.0rem;
@@ -98,4 +98,4 @@
 
 }
 
-
+ */

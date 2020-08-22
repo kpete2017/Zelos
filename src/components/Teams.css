@@ -1,176 +1,84 @@
 .teams {
-    background-color: var(--bg-primary);
-    height: 80vh;
-    display: flex;
-    justify-content: space-evenly;
-    width: 100%;
-  }
-  
-  .team-r6 {
-    background-image: url("../assets/dims.jfif");
-    background-attachment: fixed;
-    background-size: cover;
-    width: 43rem;
-    margin: 2rem;
-    text-align: center;
-    background-color: var(--bg-secondary)
-  }
-  
-  .team-rl {
-    background-image: url("../assets/RocketLeague.jpg");
-    background-attachment: fixed;
-    background-size: cover;
-
-    line-height: 1;
-    width: 43rem;
-    margin: 2rem;
-    text-align: center;
-    background-color: var(--bg-secondary);
-  }
-  
-  .rl {
-    z-index: 0;
-    height: 30rem;
-    width: 35rem;
-    margin: 0 auto;
-  }
-
-  .rl-black-background {
-    position: relative;
-    top: 1rem;
-    background-color: rgba(14, 14, 14, .8);
-    height: 30rem;
-    padding: 2rem;
-  }
-
-  .r6-black-background {
-    position: relative;
-    top: 1rem;
-    background-color: rgba(14, 14, 14, .8);
-    height: 30rem;
-    padding: 2rem;
-  }
-
-  @media only screen and (max-height: 780px) { 
-
-
-    .rl-black-background {
-      padding: 1.5;
-      height: 15rem;
-    }
-  
-    .r6-black-background {
-      padding: 1.5;
-      height: 25rem;
-    }
-
-    .rl {
-      font-size: 12px;
-      height: 25rem;
-    }
-
-    .r6 {
-      font-size: 12px;
-      height: 25rem;
-    }
-
-  }
-  
-  .r6 {
-    line-height: 1;
-    z-index: 0;
-    height: 30rem;
-    width: 35rem;
-    margin: 0 auto;
-  }
-  
-  #teams-text {
-    text-align: center;
-    margin: 1rem;
-  }
-
-  .player {
-    font-weight: 600;
-  }
-
-  .player:hover {
-    cursor: pointer;
-    color: goldenrod;
-  }
-
-  #captain {
-    color: hsla(360, 100%, 40%, 1);
-  }
-
-@media only screen and (max-width: 1200px) { 
-  .rl {
-    height: 29.1rem;
-    width: 30rem;
-    padding: 1rem;
-  }
-
-  .team-rl {
-    width: 30rem;
-  }
-
-  .r6 {
-    height: 29.1rem;
-    width: 30rem;
-    padding: 1rem;
-  }
-
-  .team-r6 {
-    width: 30rem;
-  }
+  background-color: var(--bg-primary);
+  height: 80vh;
+  display: flex;
+  justify-content: space-evenly;
+  width: 100%;
 }
 
-@media only screen and (max-width: 1000px) { 
-
-  .rl {
-    height: 29.1rem;
-    width: 20rem;
-    padding: 1rem;
-  }
-
-  .team-rl {
-    width: 20rem;
-  }
-
-  .r6 {
-    height: 29.1rem;
-    width: 20rem;
-    padding: 1rem;
-  }
-
-  .team-r6 {
-    width: 20rem;
-  }
+.team-r6 {
+  background-image: url("../assets/dims.jfif");
+  background-attachment: fixed;
+  background-size: cover;
+  width: 33vw;
+  margin: 2vw;
+  text-align: center;
+  background-color: var(--bg-secondary);
+  box-shadow: 5px 5px 15px rgba(0,0,0,0.9);
 
 }
 
-@media only screen and (max-width: 750px) {
-  .teams {
-    display: block;
-    height: 70rem;
-  }
+.team-rl {
+  background-image: url("../assets/RocketLeague.jpg");
+  background-attachment: fixed;
+  background-size: cover;
+  box-shadow: 5px 5px 15px rgba(0,0,0,0.9);
+  line-height: 1;
+  width: 33vw;
+  margin: 2vw;
+  text-align: center;
+  background-color: var(--bg-secondary);
+}
 
-  .rl {
-    height: 29.1rem;
-    width: 40rem;
-    padding: 1rem;
-  }
+.rl {
+  font-size: 2vh;
+  z-index: 0;
+  height: 30vh;
+  width: 25vw;
+  margin: 0 auto;
+}
 
-  .team-rl {
-    width: 40rem;
-  }
+.r6 {
+  font-size: 2vh;
+  z-index: 0;
+  height: 30vh;
+  width: 25vw;
+  margin: 0 auto;
+  line-height: .8;
+}
 
-  .r6 {
-    height: 29.1rem;
-    width: 40rem;
-    padding: 1rem;
-  }
+.rl-black-background {
+  position: relative;
+  left: -4vw;
+  right: 0;
+  background-color: rgba(14, 14, 14, .8);
+  height: 72vh;
+  width: 33vw;
+}
 
-  .team-r6 {
-    width: 40rem;
-  }
+.r6-black-background {
+  position: relative;
+  left: -4vw;
+  right: 0;
+  background-color: rgba(14, 14, 14, .8);
+  height: 72vh;
+  width: 33vw;
+}
+
+#teams-text {
+  text-align: center;
+  margin: 1rem;
+}
+
+.player {
+  font-weight: 600;
+}
+
+.player:hover {
+  cursor: pointer;
+  color: goldenrod;
+}
+
+#captain {
+  color: hsla(360, 100%, 40%, 1);
 }

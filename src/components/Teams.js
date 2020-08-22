@@ -7,7 +7,7 @@ export default function teams(props) {
 
 
     return(
-        <>
+        <div className="team-section-area">
             <Fade bottom>
                 <h1 id="teams-text">The Zelos Elite</h1>
             </Fade>
@@ -16,6 +16,8 @@ export default function teams(props) {
                     <div className="team-rl">
                         <div className="rl">
                             <div className="rl-black-background"> 
+                                <br/>
+                                <br/>
                                 <h1 id="rl">Rocket League</h1>
                                 <div>
                                     <br/>
@@ -37,8 +39,10 @@ export default function teams(props) {
                     <div className="team-r6">
                         <div className="r6">
                             <div className="r6-black-background">
+                            <br/>
+                            <br/>
                             <h1 id="r6">Tom Clancy's Rainbow Six Siege</h1>
-                            <div>
+                            <div className="r6-team-player-main-page-list">
                                 <br/>
                                 <div className="player" id="captain" onClick={() => props.teamPage()}>Spooman -  Flex</div>
                                 <br/>
@@ -66,7 +70,7 @@ export default function teams(props) {
                     </div>
                 </div>
             </Fade>
-        </>
+        </div>
     )
 
 }

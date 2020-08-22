@@ -4,7 +4,6 @@ import Fade from 'react-reveal/Fade';
 import insta from '../assets/insta.png'
 import twitter from '../assets/twitter.png'
 import twitch from '../assets/twitch.png'
-import WeirdFace from '../assets/placeholder.png'
 
 
 export default function TeamContent(props) {
@@ -131,10 +130,10 @@ export default function TeamContent(props) {
             </div>
             <br/>
             <br/>
+
+
             <div className="header-banner2">
-                <div className="gradient-div2">
                     <h1>Rocket League</h1>
-                </div>
             </div>
             <h4 className="players-r6">Players</h4>
             <div className="rlteam">
@@ -216,8 +215,13 @@ export default function TeamContent(props) {
                 </div>
             </div>
 
-
-            
+            <br/>
+            <br/>
+            <div className="header-banner3">
+                <div className="gradient-div">
+                    <h1>Valorant</h1>
+                </div>
+            </div>
             <h4 className="players-valorant">Players</h4>
             <div className="valorantteam">
             <div id="player-card">
@@ -307,26 +311,6 @@ export default function TeamContent(props) {
                             <img src={insta} width="35" height="35" alt="Zelos Esports" id="insta"></img>
                             <img src={twitter} width="35" height="35" alt="Zelos Esports" id="twitter" onClick={ () => { window.open("")} }></img>
                             <img src={twitch} width="35" height="35" alt="Zelos Esports" id="twitch" onClick={ () => { window.open("")} }></img>
-                        </div>
-                    </div>
-                    <div className="column2">
-                        <p className="bio">"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
-                        Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit 
-                        in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt 
-                        mollit anim id est laborum."</p>
-                    </div>
-                    <div className="column3">
-                        {/* <img className="team-headshot" height="200" width="200"src={WeirdFace} alt="Zelos Esports"></img> */}
-                    </div>
-                </div>
-                <div id="player-card">
-                    <div className="column1">
-                        <p>First Last</p>
-                        <h2>Username</h2>
-                        <div className="playerplugs">
-                            <img src={insta} width="35" height="35" alt="Zelos Esports" id="insta"></img>
-                            <img src={twitter} width="35" height="35" alt="Zelos Esports" id="twitter"></img>
-                            <img src={twitch} width="35" height="35" alt="Zelos Esports" id="twitch"></img>
                         </div>
                     </div>
                     <div className="column2">

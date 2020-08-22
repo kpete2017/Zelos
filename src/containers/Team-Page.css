@@ -2,7 +2,7 @@
     position: relative;
     top: 5rem;
     height: 300vh;
-    margin-bottom: 140rem;
+    margin-bottom: 240rem;
     background-color: #111111;
 }
 
@@ -28,9 +28,20 @@
     position: relative;
     margin: 0 auto;
     width: 90rem;
-    background-image: url("../assets/rlbanner.jpg");
+    background-image: url("../assets/rl-banner-website.png");
     background-position: center;
 }
+
+.header-banner3 {
+    height: 20rem;
+    position: relative;
+    margin: 0 auto;
+    width: 90rem;
+    background-image: url("../assets/valorant-banner.png");
+    background-position: center;
+    background-size: cover;
+}
+
 
 .gradient-div2 {
     height: 20rem;
@@ -54,23 +65,23 @@
 .r6team {
     margin-left: 5rem;
     margin-right: 5rem;
-    background-color: rgb(26, 26, 26);
 }
 
 .rlteam {
     margin-left: 5rem;
     margin-right: 5rem;
-    background-color: rgb(26, 26, 26);
 }
 
 .valorantteam {
     margin-left: 5rem;
     margin-right: 5rem;
-    background-color: rgb(26, 26, 26);
 }
 
 #player-card {
-    border: 1px solid white;
+    background-color: var(--bg-secondary);
+    box-shadow: 5px 5px 15px rgba(0,0,0,0.9);
+    border-radius: 4.5px;
+    margin-top: 2vh;
     height: 15rem;
     display: flex;
     justify-content: space-between;

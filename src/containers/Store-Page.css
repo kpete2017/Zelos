@@ -23,6 +23,10 @@
     top:5.5rem;
     right: 12rem;
   }
+
+  #merch-coming-soon {
+    align-self: center;
+  }
   
   .item-section {
     cursor: pointer;

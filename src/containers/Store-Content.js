@@ -17,7 +17,7 @@ export default function StoreContent(props) {
                 <div className="store-background-section">
                     <div className="store-section2">
                     <div className="coming-soon-placeholder-2">
-                        <img id="merchComingSoon" height="100" width="1200" src={merchComingSoon} alt=""></img>
+                        <img id="merch-coming-soon" height="100" width="1200" src={merchComingSoon} alt=""></img>
                     </div>
                         {/* <div className="featured-items">
                         <div className="featured-item">

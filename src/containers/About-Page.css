@@ -1,71 +1,72 @@
 .about-page {
     position: relative;
-    top: 5rem;
+    top: 15vh;
     width: 100vw;
-    height: 28rem;
-    margin-bottom: 60rem;
+    height: 55vh;
+    margin-bottom: 150vh;
 }
 
-#nate {
-    margin-right: 1rem;
+.people:last-child {
+    margin-right: 2vw;
 }
 
 .intro-section {
-    margin-left: 5rem;
+    margin-left: 5vw;
 }
 
 .company-info {
     background-image: url("../assets/rl-background.jpg");
     background-size: cover;
     background-attachment: fixed;
-    margin-top: 5rem;
-    margin-top: -.9rem;
-    background-color: rgba(14, 14, 14, .8);;
+    background-color: rgba(14, 14, 14, .8);
+    height:62vh;
+    margin-top: -2vh;
 }
 
 .background-black {
-    height: 28rem;
+    height:62vh;
     background-color: rgba(14, 14, 14, .8);
 }
 
 .company-info h2 {
     position: relative;
-    top: 3rem;
-    margin-left: 2rem;
+    top: 3vh;
+    margin-left: 2vw;
 }
 
 .company-info p {
     position: relative;
-    top: 2rem;
-    margin-left: 4rem;
+    top: 2vh;
+    margin-left: 4vw;
 }
 
 .founders-section {
-    height: 26rem;
-    margin-top: 3rem;
-    padding: .2rem;
+    height: 60vh;
+    padding: .2vw;
     background-color: var(--bg-secondary);
 }
 
 #zelos-about-logo {
     position: absolute;
-    margin-top: -8rem;
-    margin-left: 50rem;
+    margin-top: -14vh;
+    margin-left: 58vw;
+    height: 38vh;
+    width: 28vw;
 }
 
 .about-page h2 {
-    font-size: 1rem;
+    font-size: 1vw;
 }
 
 .about-page h1 {
-    font-size: 4rem;
+    font-size: 4vw;
 }
 
 .about-page h4 {
-    width: 40rem;
+    width: 40vw;
     position: relative;
-    top: -5rem;
-    left: 4rem;
+    top: -5vh;
+    left: 4vw;
 }
 
 .business {
@@ -77,10 +78,12 @@
 
 .people {
     font-size: 5px;
-    margin: 1rem;
+    margin: 1vw;
     background-color: var(--bg-primary);
-    width: 20rem;
-    padding: 1rem;
+    width: 20vw;
+    padding: 1vw;
+    box-shadow: 5px 5px 15px rgba(0,0,0,0.9);
+    border-radius: 4.5px;
 }
 
 .headshot {
@@ -105,6 +108,14 @@
     margin-left: 2rem;
 }
 
+.game-tag:first-child {
+    margin-top: 6vh;
+}
+
+.email-tag {
+    margin-top: 4vh;
+}
+
 #mailing {
     margin-left: 2rem;
 }
@@ -113,7 +124,11 @@
     margin-left: 2rem;
 }
 
-@media only screen and (max-width: 1050px) {
+.contact-info{
+    margin-top: 8vh;
+}
+
+/* @media only screen and (max-width: 1050px) {
 
     .company-info {
         margin-top: 5rem;
@@ -186,6 +201,6 @@
     .about-page p {
         line-height: 1;
     }
-}
+} */
 
 

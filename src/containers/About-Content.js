@@ -1,9 +1,9 @@
 import React from 'react'
 import './About-Page.css'
-import WeirdFace from '../assets/placeholder.png'
+// import WeirdFace from '../assets/placeholder.png'
 import Fade from 'react-reveal/Fade';
 import logo from '../assets/Zelos2.png'
-import Twitch from '../components/Twitch'
+// import Twitch from '../components/Twitch'
 
 export default function AboutContent(props) {
     return(
@@ -19,23 +19,23 @@ export default function AboutContent(props) {
                 <div className="founders-section">
                 <h1 id="founders-text">Company Founders</h1>
                     <div className="business">
-                        <div className="people" id="joey">
+                        <div className="people">
                             <h2>Joey Dikeman <br/>-<br/>Founder/CEO</h2>
                             {/* <img className="headshot" height="200" width="200"src={WeirdFace} alt="Zelos Esports"></img> */}
                         </div>
-                        <div className="people" id="lamar">
-                            <h2>Lamar Chhetry <br/>-<br/> Lead Marketing</h2>
+                        <div className="people">
+                            <h2>Kyle Petersen <br/>-<br/> Lead Web Developer</h2>
                             {/* <img className="headshot" height="200" width="200"src={WeirdFace} alt="Zelos Esports"></img> */}
                         </div>
-                        <div className="people" id="garret">
+                        <div className="people">
                             <h2>Garret Gallant <br/>-<br/> CTO</h2>
                             {/* <img className="headshot" height="200" width="200"src={WeirdFace} alt="Zelos Esports"></img> */}
                         </div>
-                        <div className="people" id="nate">
+                        <div className="people">
                             <h2>Reed Major <br/>-<br/> Rocket League Manager</h2>
                             {/* <img className="headshot" height="200" width="200"src={WeirdFace} alt="Zelos Esports"></img> */}
                         </div>
-                        <div className="people" id="nate">
+                        <div className="people">
                             <h2>Nate Spomer <br/>-<br/> Rainbow Six Manager</h2>
                             {/* <img className="headshot" height="200" width="200"src={WeirdFace} alt="Zelos Esports"></img> */}
                         </div>
@@ -47,15 +47,13 @@ export default function AboutContent(props) {
                     <div className="background-black">
                         <h2 id="current-games">Current Games we participate in</h2>
                         <div className="games">
-                            <p>Tom Clancy's Rainbow Six Siege</p>
-                            <p>Rocket League</p>
-                            <p>Valorant</p>
+                            <p class="game-tag">Tom Clancy's Rainbow Six Siege</p>
+                            <p class="game-tag">Rocket League</p>
+                            <p class="game-tag">Valorant</p>
                         </div>
-                        <h2>Contact</h2>
+                        <h2 className = "contact-info">Contact</h2>
                         <div id="contact-about">
-                            <p>
-                                Email: ZelosCompete@gmail.com
-                            </p>
+                            <p class="email-tag">Email: ZelosCompete@gmail.com</p>
                         </div>
                     </div>
                 </div>

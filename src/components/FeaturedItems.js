@@ -7,8 +7,6 @@ import Fade from 'react-reveal/Fade';
 import './FeaturedItems.css'
 
 
-
-
 export default function FeaturedItems() {
 
 
@@ -19,7 +17,7 @@ export default function FeaturedItems() {
                 <h1 id="team-speak"></h1>
                 <div className="featured-items">
                     <div className="coming-soon-placeholder">
-                        <img id="merchComingSoon" height="100" width="1200" src={merchComingSoon} alt=""></img>
+                        <img id="merch-soming-soon-home-page" height="100" width="1200" src={merchComingSoon} alt=""></img>
                     </div>
                     {/* <div className="featured-item">
                         <img id="tee-1" height="200" width="400"src={tee1} alt="Zelos Esports"></img>
