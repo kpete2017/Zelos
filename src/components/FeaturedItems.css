@@ -1,18 +1,15 @@
 .store-section {
   background-image: url("../assets/rainbow-background.jpg");
   background-size: cover;
-  background-attachment: fixed;
   height: 50vh;
   width: 100%;
   box-shadow: 5px 5px 15px rgba(0,0,0,0.9);
 }
 
-#merch-coming-soon-home-page {
-  width: 90vw;
+#merch-soming-soon-home-page {
+  width: 80vw;
   height: 15vh;
-  position: relative;
-  top: -1vh;
-  margin: 0 auto;
+  margin-top: -7vh;
 }
 
 .black-background {
@@ -62,4 +59,23 @@
 
 .item-desc {
   text-align: center;
+}
+
+
+@media only screen and (max-width: 600px) { 
+
+  #merch-soming-soon-home-page {
+    width: 90vw;
+    height: 6vh;
+    margin-top: -7vh;
+  }
+
+  .store-section {
+    background-image: url("../assets/rainbow-mobile.jpg");
+    background-size: cover;
+    height: 50vh;
+    width: 100%;
+    box-shadow: 5px 5px 15px rgba(0,0,0,0.9);
+  }
+  
 }

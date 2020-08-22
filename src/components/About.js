@@ -14,7 +14,7 @@ export default class about extends React.Component {
             <Fade bottom>
             <div className="about">
                 <div className="about-container">
-                    <h1>"WE ARE ZELOS"</h1>
+                    <h1>WE ARE ZELOS</h1>
                     <p>
                         Centralizing the three branches of esports; competition, content creation, and fashion, Zelos is a brand looking to bring people together, no matter their passion.
                         <br/>

@@ -1,50 +1,48 @@
 .title {
   background-image: url("../assets/Denver_Background.jpg");
-  background-size: cover;
+  background-size: contain;
   background-attachment: fixed;
+  background-position: top;
   transition: 400ms;
   height: 90vh;
   width: 100%;
   box-shadow: 5px 5px 15px rgba(0,0,0,0.9);
-  border-radius: 4.5px;
   text-shadow: 5px 5px 15px rgba(0,0,0,0.9);
 }
 
 .title-black-tint {
   background-color: rgba(14, 14, 14, .2);
-  height: 65rem;
-  width: 119.4rem;
+  height: 90vh;
+  width: 100%;
 }
 
-.title:hover {
-  background-color: var(--bg-primary);
-  transition: 400ms;
-}
-
-#zelos-title {
-  line-height: 1;
-  margin-top: 13rem;
-  font-size: 4rem;
+.title-elements {
+  top: -4vh;
   position: absolute;
-  top: 50%;
-  left: 50%;
-  /* bring your own prefixes */
-  transform: translate(-50%, -50%);
+  margin-left: auto;
+  margin-right: auto;
+  left: 0;
+  right: 0;
+  display: flex;
+  flex-direction: column;
   text-align: center;
-  top: 28vh;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.8vw;
+  line-height: 1.2;
 }
 
-#zelos-logo {
-  margin-bottom: 1rem;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  /* bring your own prefixes */
-  transform: translate(-50%, -50%);
-  top: 12rem;
+#zelos-title-screen-text {
+  width: 50vw;
+  margin-top: -5vh;
 }
 
-@media only screen and (max-width: 1200px) {
+#zelos-title-screen-logo  {
+  height: 45vh;
+  width: 30vw;
+}
+
+/* @media only screen and (max-width: 1200px) {
   #zelos-title {
     font-size: 3.5rem;
     line-height: 1;
@@ -63,9 +61,48 @@
   }
 }
 
-@media only screen and (max-width: 600px) {
-  #zelos-title {
-    font-size: 2rem;
-    line-height: 1;
+*/
+
+@media only screen and (max-width: 700px) {
+
+
+  .title {
+    background-image: url("../assets/mobile-background.jpg");
+    background-attachment: fixed;
+    background-size: contain;
+    background-position-y: -0vh;
+    background-position-x: -0vw;
+    transition: 400ms;
+    height: 80vh;
+    width: 100%;
+    box-shadow: 5px 5px 15px rgba(0,0,0,0.9);
+    text-shadow: 5px 5px 15px rgba(0,0,0,0.9);
+  }
+
+  #zelos-title-screen-logo  {
+    margin-top: 5vh;
+    height: 40vh;
+    width: 100vw;
+  }
+
+  .title-elements {
+    top: -2vh;
+    position: absolute;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    font-size: 4vw;
+    line-height: 1.2;
+  }
+
+  #zelos-title-screen-text {
+    width: 90vw;
+    margin-top: -5vh;
   }
 }

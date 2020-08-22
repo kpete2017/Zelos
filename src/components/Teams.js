@@ -19,7 +19,7 @@ export default function teams(props) {
                                 <br/>
                                 <br/>
                                 <h1 id="rl">Rocket League</h1>
-                                <div>
+                                <div class="player-list-players">
                                     <br/>
                                     <div className="player" id="captain" onClick={() => props.teamPage()}>Joeyang</div>
                                     <br/>
@@ -42,7 +42,7 @@ export default function teams(props) {
                             <br/>
                             <br/>
                             <h1 id="r6">Tom Clancy's Rainbow Six Siege</h1>
-                            <div className="r6-team-player-main-page-list">
+                            <div className="player-list-players">
                                 <br/>
                                 <div className="player" id="captain" onClick={() => props.teamPage()}>Spooman -  Flex</div>
                                 <br/>
@@ -61,6 +61,7 @@ export default function teams(props) {
                                 <br/>
                                 <br/>
                                 <div className="player" onClick={() => props.teamPage()}>YaBoiTex - Analyst</div>
+                                <br/>
                                 <br/>
                                 <div className="player" onClick={() => props.teamPage()}>Ace - Sub</div>
                                 <br/>

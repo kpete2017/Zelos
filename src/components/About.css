@@ -83,6 +83,51 @@
   border-radius: 4.5px;
 }
 
+@media only screen and (max-width: 600px) { 
+  #rl1 {
+    position: absolute;
+    left: -300vw;
+  }
+
+  #rl2 {
+    position: absolute;
+    left: -300vw;
+  }
+
+  #rl3 {
+    position: absolute;
+    left: -300vw;
+  }
+
+  .about {
+    height: 90vh;
+
+  }
+
+  .about h1 {
+    font-size: 10vw;
+    text-align: left;
+    line-height: 1.2;
+    width: 90vw;
+    margin-left: 5vw;
+  } 
+    
+  .about p {
+    font-size: 4.5vw;
+    line-height: 1;
+    width: 90vw;
+  }
+    
+
+  #learn-more {
+    padding: 3vw;
+    margin-left: 5vw;
+    font-size: 5vw;
+    border-radius: 2.5px;
+  }
+  
+}
+
 /* @media only screen and (max-width: 1200px) { 
 
   .about {
@@ -192,11 +237,6 @@
     margin-left: 2rem;
   }
 
-
-  
-}
-
-@media only screen and (max-width: 600px) { 
 
   
 }

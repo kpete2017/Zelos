@@ -20,6 +20,8 @@
   }
   
   #sponsor1 {
+    height: 20vh;
+    width: 11vw;
     background-color: var(--bg-primary);
     padding: 1vw;
     box-shadow: 5px 5px 15px rgba(0,0,0,0.9);
@@ -27,6 +29,8 @@
   }
   
   #sponsor2 {
+    height: 20vh;
+    width: 11vw;
     background-color: var(--bg-primary);
     padding: 1vw;
     box-shadow: 5px 5px 15px rgba(0,0,0,0.9);
@@ -34,8 +38,29 @@
   }
 
   #sponsor3 {
+    height: 20vh;
+    width: 11vw;
     background-color: var(--bg-primary);
     padding: 1vw;
     box-shadow: 5px 5px 15px rgba(0,0,0,0.9);
     border-radius: 4.5px;
   }
+
+
+
+@media only screen and (max-width: 600px) { 
+  #sponsor1 {
+    height: 15vh;
+    width: 30vw;
+  }
+  
+  #sponsor2 {
+    height: 15vh;
+    width: 30vw;
+  }
+
+  #sponsor3 {
+    height: 15vh;
+    width: 30vw;
+  }
+}

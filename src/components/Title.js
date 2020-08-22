@@ -8,9 +8,10 @@ export default class Title extends React.Component {
     render() {
         return(
             <div className="title">
-                <div className="title-black-tint">
-                    <h1 id="zelos-title">MAKE YOUR IDOLS YOUR RIVALS</h1>
-                    <img id="zelos-logo" height="400" width="600"src={logo} alt="Zelos Esports"></img>
+                <div className="title-black-tint"></div>
+                <div className="title-elements">
+                    <img id="zelos-title-screen-logo" height="400" width="600"src={logo} alt="Zelos Esports"></img>
+                    <h1 id="zelos-title-screen-text">MAKE YOUR IDOLS YOUR RIVALS</h1>
                 </div>
             </div>
         )
