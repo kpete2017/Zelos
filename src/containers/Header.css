@@ -71,6 +71,19 @@ header {
   cursor: pointer;
 }
 
+.hamburger {
+  margin-right: 17vw;
+  margin-bottom: 5vh;
+  height: 5vh;
+  width: 4vw;
+  background-color: var(--bg-secondary);
+
+}
+
+#mobile-header {
+  justify-content: center;
+}
+
 @media only screen and (max-width: 1000px) {
   .title-card {
     margin-left: 0rem;

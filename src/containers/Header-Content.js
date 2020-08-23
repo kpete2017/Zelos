@@ -3,9 +3,14 @@ import logo from '../assets/Zelos7_3.png'
 import insta from '../assets/insta.png'
 import twitter from '../assets/twitter.png'
 import twitch from '../assets/twitch.png'
+import MobielNav from '../components/MobileNav'
+
+
 import './Header.css'
 
 export default class HeaderContent extends React.Component {
+
+
     render() {
         let width = window.innerWidth;
         if (width > 768) {
@@ -30,9 +35,18 @@ export default class HeaderContent extends React.Component {
             )
         } else {
             return(
-                <header>
+                <header id="mobile-header">
                     <div className="title-card">
                         <img id="zelos-header-logo" src={logo} width="200" height="50" alt="Zelos Esports" onClick={() => this.props.titlePage()}></img>
+                    </div>
+                    <div class="hamburger">
+                        <MobielNav 
+                            titlePage={this.props.titlePage} 
+                            aboutPage={this.props.aboutPage} 
+                            storePage={this.props.storePage}
+                            schedulePage={this.props.schedulePage}
+                            teamPage={this.props.teamPage}
+                        />
                     </div>
                 </header>
             )

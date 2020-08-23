@@ -1,5 +1,6 @@
 .store-section {
   background-image: url("../assets/rainbow-background.jpg");
+  background-attachment: fixed;
   background-size: cover;
   height: 50vh;
   width: 100%;
@@ -7,9 +8,9 @@
 }
 
 #merch-soming-soon-home-page {
-  width: 80vw;
+  width: 90vw;
   height: 15vh;
-  margin-top: -7vh;
+  margin-top: -4vh;
 }
 
 .black-background {

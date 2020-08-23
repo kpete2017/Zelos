@@ -1,6 +1,7 @@
 .title {
   background-image: url("../assets/Denver_Background.jpg");
-  background-size: contain;
+  background-size: cover;
+  background-repeat: no-repeat;
   background-attachment: fixed;
   background-position: top;
   transition: 400ms;
@@ -70,8 +71,7 @@
     background-image: url("../assets/mobile-background.jpg");
     background-attachment: fixed;
     background-size: contain;
-    background-position-y: -0vh;
-    background-position-x: -0vw;
+    background-repeat: no-repeat;
     transition: 400ms;
     height: 80vh;
     width: 100%;
