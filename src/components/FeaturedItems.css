@@ -73,7 +73,8 @@
 
   .store-section {
     background-image: url("../assets/rainbow-mobile.jpg");
-    background-size: cover;
+    background-size: contain;
+    background-position-y: -16vw;
     height: 50vh;
     width: 100%;
     box-shadow: 5px 5px 15px rgba(0,0,0,0.9);

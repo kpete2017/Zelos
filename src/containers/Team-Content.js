@@ -4,6 +4,8 @@ import Fade from 'react-reveal/Fade';
 import insta from '../assets/insta.png'
 import twitter from '../assets/twitter.png'
 import twitch from '../assets/twitch.png'
+import FooterContent from './Footer-Content'
+
 
 
 export default function TeamContent(props) {
@@ -12,7 +14,7 @@ export default function TeamContent(props) {
         <div className="team-page">
             <div className="header-banner">
                 <div className="gradient-div">
-                    <h1>Tom Clancy's Rainbow Six Siege</h1>
+                    <h1 id="header-game-title">Tom Clancy's Rainbow Six Siege</h1>
                 </div>
             </div>
             <h4 className="players-r6">Players</h4>
@@ -326,6 +328,7 @@ export default function TeamContent(props) {
             </div>
             <br/>
             <br/>
+            <FooterContent />
         </div>
         </Fade>
     )

@@ -2,14 +2,14 @@
     background-image: url("../assets/rainbow-background.jpg");
     background-size: cover;
     background-attachment: fixed;
-    height: 50.5rem;
+    height: auto;
     width: 100%;
   }
 
   .black-background2{
-    height: 50.5rem;
+    height: 95vh;
     background-color: rgba(14, 14, 14, .8);
-}
+  }
   
   .featured-items {
     display: flex;
@@ -18,19 +18,28 @@
 
   .coming-soon-placeholder-2{
     justify-content: center;
-    margin-left: 23rem;
+    margin-left: 23vw;
     position: relative;
-    top:5.5rem;
-    right: 12rem;
+    top:5.5vh;
+    right: 10vw;
+  }
+
+  #zelos-store-logo {
+    position: relative;
+    top: 10vh;
+    width: 20vw;
+    height: 30vh;
   }
 
   #merch-coming-soon {
     align-self: center;
+    width: 70vw;
+    height: 12vh;
   }
   
   .item-section {
     cursor: pointer;
-    height: 14rem;
+    height: 14vh;
     background-color: var(--bg-secondary);
   }
 
@@ -41,15 +50,15 @@
   }
 
   .purchase-button {
-    padding: .3rem;
-    margin-right: 2rem;
-    margin-left: 15rem;
+    padding: .3vw;
+    margin-right: 2vw;
+    margin-left: 15vw;
     text-align: center;
     background-color: var(--bg-primary);
   }
 
   #zelos-merch-text {
-    margin-left: 2rem;
+    margin-left: 2vw;
   }
   
   .purchase-button:hover {
@@ -66,3 +75,36 @@
     text-align: center;
   }
   
+
+  @media only screen and (max-width: 700px) { 
+
+    .store-page2 {
+      background-image: url("../assets/rl-mobile-background-store.jpg");
+      background-size: cover;
+      background-attachment: fixed;
+      margin-top: -20vh;
+    }
+
+    .black-background2{
+      height: 87vh;
+      background-color: rgba(14, 14, 14, .5);
+    }
+
+    #zelos-store-logo {
+      position: relative;
+      top: 25vh;
+      left: 10vw;
+      width: 80vw;
+      height: 30vh;
+    }
+  
+    #merch-coming-soon {
+      align-self: center;
+      text-align: center;
+      width: 90vw;
+      margin-top: 25vh;
+      margin-left: -7vw;
+      height: 12vh;
+    }
+    
+  }
