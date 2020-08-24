@@ -6,12 +6,14 @@ import Teams from '../components/Teams'
 import FeaturedItems from '../components/FeaturedItems'
 import Sponsor from '../components/Sponsor'
 import Sidebar from '../components/Sidebar'
+import FooterContent from './Footer-Content'
+
 // import Twitch from '../components/Twitch'
 
 export default class BodyContent extends React.Component {
 
     render() {
-        return(
+        return (
             <div className="body">
                 <Title />
                 <About aboutPage={this.props.aboutPage}/>
@@ -20,7 +22,7 @@ export default class BodyContent extends React.Component {
                 <Teams teamPage={this.props.teamPage}/>
                 <Sponsor />
                 <Sidebar />
-                {/* <Twitch /> */}
+                <FooterContent />
             </div>
         )
     }

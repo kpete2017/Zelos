@@ -2,7 +2,6 @@ import React from 'react';
 import './App.css';
 import HeaderContent from './containers/Header-Content'
 import BodyContent from './containers/Body-Content'
-import FooterContent from './containers/Footer-Content'
 import AboutContent from './containers/About-Content'
 import StoreContent from './containers/Store-Content';
 import TeamContent from './containers/Team-Content';
@@ -92,7 +91,6 @@ class App extends React.Component {
     } else if (this.state.teamPage) {
       bodyRender = <TeamContent />
     }
-
     return (
       <div className="App">
         <HeaderContent 
@@ -103,7 +101,6 @@ class App extends React.Component {
           teamPage={this.handleTeamPage}
           />
         {bodyRender}
-        <FooterContent />
       </div>
     );
   }

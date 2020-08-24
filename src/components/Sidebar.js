@@ -37,21 +37,26 @@ export default class Sidebar extends React.Component {
     }
 
     render() {
-        return(
-            <div className="sidebar">
-                <div className="dot">
-                    <li onClick={() => this.handleTitleClick()}></li>
+        let width = window.innerWidth;
+        if (width > 768) {
+            return(
+                <div className="sidebar">
+                    <div className="dot">
+                        <li onClick={() => this.handleTitleClick()}></li>
+                    </div>
+                    <div className="dot">
+                        <li onClick={() => this.handleAboutClick()}></li>
+                    </div>
+                    <div className="dot">
+                        <li onClick={() => this.handleStoreClick()}></li>
+                    </div>
+                    <div className="dot">
+                        <li onClick={() => this.handleTeamClick()}></li>
+                    </div>
                 </div>
-                <div className="dot">
-                    <li onClick={() => this.handleAboutClick()}></li>
-                </div>
-                <div className="dot">
-                    <li onClick={() => this.handleStoreClick()}></li>
-                </div>
-                <div className="dot">
-                    <li onClick={() => this.handleTeamClick()}></li>
-                </div>
-            </div>
-        )
+            )
+        } else {
+            return null
+        }
     }
 }
