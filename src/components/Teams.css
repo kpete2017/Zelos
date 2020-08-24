@@ -10,7 +10,7 @@
   background-image: url("../assets/dims.jfif");
   background-attachment: fixed;
   background-size: cover;
-  width: 33vw;
+  width: 30vw;
   margin: 2vw;
   text-align: center;
   background-color: var(--bg-secondary);
@@ -24,7 +24,7 @@
   background-size: cover;
   box-shadow: 5px 5px 15px rgba(0,0,0,0.9);
   line-height: 1;
-  width: 33vw;
+  width: 30vw;
   margin: 2vw;
   text-align: center;
   background-color: var(--bg-secondary);
@@ -35,10 +35,10 @@
   background-attachment: fixed;
   background-size: cover;
   background-position-x: 33vw;
-  background-position-y: -10vh;
+  background-position-y: 0;
   box-shadow: 5px 5px 15px rgba(0,0,0,0.9);
   line-height: 1;
-  width: 33vw;
+  width: 30vw;
   margin: 2vw;
   text-align: center;
   background-color: var(--bg-secondary);
@@ -48,15 +48,16 @@
   font-size: 2vh;
   z-index: 0;
   height: 30vh;
-  width: 25vw;
+  width: 30vw;
   margin: 0 auto;
 }
 
 .r6 {
-  font-size: 1.8vh;
+  font-size: 2vh;
+  overflow-wrap: normal;
   z-index: 0;
   height: 30vh;
-  width: 25vw;
+  width: 30vw;
   margin: 0 auto;
   line-height: .8;
 }
@@ -65,36 +66,30 @@
   font-size: 1.8vh;
   z-index: 0;
   height: 30vh;
-  width: 25vw;
+  width: 30vw;
   margin: 0 auto;
   line-height: .8;
 }
 
 .rl-black-background {
   position: relative;
-  left: -4vw;
-  right: 0;
   background-color: rgba(14, 14, 14, .8);
-  height: 72vh;
-  width: 33vw;
+  height: 73.2vh;
+  width: 30vw;
 }
 
 .r6-black-background {
   position: relative;
-  left: -4vw;
-  right: 0;
   background-color: rgba(14, 14, 14, .8);
-  height: 72vh;
-  width: 33vw;
+  height: 73.2vh;
+  width: 30vw;
 }
 
 .valorant-black-background {
   position: relative;
-  left: -4vw;
-  right: 0;
   background-color: rgba(14, 14, 14, .8);
-  height: 72vh;
-  width: 33vw;
+  height: 73.2vh;
+  width: 30vw;
 }
 
 #teams-text {
@@ -122,8 +117,6 @@
   .team-section-area {
     height: 155vh;
   }
-
-
   .team-rl {
     background-size: 100vh;
     width: 98vw;

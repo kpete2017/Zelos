@@ -46,6 +46,10 @@ header {
   padding-top: -1rem;
   margin-top: 2rem;
   margin-bottom: 2rem;
+  color: var(--text-primary);
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 1.7vh;
 }
 
 #nav-item:hover {

@@ -5,103 +5,39 @@ import BodyContent from './containers/Body-Content'
 import AboutContent from './containers/About-Content'
 import StoreContent from './containers/Store-Content';
 import TeamContent from './containers/Team-Content';
+import {
+  BrowserRouter as Router,
+  Switch,
+  Route
+} from "react-router-dom";
 
 
 class App extends React.Component {
 
-  state = {
-    titlePage: true,
-    aboutPage: false,
-    storePage: false,
-    schedulePage: false,
-    teamPage: false
-  }
-
-  scrollToTop = () => {
-    window.scrollTo({
-      top: 0,
-      left: 0,
-    });
-  }
-
-  handleTitlePage = () => {
-    this.scrollToTop()
-    this.setState({
-      titlePage: true,
-      aboutPage: false,
-      storePage: false,
-      teamPage: false
-    })
-  }
-
-  handleAboutPage = () => {
-    this.scrollToTop()
-    this.setState({
-      titlePage: false,
-      aboutPage: true,
-      storePage: false,
-      teamPage: false
-    })
-  }
-
-  handleStorePage = () => {
-    this.scrollToTop()
-    this.setState({
-      titlePage: false,
-      aboutPage: false,
-      storePage: true,
-      teamPage: false
-    })
-  }
-
-  handleSchedulePage = () => {
-    this.scrollToTop()
-    this.setState({
-      titlePage: false,
-      aboutPage: false,
-      storePage: false,
-      teamPage: false
-    })
-  }
-
-  handleTeamPage = () => {
-    this.scrollToTop()
-    this.setState({
-      titlePage: false,
-      aboutPage: false,
-      storePage: false,
-      teamPage: true
-    })
-  }
-  
-
   render() {
 
-    let bodyRender
-
-    if(this.state.titlePage) {
-      bodyRender = <BodyContent 
-      aboutPage={this.handleAboutPage}
-      teamPage={this.handleTeamPage}
-      />
-    } else if (this.state.aboutPage) {
-      bodyRender = <AboutContent />
-    } else if (this.state.storePage) {
-      bodyRender = <StoreContent />
-    } else if (this.state.teamPage) {
-      bodyRender = <TeamContent />
-    }
     return (
-      <div className="App">
-        <HeaderContent 
-          titlePage={this.handleTitlePage} 
-          aboutPage={this.handleAboutPage} 
-          storePage={this.handleStorePage}
-          schedulePage={this.handleSchedulePage}
-          teamPage={this.handleTeamPage}
-          />
-        {bodyRender}
-      </div>
+      <Router>
+        <div className="App">
+          <HeaderContent />
+          <Switch>
+            <Route exact path="/">
+              <BodyContent 
+              aboutPage={this.handleAboutPage}
+              teamPage={this.handleTeamPage}/>
+            </Route>
+            <Route path="/about">
+              <AboutContent />
+            </Route>
+            <Route path="/store">
+              <StoreContent />
+            </Route>
+            <Route path="/teams">
+              <TeamContent />
+            </Route>
+          </Switch>
+        </div>
+      </Router>
     );
   }
 }
