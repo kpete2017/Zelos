@@ -185,6 +185,7 @@
     font-size: 2vh;
     text-align: left;
     flex-wrap: wrap;
+    flex-direction: column;
   }
 
   .team-r6 {

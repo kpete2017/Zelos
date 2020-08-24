@@ -42,13 +42,7 @@ export default class HeaderContent extends React.Component {
                         <img id="zelos-header-logo" src={logo} width="200" height="50" alt="Zelos Esports" onClick={() => this.props.titlePage()}></img>
                     </div>
                     <div class="hamburger">
-                        <MobielNav 
-                            titlePage={this.props.titlePage} 
-                            aboutPage={this.props.aboutPage} 
-                            storePage={this.props.storePage}
-                            schedulePage={this.props.schedulePage}
-                            teamPage={this.props.teamPage}
-                        />
+                        <MobielNav />
                     </div>
                 </header>
             )

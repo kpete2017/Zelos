@@ -9,8 +9,18 @@
 }
 
 #nav-item-mobile {
+    transition: 1s;
+    padding-left: 1rem;
+    color: var(--text-primary);
+    text-decoration: none;
+    margin-top: 2vh;
+    margin-bottom: 2.5vh;
     font-weight: 600;
     font-size: 5vw;
+}
+
+#nav-item-mobile:first-child {
+    margin-top: 5vh;
 }
 
 #clicked-hamburger {
@@ -30,6 +40,8 @@
     height: 90vh;
     width: 40vw;
     top: 9.3vh;
+    display: flex;
+    flex-direction: column;
     padding-left: 4vw;
     left: 0vw;
     transition: 400ms;
@@ -38,6 +50,8 @@
 .mobile-navbar-hidden {
     background-color: var(--bg-secondary);
     position: fixed;
+    display: flex;
+    flex-direction: column;
     height: 90vh;
     width: 40vw;
     top: 9.3vh;
