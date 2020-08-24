@@ -12,9 +12,11 @@
   background-size: cover;
   width: 30vw;
   margin: 2vw;
+  height: 70vh;
   text-align: center;
   background-color: var(--bg-secondary);
   box-shadow: 5px 5px 15px rgba(0,0,0,0.9);
+  height: 70vh;
 
 }
 
@@ -25,6 +27,7 @@
   box-shadow: 5px 5px 15px rgba(0,0,0,0.9);
   line-height: 1;
   width: 30vw;
+  height: 70vh;
   margin: 2vw;
   text-align: center;
   background-color: var(--bg-secondary);
@@ -40,6 +43,7 @@
   line-height: 1;
   width: 30vw;
   margin: 2vw;
+  height: 70vh;
   text-align: center;
   background-color: var(--bg-secondary);
 }
@@ -56,7 +60,7 @@
   font-size: 2vh;
   overflow-wrap: normal;
   z-index: 0;
-  height: 30vh;
+  height: 70vh;
   width: 30vw;
   margin: 0 auto;
   line-height: .8;
@@ -65,7 +69,7 @@
 .valorant {
   font-size: 1.8vh;
   z-index: 0;
-  height: 30vh;
+  height: 70vh;
   width: 30vw;
   margin: 0 auto;
   line-height: .8;
@@ -74,21 +78,21 @@
 .rl-black-background {
   position: relative;
   background-color: rgba(14, 14, 14, .8);
-  height: 73.2vh;
+  height: 70vh;
   width: 30vw;
 }
 
 .r6-black-background {
   position: relative;
   background-color: rgba(14, 14, 14, .8);
-  height: 73.2vh;
+  height: 70vh;
   width: 30vw;
 }
 
 .valorant-black-background {
   position: relative;
   background-color: rgba(14, 14, 14, .8);
-  height: 73.2vh;
+  height: 70vh;
   width: 30vw;
 }
 
@@ -115,19 +119,26 @@
   }
 
   .team-section-area {
-    height: 155vh;
+    height: 165vh;
   }
   .team-rl {
     background-size: 100vh;
     width: 98vw;
+    height: 45vh;
     margin: 2vw;
     margin-bottom: 5vh;
+  }
+
+  .team-r6 {
+    height: 45vh;
+    margin-bottom: 5vh;
+
   }
 
   .team-valorant {
     background-size: 100vh;
     width: 98vw;
-    margin: 2vw;
+    height: 45vh;
     background-position-y: 33vh;
     background-position-x: -50vw;
     margin-bottom: 5vh;
@@ -136,7 +147,7 @@
   .rl {
     font-size: 2vh;
     z-index: 0;
-    height: 40vh;
+    height: 45vh;
     width: 25vw;
     margin: 0 auto;
   }
@@ -154,7 +165,7 @@
     top: -.5vh;
     left: -38vw;
     background-color: rgba(14, 14, 14, .8);
-    height: 40.5vh;
+    height: 46vh;
     width: 100vw;
     display: flex;
     justify-content: space-between;
@@ -165,7 +176,7 @@
     top: 0vh;
     left: -38vw;
     background-color: rgba(14, 14, 14, .8);
-    height: 40.5vh;
+    height: 45vh;
     width: 100vw;
     display: flex;
     justify-content: space-between;
@@ -175,6 +186,8 @@
     align-self: center;
     margin-right: 10vw;
     margin-left: 3vw;
+    height: 45vh;
+    margin-top: 20vh;
   }
 
   .player-list-players {
@@ -186,6 +199,7 @@
     text-align: left;
     flex-wrap: wrap;
     flex-direction: column;
+    height: 45vh;
   }
 
   .team-r6 {
@@ -193,6 +207,7 @@
     width: 98vw;
     margin: 2vw;
     margin-bottom: 5vh;
+    height: 45vh;
   }
 
   .r6 {
@@ -201,6 +216,7 @@
     height: 50vh;
     width: 25vw;
     margin: 0 auto;
+    height: 45vh;
   }
 
   #r6 {
@@ -208,6 +224,8 @@
     margin-right: 10vw;
     margin-right: 10vw;
     margin-left: 3vw;
+    margin-top: 20vh;
+    height: 45vh;
   }
 
   .r6-black-background {
@@ -215,7 +233,7 @@
     top: -.5vh;
     left: -38vw;
     background-color: rgba(14, 14, 14, .8);
-    height: 50.5vh;
+    height: 46vh;
     width: 100vw;
     display: flex;
     justify-content: space-between;

@@ -5,6 +5,7 @@ import BodyContent from './containers/Body-Content'
 import AboutContent from './containers/About-Content'
 import StoreContent from './containers/Store-Content';
 import TeamContent from './containers/Team-Content';
+import ScrollToTop from './components/ScrollToTop'
 import {
   BrowserRouter as Router,
   Switch,
@@ -17,6 +18,7 @@ class App extends React.Component {
   render() {
     return (
       <Router>
+        <ScrollToTop/>
         <div className="App">
           <HeaderContent />
           <Switch>
