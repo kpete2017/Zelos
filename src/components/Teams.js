@@ -69,6 +69,39 @@ export default function teams(props) {
                             </div>
                         </div>
                     </div>
+                    <div className="team-valorant">
+                        <div className="valorant">
+                            <div className="valorant-black-background">
+                            <br/>
+                            <br/>
+                            <h1 id="r6">Valorant</h1>
+                            <div className="player-list-players">
+                                <br/>
+                                <div className="player" id="captain" onClick={() => props.teamPage()}>Player</div>
+                                <br/>
+                                <br/>
+                                <div className="player" onClick={() => props.teamPage()}>Player</div>
+                                <br/>
+                                <br/>
+                                <div className="player" onClick={() => props.teamPage()}>Player</div>
+                                <br/>
+                                <br/>
+                                <div className="player" onClick={() => props.teamPage()}>Player</div>
+                                <br/>
+                                <br/>
+                                <div className="player" onClick={() => props.teamPage()}>Player</div>
+                                <br/>
+                                <br/>
+                                <br/>
+                                <div className="player" onClick={() => props.teamPage()}>Player</div>
+                                <br/>
+                                <br/>
+                                <div className="player" onClick={() => props.teamPage()}>Player</div>
+                                <br/>
+                            </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </Fade>
         </div>
