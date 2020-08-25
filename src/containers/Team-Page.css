@@ -6,6 +6,70 @@
     background-color: #111111;
 }
 
+.team-page-nav-buttons {
+    display: flex;
+    justify-content: space-evenly;
+    position: relative;
+    top: 10vh;
+    height: 20vh;
+    width: 80vw;
+    margin: 0 auto;
+    margin-bottom: 20vh;
+}
+
+#rocket-league-nav-button {
+    align-self: center;
+    background-color: var(--bg-secondary);
+    font-size: 2vh;
+    line-height: 1.5;
+    padding: 2vw;
+    cursor: pointer;
+    border-radius: 4.5px;
+    box-shadow: 5px 5px 15px rgba(0,0,0,0.9);
+    transition: 400ms;
+}
+
+#rocket-league-nav-button:hover {
+    transition: 400ms ease;
+    transform: scale(1.10);
+}
+
+#rainbow-six-nav-button {
+    align-self: center;
+    background-color: var(--bg-secondary);
+    font-size: 2vh;
+    line-height: 1.5;
+    padding: 2vw;
+    cursor: pointer;
+    border-radius: 4.5px;
+    box-shadow: 5px 5px 15px rgba(0,0,0,0.9);
+    transition: 400ms;
+}
+
+#rainbow-six-nav-button:hover {
+    transition: 400ms ease;
+    transform: scale(1.10);
+}
+
+#valorant-nav-button {
+    align-self: center;
+    background-color: var(--bg-secondary);
+    font-size: 2vh;
+    line-height: 1.5;
+    padding: 2vw;
+    cursor: pointer;
+    border-radius: 4.5px;
+    box-shadow: 5px 5px 15px rgba(0,0,0,0.9);
+    transition: 400ms;
+}
+
+#valorant-nav-button:hover {
+    transition: 400ms ease;
+    transform: scale(1.10);
+}
+
+
+
 .header-banner {
     height: 44vh;
     position: relative;
