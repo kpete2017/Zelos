@@ -11,7 +11,7 @@ export default class TeamContent extends React.Component {
 
     handleRLClick = () => {
         window.scrollTo({
-            top: 2800,
+            top: window.innerHeight * 6.2,
             left: 0,
             behavior: 'smooth'
         });
@@ -27,7 +27,7 @@ export default class TeamContent extends React.Component {
 
     handleValorantTeamClick = () => {
         window.scrollTo({
-            top: 4700,
+            top: window.innerHeight * 10.4 ,
             left: 0,
             behavior: 'smooth'
         });

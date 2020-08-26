@@ -264,9 +264,43 @@
         width: 80vw;
         margin: 5vw;
     }
-
     
+    #rocket-league-nav-button {
+        font-size: 1vh;
+        line-height: 1.5;
+        padding: 2vw;
+        height: 10vh;
+        width: 25vw;
+    }
+    
+    #rainbow-six-nav-button {
+        font-size: 1vh;
+        line-height: 1.5;
+        padding: 2vw;
+        height: 10vh;
+        width: 25vw;
+    }
 
+    #valorant-nav-button {
+        font-size: 1vh;
+        line-height: 1.5;
+        padding: 2vw;
+        height: 10vh;
+        width: 25vw;
+    }
+
+    .team-page-nav-buttons {
+        display: flex;
+        justify-content: space-evenly;
+        position: relative;
+        top: 5vh;
+        width: 100vw;
+        margin-left: 1vh;
+        margin-right: 1vh;
+        margin: 0 auto;
+        margin-bottom: 10vh;
+    }
+    
 }
 
 /* @media only screen and (max-width: 1560px) {
