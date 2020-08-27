@@ -3,10 +3,10 @@ import insta from '../assets/insta.png'
 import twitter from '../assets/twitter.png'
 import twitch from '../assets/twitch.png'
 
-export default function RocketTeam() {
+export default function RocketTeam(props) {
     return(
         <>
-            <div className="header-banner2">
+            <div className="header-banner2" ref={props.refProp}>
                 <h1>Rocket League</h1>
             </div>
             <h4 className="players-r6">Players</h4>

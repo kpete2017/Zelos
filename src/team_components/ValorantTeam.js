@@ -3,10 +3,13 @@ import insta from '../assets/insta.png'
 import twitter from '../assets/twitter.png'
 import twitch from '../assets/twitch.png'
 
-export default function ValorantTeam() {
+export default function ValorantTeam(props) {
+
+    
+
     return (
         <>
-            <div className="header-banner3">
+            <div className="header-banner3" ref={props.refProp}>
                 <div className="gradient-div">
                     <h1>Valorant</h1>
                 </div>

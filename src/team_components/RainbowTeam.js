@@ -4,6 +4,9 @@ import twitter from '../assets/twitter.png'
 import twitch from '../assets/twitch.png'
 
 export default function RainbowTeam() {
+
+    const ref = React.createRef();
+    
     return (
         <>
             <div className="header-banner">
