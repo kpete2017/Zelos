@@ -1,4 +1,57 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Zelos Esports
+![Image of Home](https://i.imgur.com/dABssSG.png)
+
+<!-- TABLE OF CONTENTS -->
+## Table of Contents
+
+* [About the Project](#about-the-project)
+  * [Built With](#built-with)
+* [Getting Started](#getting-started)
+  * [Prerequisites](#prerequisites)
+  * [Installation](#installation)
+* [Usage](#usage)
+* [Contact](#contact)
+* [Acknowledgements](#acknowledgements)
+
+
+<!-- ABOUT THE PROJECT -->
+## About The Project
+
+Bult with React.js for the organization ZelosCompete LTD. The website includes a record of the organizations current news and events as well as the lineup of its multiple teams and a storefront.
+
+The Website Contains :
+* A main home page.
+* An about page containing information about the company itself.
+* A store page containing all availble merchandise.
+* A teams page containing every player on each team.
+
+### Built With
+* [React.js](https://Reactjs.org/)
+* [Google Firebase](https://firebase.google.com/)
+
+
+<!-- GETTING STARTED -->
+## Getting Started
+
+In order to run this project locally you will need Node.js
+
+### Prerequisites
+
+In order to install this project you will need the latest version of Node Package Manager
+```sh
+npm install npm@latest -g
+```
+
+### Installation
+
+1. Clone the repo
+```sh
+git clone https://github.com/kpete2017/Zelos
+```
+2. Install NPM packages
+```sh
+npm install
+```
 
 ## Available Scripts
 
@@ -37,32 +90,42 @@ Instead, it will copy all the configuration files and the transitive dependencie
 
 You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
 
-## Learn More
+<!-- USAGE EXAMPLES -->
+## Usage
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+### Home Screen
+![Image of Home](https://i.imgur.com/geZLiuN.png)
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+The homescreen is divided into six rows:
+* The first row is the Title section which can be found in ./src/components/Title.js.
+* The second row is the About section which is just a short description on the organization with a few highlight videos. This can be found in ./src/components/About.js
+* The third row is the featured item section which contains selected items from the store. This component can be found in ./src/components/FeaturedItem.js
+* The fourth row is the schedule page which contains the 4 closest upcoming events. This component can be found in ./src/components/Schedule.js.
+* The fifth row is the Team page which contains a short list of each team followed by each player. This component can be found in .src/components/Teams.js
+* The sixth and final row is the sponsors section where all the teams current sponsors will go. This component can be found in ./src/components/Sponsors.js
 
-### Code Splitting
+### About Page
+![Image of Notes](https://i.imgur.com/F01QKU8.png)
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
+This page is meant to give a short description of the organization including the games it participates in, contact information, and the business's founding members.
+It is split into four sections:
+* The first secton is the main about section highlighting the founding of the business.
+* The second row is the founders section where all the founding/importatant members are listed.
+* The third row is split between the current games section and the contact details section.
 
-### Analyzing the Bundle Size
+### Store Page
+![Image of Party](https://i.imgur.com/6tVNAUd.png)
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
+The Store Page contains all available to purchase merchandise
 
-### Making a Progressive Web App
+### Team Page
+![Image of NPC](https://i.imgur.com/RUEPQkL.png)
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
+The Team page is where every player from every Zelos esport team is listed as well some extra player information such as their social media accounts and a short bio.
 
-### Advanced Configuration
+<!-- CONTACT -->
+## Contact
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
+Kyle Petersen - [Linked-In](https://www.linkedin.com/in/kyle-petersen-27259b18b/) - kpete2017@gmail.com
 
-### Deployment
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
-
-### `yarn build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+Project Link: [https://github.com/kpete2017/Zelos](https://github.com/kpete2017/Zelos)
