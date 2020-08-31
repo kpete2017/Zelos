@@ -9,7 +9,7 @@ export default function RainbowTeam() {
     
     return (
         <>
-            <div className="header-banner">
+            <div className="header-banner" id="r6-banner">
                 <div className="gradient-div">
                     <h1 id="header-game-title">Tom Clancy's Rainbow Six Siege</h1>
                 </div>

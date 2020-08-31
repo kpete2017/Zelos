@@ -6,7 +6,7 @@ import twitch from '../assets/twitch.png'
 export default function RocketTeam(props) {
     return(
         <>
-            <div className="header-banner2" ref={props.refProp}>
+            <div className="header-banner2" ref={props.refProp} id="rl-banner">
                 <h1>Rocket League</h1>
             </div>
             <h4 className="players-r6">Players</h4>

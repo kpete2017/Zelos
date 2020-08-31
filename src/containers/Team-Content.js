@@ -9,29 +9,27 @@ import ValorantTeam from '../team_components/ValorantTeam'
 
 export default class TeamContent extends React.Component {
 
-    handleRLClick = () => {
+    handleScrollClick = (element) => {
+
+        const findElement = document.getElementById(element);
+        var offSet = this.getOffset(findElement).top
+        console.log(offSet)
         window.scrollTo({
-            top: 2800,
+            top: offSet,
             left: 0,
             behavior: 'smooth'
         });
     }
 
-    handleRainbowSixClick = () => {
-        window.scrollTo({
-            top: 300,
-            left: 0,
-            behavior: 'smooth'
-        });
+    getOffset = (el) => {
+        const rect = el.getBoundingClientRect();
+        return {
+        left: rect.left + window.scrollX,
+        top: rect.top + window.scrollY
+        };
     }
 
-    handleValorantTeamClick = () => {
-        window.scrollTo({
-            top: 4700,
-            left: 0,
-            behavior: 'smooth'
-        });
-    }
+
 
     render() {
 
@@ -41,13 +39,13 @@ export default class TeamContent extends React.Component {
                 <Fade>
                     <div className="team-page">
                         <div class="team-page-nav-buttons">
-                            <div id="rocket-league-nav-button" onClick={() => this.handleRLClick()}>
+                            <div id="rocket-league-nav-button" onClick={() => this.handleScrollClick("rl-banner")}>
                                 <h2 >Rocket League Team</h2>
                             </div>
-                            <div id="rainbow-six-nav-button" onClick={() => this.handleRainbowSixClick()}>
+                            <div id="rainbow-six-nav-button" onClick={() => this.handleScrollClick("r6-banner")}>
                                 <h2>Rainbow Six Team</h2>
                             </div>
-                            <div id="valorant-nav-button" onClick={() => this.handleValorantTeamClick()}>
+                            <div id="valorant-nav-button" onClick={() => this.handleScrollClick("val-banner")}>
                                 <h2>Valorant Team</h2>
                             </div>
                         </div>
