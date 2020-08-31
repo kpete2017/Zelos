@@ -7,7 +7,7 @@ export default function teams(props) {
 
 
     return(
-        <div className="team-section-area">
+        <div className="team-section-area" id="team">
             <Fade bottom>
                 <h1 id="teams-text">The Zelos Elite</h1>
             </Fade>

@@ -32,39 +32,20 @@ export default class TeamContent extends React.Component {
 
 
     render() {
-
-        let width = window.innerWidth;
-        if (width > 768) {
-            return(
-                <Fade>
-                    <div className="team-page">
-                        <div class="team-page-nav-buttons">
-                            <div id="rocket-league-nav-button" onClick={() => this.handleScrollClick("rl-banner")}>
-                                <h2 >Rocket League Team</h2>
-                            </div>
-                            <div id="rainbow-six-nav-button" onClick={() => this.handleScrollClick("r6-banner")}>
-                                <h2>Rainbow Six Team</h2>
-                            </div>
-                            <div id="valorant-nav-button" onClick={() => this.handleScrollClick("val-banner")}>
-                                <h2>Valorant Team</h2>
-                            </div>
-                        </div>
-                        <RainbowTeam />
-                        <br/>
-                        <br/>
-                        <RocketTeam />
-                        <br/>
-                        <br/>
-                        <ValorantTeam/>
-                        <br/>
-                        <br/>
-                        <FooterContent />
-                    </div>
-                </Fade>
-            )
-        } else {
-            return(
+        return(
+            <Fade>
                 <div className="team-page">
+                    <div class="team-page-nav-buttons">
+                        <div id="rocket-league-nav-button" onClick={() => this.handleScrollClick("rl-banner")}>
+                            <h2 >Rocket League Team</h2>
+                        </div>
+                        <div id="rainbow-six-nav-button" onClick={() => this.handleScrollClick("r6-banner")}>
+                            <h2>Rainbow Six Team</h2>
+                        </div>
+                        <div id="valorant-nav-button" onClick={() => this.handleScrollClick("val-banner")}>
+                            <h2>Valorant Team</h2>
+                        </div>
+                    </div>
                     <RainbowTeam />
                     <br/>
                     <br/>
@@ -76,9 +57,8 @@ export default class TeamContent extends React.Component {
                     <br/>
                     <FooterContent />
                 </div>
-            )
-        }
-
+            </Fade>
+        )
     }
 }
 

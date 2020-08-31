@@ -21,7 +21,7 @@ export default class about extends React.Component {
         return(
             <>
             <Fade bottom>
-            <div className="about">
+            <div className="about" id="about">
                 <div className="about-container">
                     <h1>WE ARE ZELOS</h1>
                     <p>
