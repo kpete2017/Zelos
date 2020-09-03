@@ -1,6 +1,6 @@
 import React from 'react'
 import sponsor1 from '../assets/AOR-Teal-on-black.png'
-import sponsor2 from '../assets/ICS-white-on-black.png'
+import sponsor2 from '../assets/Iron_Cross_Sponsor.jpg'
 import sponsor3 from '../assets/ROGUE-ENERGY-WEB-SPLASH.png'
 import './Sponsor.css'
 

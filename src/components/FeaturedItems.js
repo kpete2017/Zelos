@@ -11,7 +11,7 @@ export default function FeaturedItems() {
 
 
     return(
-        <div className="store-section">
+        <div className="store-section" id="store">
             <Fade>
                 <div className="black-background">
                 <h1 id="team-speak"></h1>

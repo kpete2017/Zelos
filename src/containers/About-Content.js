@@ -3,6 +3,7 @@ import './About-Page.css'
 // import WeirdFace from '../assets/placeholder.png'
 import Fade from 'react-reveal/Fade';
 import logo from '../assets/Zelos2.png'
+
 // import Twitch from '../components/Twitch'
 
 export default function AboutContent(props) {

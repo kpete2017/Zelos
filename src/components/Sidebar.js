@@ -3,37 +3,24 @@ import './Sidebar.css'
 
 export default class Sidebar extends React.Component {
 
-    handleTitleClick = () => {
+    handleScrollClick = (element) => {
+
+        const findElement = document.getElementById(element);
+        var offSet = this.getOffset(findElement).top
+        console.log(offSet)
         window.scrollTo({
-            top: 0,
+            top: offSet,
             left: 0,
             behavior: 'smooth'
         });
     }
 
-    handleAboutClick = () => {
-        window.scrollTo({
-            top: 820,
-            left: 0,
-            behavior: 'smooth'
-        });
-    }
-
-    handleStoreClick = () => {
-        window.scrollTo({
-            top: 1825,
-            left: 0,
-            behavior: 'smooth'
-        });
-    }
-
-
-    handleTeamClick = () => {
-        window.scrollTo({
-            top: 2725,
-            left: 0,
-            behavior: 'smooth'
-        });
+    getOffset = (el) => {
+        const rect = el.getBoundingClientRect();
+        return {
+        left: rect.left + window.scrollX,
+        top: rect.top + window.scrollY
+        };
     }
 
     render() {
@@ -42,16 +29,16 @@ export default class Sidebar extends React.Component {
             return(
                 <div className="sidebar">
                     <div className="dot">
-                        <li onClick={() => this.handleTitleClick()}></li>
+                        <li onClick={() => this.handleScrollClick("title")}></li>
                     </div>
                     <div className="dot">
-                        <li onClick={() => this.handleAboutClick()}></li>
+                        <li onClick={() => this.handleScrollClick("about")}></li>
                     </div>
                     <div className="dot">
-                        <li onClick={() => this.handleStoreClick()}></li>
+                        <li onClick={() => this.handleScrollClick("store")}></li>
                     </div>
                     <div className="dot">
-                        <li onClick={() => this.handleTeamClick()}></li>
+                        <li onClick={() => this.handleScrollClick("team")}></li>
                     </div>
                 </div>
             )

@@ -1,16 +1,74 @@
 .team-page {
     position: relative;
-<<<<<<< HEAD
-    top: 5rem;
-    height: 300vh;
-    margin-bottom: 280vh;
-=======
     top: 5vh;
     height: auto;
     width: 100%;
->>>>>>> e229f546908bdb3963ebc7f1f58723bf3df6429a
     background-color: #111111;
 }
+
+.team-page-nav-buttons {
+    display: flex;
+    justify-content: space-evenly;
+    position: relative;
+    top: 10vh;
+    height: 20vh;
+    width: 80vw;
+    margin: 0 auto;
+    margin-bottom: 20vh;
+}
+
+#rocket-league-nav-button {
+    align-self: center;
+    background-color: var(--bg-secondary);
+    font-size: 2vh;
+    line-height: 1.5;
+    padding: 2vw;
+    cursor: pointer;
+    border-radius: 4.5px;
+    box-shadow: 5px 5px 15px rgba(0,0,0,0.9);
+    transition: 400ms;
+}
+
+#rocket-league-nav-button:hover {
+    transition: 400ms ease;
+    transform: scale(1.10);
+}
+
+#rainbow-six-nav-button {
+    align-self: center;
+    background-color: var(--bg-secondary);
+    font-size: 2vh;
+    line-height: 1.5;
+    padding: 2vw;
+    cursor: pointer;
+    border-radius: 4.5px;
+    box-shadow: 5px 5px 15px rgba(0,0,0,0.9);
+    transition: 400ms;
+}
+
+#rainbow-six-nav-button:hover {
+    transition: 400ms ease;
+    transform: scale(1.10);
+}
+
+#valorant-nav-button {
+    align-self: center;
+    background-color: var(--bg-secondary);
+    font-size: 2vh;
+    line-height: 1.5;
+    padding: 2vw;
+    cursor: pointer;
+    border-radius: 4.5px;
+    box-shadow: 5px 5px 15px rgba(0,0,0,0.9);
+    transition: 400ms;
+}
+
+#valorant-nav-button:hover {
+    transition: 400ms ease;
+    transform: scale(1.10);
+}
+
+
 
 .header-banner {
     height: 44vh;
@@ -206,9 +264,43 @@
         width: 80vw;
         margin: 5vw;
     }
-
     
+    #rocket-league-nav-button {
+        font-size: 1vh;
+        line-height: 1.5;
+        padding: 2vw;
+        height: 10vh;
+        width: 25vw;
+    }
+    
+    #rainbow-six-nav-button {
+        font-size: 1vh;
+        line-height: 1.5;
+        padding: 2vw;
+        height: 10vh;
+        width: 25vw;
+    }
 
+    #valorant-nav-button {
+        font-size: 1vh;
+        line-height: 1.5;
+        padding: 2vw;
+        height: 10vh;
+        width: 25vw;
+    }
+
+    .team-page-nav-buttons {
+        display: flex;
+        justify-content: space-evenly;
+        position: relative;
+        top: 5vh;
+        width: 100vw;
+        margin-left: 1vh;
+        margin-right: 1vh;
+        margin: 0 auto;
+        margin-bottom: 10vh;
+    }
+    
 }
 
 /* @media only screen and (max-width: 1560px) {
