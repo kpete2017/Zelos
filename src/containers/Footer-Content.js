@@ -1,15 +1,28 @@
 import React from 'react'
 import logo from '../assets/Zelos_Denver_Hue.png'
 import './Footer.css'
+import { Link } from "react-router-dom";
 
 export default class FooterContent extends React.Component {
 
+
     handleAboutClick = () => {
+        
+    const findElement = document.getElementById("about");
+    var offSet = this.getOffset(findElement).top
         window.scrollTo({
-            top: 900,
+            top: offSet,
             left: 0,
             behavior: 'smooth'
         });
+    }
+
+    getOffset = (el) => {
+        const rect = el.getBoundingClientRect();
+        return {
+        left: rect.left + window.scrollX,
+        top: rect.top + window.scrollY
+        };
     }
 
     handleOnInstaClick = () => {
@@ -30,16 +43,16 @@ export default class FooterContent extends React.Component {
                     <div className="company">
                         <h4>COMPANY</h4>
                         <p onClick={this.handleAboutClick}>About</p>
-                        <p>Contact</p>
-                        <p>Become a partner</p>
-                        <p>Store</p>
-                        <p>Privacy Policy</p>
+                        <p><Link to="/about" className="footer-link">Contact</Link></p>
+                        <p><Link to="/about" className="footer-link">Become a partner</Link></p>
+                        <p><Link to="/about" className="footer-link">Store</Link></p>
+                        <p><Link to="/about" className="footer-link">Privacy Policy</Link></p>
                     </div>
                     <div className ="team-footer">
                         <h4>TEAMS</h4>
-                        <p>Rocket League</p>
-                        <p>Tom Clancy's Rainbow Six Siege</p>
-                        <p>Valorant</p>
+                        <p><Link to="/teams" className="footer-link">Rocket League</Link></p>
+                        <p><Link to="/teams" className="footer-link">Tom Clancy's Rainbow Six Siege</Link></p>
+                        <p><Link to="/teams" className="footer-link">Valorant</Link></p>
                     </div>
                     <div className="social">
                         <h4>SOCIAL</h4>
@@ -55,10 +68,10 @@ export default class FooterContent extends React.Component {
                     <div className="company">
                         <h4>COMPANY</h4>
                         <p onClick={this.handleAboutClick}>About</p>
-                        <p>Contact</p>
-                        <p>Become a partner</p>
-                        <p>Store</p>
-                        <p>Privacy Policy</p>
+                        <p><Link to="/about" className="footer-link">Contact</Link></p>
+                        <p><Link to="/about" className="footer-link">Become a partner</Link></p>
+                        <p><Link to="/store" className="footer-link">Store</Link></p>
+                        <p><Link to="/about" className="footer-link">Privacy Policy</Link></p>
                     </div>
                     <div className ="team-footer">
                         <h4>TEAMS</h4>
