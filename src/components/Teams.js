@@ -23,17 +23,17 @@ export default function teams(props) {
                                 <h1 id="rl">Rocket League</h1>
                                 <div class="player-list-players">
                                     <br/>
-                                    <Link to="/about" className="player" id="captain">Joeyang</Link>
+                                    <Link to="/teams" className="player" id="captain">Joeyang</Link>
                                     <br/>
                                     <br/>
-                                    <Link to="/about" className="player">ReedTheZephyr</Link>
+                                    <Link to="/teams" className="player">ReedTheZephyr</Link>
                                     <br/>
                                     <br/>
-                                    <Link  to="/about" className="player">Bonvie</Link>
+                                    <Link  to="/teams" className="player">Bonvie</Link>
                                     <br/>
                                     <br/>
                                     <br/>
-                                    <Link to="/about" className="player">justaboink- sub</Link>
+                                    <Link to="/teams" className="player">justaboink- sub</Link>
                                 </div>
                             </div>
                         </div>
@@ -46,26 +46,26 @@ export default function teams(props) {
                             <h1 id="r6">Tom Clancy's Rainbow Six Siege</h1>
                             <div className="player-list-players">
                                 <br/>
-                                <Link to="/about" className="player" id="captain">Spooman -  Flex</Link>
+                                <Link to="/teams" className="player" id="captain">Spooman -  Flex</Link>
                                 <br/>
                                 <br/>
-                                <Link to="/about" className="player">IanMoments - Fragger</Link>
+                                <Link to="/teams" className="player">IanMoments - Fragger</Link>
                                 <br/>
                                 <br/>
-                                 <Link to="/about" className="player">Lxgan - Fragger</Link>
+                                 <Link to="/teams" className="player">Lxgan - Fragger</Link>
                                 <br/>
                                 <br/>
-                                 <Link to="/about" className="player">Blueberry - Support</Link>
+                                 <Link to="/teams" className="player">Blueberry - Support</Link>
                                 <br/>
                                 <br/>
-                                 <Link to="/about" className="player">Boxy - Support/IGL</Link>
+                                 <Link to="/teams" className="player">Boxy - Support/IGL</Link>
                                 <br/>
                                 <br/>
                                 <br/>
-                                 <Link to="/about" className="player">YaBoiTex - Analyst</Link>
+                                 <Link to="/teams" className="player">YaBoiTex - Analyst</Link>
                                 <br/>
                                 <br/>
-                                 <Link to="/about" className="player">Ace - Sub</Link>
+                                 <Link to="/teams" className="player">Ace - Sub</Link>
                                 <br/>
                             </div>
                             </div>
@@ -82,16 +82,16 @@ export default function teams(props) {
                                 <div className="player" id="captain" onClick={() => props.teamPage()}>Patch</div>
                                 <br/>
                                 <br/>
-                                 <Link to="/about" className="player">Ceuos</Link>
+                                 <Link to="/teams" className="player">Ceuos</Link>
                                 <br/>
                                 <br/>
-                                 <Link to="/about" className="player">Werd</Link>
+                                 <Link to="/teams" className="player">Werd</Link>
                                 <br/>
                                 <br/>
-                                 <Link to="/about" className="player">Cade</Link>
+                                 <Link to="/teams" className="player">Cade</Link>
                                 <br/>
                                 <br/>
-                                 <Link to="/about" className="player">q.</Link>
+                                 <Link to="/teams" className="player">q.</Link>
                             </div>
                             </div>
                         </div>

@@ -2,7 +2,7 @@
     position: fixed;
     height: 8vh;
     width: 8vw;
-    left: 2vw;
+    left: 5vw;
     top: 1vh;
     color: var(--text-secondary);
     transition: 400ms;

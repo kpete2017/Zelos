@@ -8,7 +8,7 @@ export default class Sidebar extends React.Component {
         const findElement = document.getElementById(element);
         var offSet = this.getOffset(findElement).top
         window.scrollTo({
-            top: offSet,
+            top: offSet - 60,
             left: 0,
             behavior: 'smooth'
         });
@@ -34,10 +34,10 @@ export default class Sidebar extends React.Component {
                         <li onClick={() => this.handleScrollClick("about")}><span class="dot-text">About</span></li>
                     </div>
                     <div class="dot">
-                        <li onClick={() => this.handleScrollClick("store")}><span class="dot-text">BE ELITE</span></li>
+                        <li onClick={() => this.handleScrollClick("store")}><span class="dot-text">Store</span></li>
                     </div>
                     <div class="dot">
-                        <li onClick={() => this.handleScrollClick("team")}><span class="dot-text">ROSTER</span></li>
+                        <li onClick={() => this.handleScrollClick("team")}><span class="dot-text">The Elite</span></li>
                     </div>
                 </div>
             )

@@ -62,7 +62,6 @@ export default function AboutContent(props) {
                     </div>
                 </Fade>
                 <br/>
-                <br/>
             </div>
         )
     } else {
