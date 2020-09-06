@@ -28,17 +28,17 @@ export default class Sidebar extends React.Component {
         if (width > 768) {
             return(
                 <div className="sidebar">
-                    <div className="dot">
-                        <li onClick={() => this.handleScrollClick("title")}></li>
+                    <div class="dot" id="title-dot">
+                        <li onClick={() => this.handleScrollClick("title")}><span class="dot-text">Title</span></li>
                     </div>
-                    <div className="dot">
-                        <li onClick={() => this.handleScrollClick("about")}></li>
+                    <div class="dot" id="about-dot">
+                        <li onClick={() => this.handleScrollClick("about")}><span class="dot-text">About</span></li>
                     </div>
-                    <div className="dot">
-                        <li onClick={() => this.handleScrollClick("store")}></li>
+                    <div class="dot" id="projects-dot">
+                        <li onClick={() => this.handleScrollClick("store")}><span class="dot-text">Featured Items</span></li>
                     </div>
-                    <div className="dot">
-                        <li onClick={() => this.handleScrollClick("team")}></li>
+                    <div class="dot" id="blogs-dot">
+                        <li onClick={() => this.handleScrollClick("team")}><span class="dot-text">The Zelos Elite</span></li>
                     </div>
                 </div>
             )

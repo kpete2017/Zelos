@@ -1,19 +1,70 @@
-.sidebar {
-    right: -1rem;
-    position: fixed;
-    top: 15rem;
-    z-index: 1;
-  }
-  
-  .dot li {
-    margin-top: 1rem;
-    cursor: pointer;
-    font-size:  2rem;
-    transition: 200ms;
-  }
-  
-  
-  .dot li:hover {
-    transition: 200ms;
-    color: grey;
-  }
+	/* Side Bar */
+
+	.sidebar {
+		right: 1vw;
+		position: fixed;
+		right: -900px;
+		top: 25vh;
+		z-index: 1;
+	}
+
+	.dot li {
+		margin-top: 1vh;
+		cursor: pointer;
+		font-size:  4vh;
+		transition: 200ms;
+		text-align: right;
+		 direction: rtl;
+	}
+	
+		.dot li:hover {
+			transition: 200ms;
+			color: grey;
+		}
+
+			.dot-text {
+				position: relative;
+				left: 500px;
+				transition: 400ms;
+			}
+
+				.dot li:hover .dot-text {
+					left: 500px;
+          transition: 400ms;
+          color: white;
+				}
+	
+	@media screen and (min-width: 720px) {	
+
+		.sidebar {
+			right: 1vw;
+			position: fixed;
+			top: 35vh;
+			z-index: 1;
+		}
+
+		.dot li {
+			margin-top: 1vh;
+			cursor: pointer;
+			font-size:  1.8vw;
+			transition: 200ms;
+			text-align: right;
+ 			direction: rtl;
+		}
+		
+		.dot li:hover {
+			transition: 200ms;
+			color: grey;
+		}
+
+		.dot-text {
+			position: relative;
+			left: 500px;
+			transition: 400ms;
+		}
+
+		.dot li:hover .dot-text {
+			left: 0;
+			transition: 400ms;
+		}
+	}
