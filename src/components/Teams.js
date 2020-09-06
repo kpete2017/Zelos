@@ -1,6 +1,8 @@
 import React from 'react'
 import Fade from 'react-reveal/Fade';
 import './Teams.css'
+import { Link } from "react-router-dom";
+
 
 
 export default function teams(props) {
@@ -21,17 +23,17 @@ export default function teams(props) {
                                 <h1 id="rl">Rocket League</h1>
                                 <div class="player-list-players">
                                     <br/>
-                                    <div className="player" id="captain" onClick={() => props.teamPage()}>Joeyang</div>
+                                    <Link to="/about" className="player" id="captain">Joeyang</Link>
                                     <br/>
                                     <br/>
-                                    <div className="player" onClick={() => props.teamPage()}>ReedTheZephyr</div>
+                                    <Link to="/about" className="player">ReedTheZephyr</Link>
                                     <br/>
                                     <br/>
-                                    <div className="player" onClick={() => props.teamPage()}>Bonvie</div>
+                                    <Link  to="/about" className="player">Bonvie</Link>
                                     <br/>
                                     <br/>
                                     <br/>
-                                    <div className="player" onClick={() => props.teamPage()}>justaboink- sub</div>
+                                    <Link to="/about" className="player">justaboink- sub</Link>
                                 </div>
                             </div>
                         </div>
@@ -44,26 +46,26 @@ export default function teams(props) {
                             <h1 id="r6">Tom Clancy's Rainbow Six Siege</h1>
                             <div className="player-list-players">
                                 <br/>
-                                <div className="player" id="captain" onClick={() => props.teamPage()}>Spooman -  Flex</div>
+                                <Link to="/about" className="player" id="captain">Spooman -  Flex</Link>
                                 <br/>
                                 <br/>
-                                <div className="player" onClick={() => props.teamPage()}>IanMoments - Fragger</div>
+                                <Link to="/about" className="player">IanMoments - Fragger</Link>
                                 <br/>
                                 <br/>
-                                <div className="player" onClick={() => props.teamPage()}>Lxgan - Fragger</div>
+                                 <Link to="/about" className="player">Lxgan - Fragger</Link>
                                 <br/>
                                 <br/>
-                                <div className="player" onClick={() => props.teamPage()}>Blueberry - Support</div>
+                                 <Link to="/about" className="player">Blueberry - Support</Link>
                                 <br/>
                                 <br/>
-                                <div className="player" onClick={() => props.teamPage()}>Boxy - Support/IGL</div>
+                                 <Link to="/about" className="player">Boxy - Support/IGL</Link>
                                 <br/>
                                 <br/>
                                 <br/>
-                                <div className="player" onClick={() => props.teamPage()}>YaBoiTex - Analyst</div>
+                                 <Link to="/about" className="player">YaBoiTex - Analyst</Link>
                                 <br/>
                                 <br/>
-                                <div className="player" onClick={() => props.teamPage()}>Ace - Sub</div>
+                                 <Link to="/about" className="player">Ace - Sub</Link>
                                 <br/>
                             </div>
                             </div>
@@ -80,16 +82,16 @@ export default function teams(props) {
                                 <div className="player" id="captain" onClick={() => props.teamPage()}>Patch</div>
                                 <br/>
                                 <br/>
-                                <div className="player" onClick={() => props.teamPage()}>Ceuos</div>
+                                 <Link to="/about" className="player">Ceuos</Link>
                                 <br/>
                                 <br/>
-                                <div className="player" onClick={() => props.teamPage()}>Werd</div>
+                                 <Link to="/about" className="player">Werd</Link>
                                 <br/>
                                 <br/>
-                                <div className="player" onClick={() => props.teamPage()}>Cade</div>
+                                 <Link to="/about" className="player">Cade</Link>
                                 <br/>
                                 <br/>
-                                <div className="player" onClick={() => props.teamPage()}>q.</div>
+                                 <Link to="/about" className="player">q.</Link>
                             </div>
                             </div>
                         </div>

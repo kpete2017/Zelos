@@ -29,7 +29,6 @@
 }
   
 #learn-more {
-  padding: 1vw;
   background-color: var(--bg-secondary);
   cursor: pointer;
   width: fit-content;
@@ -37,6 +36,7 @@
   font-size: 1.5vw;
   border-radius: 2.5px;
   box-shadow: 5px 5px 15px rgba(0,0,0,0.9);
+  transition: 400ms;
 }
 
 .about-desc {
@@ -83,6 +83,26 @@
   border-radius: 4.5px;
 }
 
+#learn-more-text {
+  background-color: var(--bg-secondary);
+  padding: 2rem;
+  transition: 1s;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  color: var(--text-primary);
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 1.7vh;
+  border-radius: 2.5px;
+  box-shadow: 5px 5px 15px rgba(0,0,0,0.9);
+}
+
+#learn-more-text:hover {
+  background-color: var(--bg-primary);
+  color: var(--text-secondary);
+}
+
+
 @media only screen and (max-width: 600px) { 
   #rl1 {
     position: absolute;
@@ -120,7 +140,6 @@
     
 
   #learn-more {
-    padding: 3vw;
     margin-left: 5vw;
     font-size: 5vw;
     border-radius: 2.5px;

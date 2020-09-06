@@ -49,7 +49,7 @@
 			font-size:  1.8vw;
 			transition: 200ms;
 			text-align: right;
- 			direction: rtl;
+			direction: rtl;
 		}
 		
 		.dot li:hover {
@@ -67,4 +67,5 @@
 			left: 0;
 			transition: 400ms;
 		}
+		
 	}

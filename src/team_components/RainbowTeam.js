@@ -1,11 +1,9 @@
-import React, {Component} from 'react'
+import React from 'react'
 import insta from '../assets/insta.png'
 import twitter from '../assets/twitter.png'
 import twitch from '../assets/twitch.png'
 
 export default function RainbowTeam() {
-
-    const ref = React.createRef();
     
     return (
         <>

@@ -1,4 +1,4 @@
-import React, {Component} from 'react'
+import React from 'react'
 import HomeLogo from '../assets/Zelos5.png'
 import comingSoon from '../assets/ZEL-Placeholder-schedule.png'
 

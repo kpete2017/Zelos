@@ -4,10 +4,7 @@ import insta from '../assets/insta.png'
 import twitter from '../assets/twitter.png'
 import twitch from '../assets/twitch.png'
 import MobielNav from '../components/MobileNav'
-import {
-    BrowserRouter as Router,
-    Link
-} from "react-router-dom";
+import { Link } from "react-router-dom";
 
 import './Header.css'
 

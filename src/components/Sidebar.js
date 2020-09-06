@@ -35,10 +35,10 @@ export default class Sidebar extends React.Component {
                         <li onClick={() => this.handleScrollClick("about")}><span class="dot-text">About</span></li>
                     </div>
                     <div class="dot" id="projects-dot">
-                        <li onClick={() => this.handleScrollClick("store")}><span class="dot-text">Featured Items</span></li>
+                        <li onClick={() => this.handleScrollClick("store")}><span class="dot-text">Store</span></li>
                     </div>
                     <div class="dot" id="blogs-dot">
-                        <li onClick={() => this.handleScrollClick("team")}><span class="dot-text">The Zelos Elite</span></li>
+                        <li onClick={() => this.handleScrollClick("team")}><span class="dot-text">Elite</span></li>
                     </div>
                 </div>
             )
