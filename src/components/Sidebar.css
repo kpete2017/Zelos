@@ -30,8 +30,8 @@
 
 				.dot li:hover .dot-text {
 					left: 500px;
-          transition: 400ms;
-          color: white;
+					transition: 400ms;
+					color: white;
 				}
 	
 	@media screen and (min-width: 720px) {	
