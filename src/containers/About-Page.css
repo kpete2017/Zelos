@@ -171,6 +171,11 @@
     .people {
         margin-top: 2vh;
         width: 80vw;
+        margin-right: 3.5vh;
+    }
+
+    .people:last-child {
+        margin-right: 3.5vh;
     }
 
     .about-page h2 {
@@ -184,6 +189,8 @@
     .company-info {
         background-image: url("../assets/mobile-about-page-wallpaper.jpg");
         background-size: contain;
+        background-repeat: no-repeat;
+        background-position: bottom;
         width: 100vw;
         height: 90vh;
         margin-bottom: 5vh;
