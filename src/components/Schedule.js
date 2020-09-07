@@ -10,7 +10,6 @@ import './Schedule.css'
 export default class schedule extends React.Component {
     
     render() {
-        
         let width = window.innerWidth;
         if (width > 768) {
             return(

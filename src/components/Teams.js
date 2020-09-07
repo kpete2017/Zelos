@@ -7,7 +7,6 @@ import { Link } from "react-router-dom";
 
 export default function teams(props) {
 
-
     return(
         <div className="team-section-area" id="team">
             <Fade bottom>
