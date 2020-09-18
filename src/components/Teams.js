@@ -78,8 +78,7 @@ export default function teams(props) {
                             <h1 id="r6">Valorant</h1>
                             <div className="player-list-players">
                                 <br/>
-                                <div className="player" id="captain" onClick={() => props.teamPage()}>Patch</div>
-                                <br/>
+                                <div className="player" id="captain" >Patch</div>
                                 <br/>
                                  <Link to="/teams" className="player">Ceuos</Link>
                                 <br/>

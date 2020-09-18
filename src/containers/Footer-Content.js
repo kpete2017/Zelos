@@ -25,15 +25,6 @@ export default class FooterContent extends React.Component {
         };
     }
 
-    handleOnInstaClick = () => {
-        window.open('https://www.instagram.com/zeloscompete/')
-    }
-
-    handleOnTwitterClick = () => {
-        window.open('https://twitter.com/ZelosCompete')
-    }
-
-
     render() {
 
         let width = window.innerWidth;
@@ -46,7 +37,6 @@ export default class FooterContent extends React.Component {
                         <p><Link to="/about" className="footer-link">Contact</Link></p>
                         <p><Link to="/about" className="footer-link">Become a partner</Link></p>
                         <p><Link to="/about" className="footer-link">Store</Link></p>
-                        <p><Link to="/about" className="footer-link">Privacy Policy</Link></p>
                     </div>
                     <div className ="team-footer">
                         <h4>TEAMS</h4>
@@ -81,8 +71,8 @@ export default class FooterContent extends React.Component {
                     </div>
                     <div className="social">
                         <h4>SOCIAL</h4>
-                        <p onClick={this.handleOnInstaClick}>Instagram</p>
-                        <p onClick={this.handleOnTwitterClick}>Twitter</p>
+                        <p onClick={window.open('https://www.instagram.com/zeloscompete/')}>Instagram</p>
+                        <p onClick={window.open('https://twitter.com/ZelosCompete')}>Twitter</p>
                     </div>
                 </div>
             )

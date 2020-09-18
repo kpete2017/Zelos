@@ -6,6 +6,8 @@ import AboutContent from './containers/About-Content'
 import StoreContent from './containers/Store-Content';
 import TeamContent from './containers/Team-Content';
 import ScrollToTop from './components/ScrollToTop'
+import Apply from './components/Apply'
+
 import {
   BrowserRouter as Router,
   Switch,
@@ -35,6 +37,9 @@ class App extends React.Component {
             </Route>
             <Route path="/teams">
               <TeamContent />
+            </Route>
+            <Route path="/apply">
+              <Apply />
             </Route>
           </Switch>
         </div>

@@ -1,0 +1,18 @@
+.apply-page {
+    margin-top: 8vh;
+    height: 92vh;
+    width: 92vw;
+    
+}
+
+#application-text {
+    margin-top: 10vh;
+    font-size: 400%;
+    margin-left: 5vw;
+}
+
+#contact-email {
+    font-size: 150%;
+    width: 60vw;
+    margin-left: 10vw;
+}

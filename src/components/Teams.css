@@ -66,6 +66,16 @@
   line-height: .8;
 }
 
+#r6 {
+  margin-top: 0;
+  height: 10vh;
+}
+
+#rl {
+  margin-top: 0;
+  height: 10vh; 
+}
+
 .valorant {
   font-size: 1.8vh;
   z-index: 0;
@@ -106,6 +116,13 @@
   text-decoration: none;
   font-weight: 600;
 }
+
+.player-list-players {
+  position: relative;
+  top: 5vh;
+  font-size: 2vh;
+}
+
 
 .player:hover {
   cursor: pointer;
