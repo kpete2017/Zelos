@@ -1,12 +1,9 @@
 import React from 'react'
 import './About-Page.css'
-// import WeirdFace from '../assets/placeholder.png'
 import Fade from 'react-reveal/Fade';
 import logo from '../assets/Zelos2.png'
 
-// import Twitch from '../components/Twitch'
-
-export default function AboutContent(props) {
+export default function AboutContent() {
     let width = window.innerWidth;
     if (width > 768) {
         return(
@@ -47,17 +44,9 @@ export default function AboutContent(props) {
                 </Fade>
                 <Fade bottom>
                     <div className="company-info">
-                        <div className="background-black">
-                            <h2 id="current-games">Current Games we participate in</h2>
-                            <div className="games">
-                                <p class="game-tag">Tom Clancy's Rainbow Six Siege</p>
-                                <p class="game-tag">Rocket League</p>
-                                <p class="game-tag">Valorant</p>
-                            </div>
-                            <h2 className = "contact-info">Contact</h2>
-                            <div id="contact-about">
-                                <p class="email-tag">Email: ZelosCompete@gmail.com</p>
-                            </div>
+                        <h2 className = "contact-info">Contact</h2>
+                        <div id="contact-about">
+                            <p className="email-tag">Email: ZelosCompete@gmail.com</p>
                         </div>
                     </div>
                 </Fade>
@@ -97,20 +86,7 @@ export default function AboutContent(props) {
                         </div>
                     </div>
                 </div>
-                <div className="company-info">
-                    <div className="background-black">
-                        <h2 id="current-games">Current Games we participate in</h2>
-                        <div className="games">
-                            <p class="game-tag">Tom Clancy's Rainbow Six Siege</p>
-                            <p class="game-tag">Rocket League</p>
-                            <p class="game-tag">Valorant</p>
-                        </div>
-                        <h2 className = "contact-info">Contact</h2>
-                        <div id="contact-about">
-                            <p class="email-tag">Email: ZelosCompete@gmail.com</p>
-                        </div>
-                    </div>
-                </div>
+        
             </div>
         )
     }

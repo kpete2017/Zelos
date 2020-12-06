@@ -17,6 +17,9 @@ export default class about extends React.Component {
     render() {
         let width = window.innerWidth;
         if (width > 768) {
+            let linkOne = "https://www.youtube.com/embed/cQCejSske2Q?rel=0;&autoplay=1&controls=0&mute=1&loop=1&showinfo=0&modestbranding=1&playlist=cQCejSske2Q";
+            let linkTwo = "https://www.youtube.com/embed/ls_bjbYZZv8?rel=0;&autoplay=1&controls=0&mute=1&loop=1&showinfo=0&modestbranding=1&playlist=ls_bjbYZZv8";
+            let linkThree = "https://www.youtube.com/embed/jisAkfpszHA?rel=0;&autoplay=1&controls=0&mute=1&loop=1&showinfo=0&modestbranding=1&playlist=jisAkfpszHA";
             return(
                 <>
                 <div id="container">
@@ -37,21 +40,18 @@ export default class about extends React.Component {
                             </div>
                             <div className="videos">
                                 <iframe width="320" height="240" id="rl1"
-                                        title="rl1"
                                         frameBorder="0" 
-                                        src="https://www.youtube.com/embed/cQCejSske2Q?rel=0;&autoplay=1&controls=0&mute=1&loop=1&showinfo=0&modestbranding=1&playlist=cQCejSske2Q"
+                                        src={linkOne}
                                         >
                                 </iframe>
                                 <iframe width="320" height="240" id="rl2"
-                                        title="rl2"
                                         frameBorder="0" 
-                                        src="https://www.youtube.com/embed/ls_bjbYZZv8?rel=0;&autoplay=1&controls=0&mute=1&loop=1&showinfo=0&modestbranding=1&playlist=ls_bjbYZZv8"
+                                        src={linkTwo}
                                         >
                                 </iframe>
                                 <iframe width="320" height="240" id="rl3"
-                                        title="rl3"
                                         frameBorder="0"
-                                        src="https://www.youtube.com/embed/jisAkfpszHA?rel=0;&autoplay=1&controls=0&mute=1&loop=1&showinfo=0&modestbranding=1&playlist=jisAkfpszHA"
+                                        src={linkThree}
                                         >
                                 </iframe>
                             </div>

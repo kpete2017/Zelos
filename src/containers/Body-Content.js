@@ -8,8 +8,6 @@ import Sponsor from '../components/Sponsor'
 import Sidebar from '../components/Sidebar'
 import FooterContent from './Footer-Content'
 
-// import Twitch from '../components/Twitch'
-
 export default class BodyContent extends React.Component {
 
     render() {

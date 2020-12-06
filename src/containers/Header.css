@@ -34,11 +34,6 @@ header {
   transition: var(--transition-speed);
 }
 
-.title-card > img:hover {
-  background-color: var(--bg-primary);
-  cursor: pointer;
-}
-
 #nav-item{
   transition: 1s;
   padding-left: 1rem;
@@ -54,7 +49,6 @@ header {
 
 #nav-item:hover {
   color: var(--text-secondary);
-  background-color: var(--bg-primary);
   transition: var(--transition-speed);
   cursor: pointer;
 } 

@@ -25,17 +25,17 @@ export default class Sidebar extends React.Component {
     render() {
         return(
             <div className="sidebar">
-                <div class="dot">
-                    <li onClick={() => this.handleScrollClick("title")}><span class="dot-text">Title</span></li>
+                <div className="dot">
+                    <li onClick={() => this.handleScrollClick("title")}><span className="dot-text">Title</span></li>
                 </div>
-                <div class="dot">
-                    <li onClick={() => this.handleScrollClick("about")}><span class="dot-text">About</span></li>
+                <div className="dot">
+                    <li onClick={() => this.handleScrollClick("about")}><span className="dot-text">About</span></li>
                 </div>
-                <div class="dot">
-                    <li onClick={() => this.handleScrollClick("store")}><span class="dot-text">Store</span></li>
+                <div className="dot">
+                    <li onClick={() => this.handleScrollClick("store")}><span className="dot-text">Store</span></li>
                 </div>
-                <div class="dot">
-                    <li onClick={() => this.handleScrollClick("team")}><span class="dot-text">The Elite</span></li>
+                <div className="dot">
+                    <li onClick={() => this.handleScrollClick("team")}><span className="dot-text">The Elite</span></li>
                 </div>
             </div>
         )

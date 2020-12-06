@@ -9,15 +9,14 @@ import { Link } from "react-router-dom";
 import './Header.css'
 
 export default class HeaderContent extends React.Component {
-
-
+    
     render() {
         let width = window.innerWidth;
         if (width > 768) {
             return(
                 <header>
                     <div className="title-card">
-                        <img id="zelos-header-logo" src={logo} width="200" height="50" alt="Zelos Esports" onClick={() => this.props.titlePage()}></img>
+                        <img id="zelos-header-logo" src={logo} width="200" height="50" alt="Zelos Esports"></img>
                     </div>
                     <div className="nav">
                         <Link to="/" id="nav-item">Home</Link>
@@ -36,9 +35,9 @@ export default class HeaderContent extends React.Component {
             return(
                 <header id="mobile-header">
                     <div className="title-card">
-                        <img id="zelos-header-logo" src={logo} width="200" height="50" alt="Zelos Esports" onClick={() => this.props.titlePage()}></img>
+                        <img id="zelos-header-logo" src={logo} width="200" height="50" alt="Zelos Esports"></img>
                     </div>
-                    <div class="hamburger">
+                    <div className="hamburger">
                         <MobielNav />
                     </div>
                 </header>

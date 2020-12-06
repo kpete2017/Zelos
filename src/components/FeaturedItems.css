@@ -7,70 +7,44 @@
   box-shadow: 5px 5px 15px rgba(0,0,0,0.9);
 }
 
-#merch-soming-soon-home-page {
-  width: 90vw;
-  height: 15vh;
-  margin-top: -4vh;
-}
-
 .black-background {
   height: 50vh;
   background-color: rgba(14, 14, 14, .8);
 }
 
-.featured-items {
-  display: flex;
-  justify-content: space-evenly;
+#featured-item-title-text {
+  padding-top: 7rem;
+  margin: 0 auto;
+  margin-top: 5rem;
+  text-align: center;
+  font-size: 3rem;
 }
 
-.item-section {
+#shop-now {
+  margin: 0 auto;
+  margin-top: 5rem;
+  text-align: center;
+  background-color: var(--bg-primary);
+  width: 20rem;
+  border-radius: 4px;
+  box-shadow: 5px 5px 15px rgba(0,0,0,0.9);
+  font-size: 2rem;
+  transition: 500ms;
+}
+
+#shop-now a {
+  text-decoration: none;
+  color: var(--text-primary);
+}
+
+#shop-now:hover {
+  color: var(--text-secondary);
+  transform: scale(1.05);
+  transition: 500ms;
   cursor: pointer;
-  background-color: var(--bg-primary);
 }
-
-.featured-item {
-  line-height: 1;
-  background-color: var(--bg-primary);
-  transition: 400ms;
-}
-
-.coming-soon-placeholder{
-  justify-content: center;
-  margin-top: 11.5rem;
-}
-
-#purchase-button {
-  padding: .3rem;
-  font-size: 1rem;
-  margin-left: 10rem;
-  margin-right: 2rem;
-  text-align: center;
-  background-color: var(--bg-primary);
-}
-
-#purchase-button:hover {
-  transition: 400ms;
-  cursor: pointer;
-  background-color: black;
-}
-
-#team-speak {
-  text-align: center;
-}
-
-.item-desc {
-  text-align: center;
-}
-
 
 @media only screen and (max-width: 600px) { 
-
-  #merch-soming-soon-home-page {
-    width: 90vw;
-    height: 6vh;
-    margin-top: -7vh;
-  }
-
   .store-section {
     background-image: url("../assets/rainbow-mobile.jpg");
     background-size: contain;
@@ -78,6 +52,5 @@
     height: 50vh;
     width: 100%;
     box-shadow: 5px 5px 15px rgba(0,0,0,0.9);
-  }
-  
+  }  
 }

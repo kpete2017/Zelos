@@ -12,7 +12,6 @@ export default function RainbowTeam() {
                     <h1 id="header-game-title">Tom Clancy's Rainbow Six Siege</h1>
                 </div>
             </div>
-            <h4 className="players-r6">Players</h4>
             <div className="r6team">
             <div id="player-card">
                     <div className="column1">

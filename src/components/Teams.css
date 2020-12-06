@@ -126,7 +126,7 @@
 
 .player:hover {
   cursor: pointer;
-  color: goldenrod;
+  color:  hsla(360, 100%, 40%, 1);
 }
 
 #captain {

@@ -20,9 +20,9 @@ export default function teams(props) {
                                 <br/>
                                 <br/>
                                 <h1 id="rl">Rocket League</h1>
-                                <div class="player-list-players">
+                                <div className="player-list-players">
                                     <br/>
-                                    <Link to="/teams" className="player" id="captain">Joeyang</Link>
+                                    <Link to="/teams" className="player">Joeyang</Link>
                                     <br/>
                                     <br/>
                                     <Link to="/teams" className="player">ReedTheZephyr</Link>
@@ -45,7 +45,7 @@ export default function teams(props) {
                             <h1 id="r6">Tom Clancy's Rainbow Six Siege</h1>
                             <div className="player-list-players">
                                 <br/>
-                                <Link to="/teams" className="player" id="captain">Spooman -  Flex</Link>
+                                <Link to="/teams" className="player" >Spooman -  Flex</Link>
                                 <br/>
                                 <br/>
                                 <Link to="/teams" className="player">IanMoments - Fragger</Link>
@@ -66,30 +66,6 @@ export default function teams(props) {
                                 <br/>
                                  <Link to="/teams" className="player">Ace - Sub</Link>
                                 <br/>
-                            </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div className="team-valorant">
-                        <div className="valorant">
-                            <div className="valorant-black-background">
-                            <br/>
-                            <br/>
-                            <h1 id="r6">Valorant</h1>
-                            <div className="player-list-players">
-                                <br/>
-                                <div className="player" id="captain" >Patch</div>
-                                <br/>
-                                 <Link to="/teams" className="player">Ceuos</Link>
-                                <br/>
-                                <br/>
-                                 <Link to="/teams" className="player">Werd</Link>
-                                <br/>
-                                <br/>
-                                 <Link to="/teams" className="player">Cade</Link>
-                                <br/>
-                                <br/>
-                                 <Link to="/teams" className="player">q.</Link>
                             </div>
                             </div>
                         </div>

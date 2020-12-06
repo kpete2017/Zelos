@@ -9,7 +9,6 @@ export default function RocketTeam(props) {
             <div className="header-banner2" ref={props.refProp} id="rl-banner">
                 <h1>Rocket League</h1>
             </div>
-            <h4 className="players-r6">Players</h4>
             <div className="rlteam">
                 <div id="player-card">
                     <div className="column1">

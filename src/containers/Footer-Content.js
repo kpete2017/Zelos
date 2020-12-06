@@ -36,13 +36,12 @@ export default class FooterContent extends React.Component {
                         <p onClick={this.handleAboutClick}>About</p>
                         <p><Link to="/about" className="footer-link">Contact</Link></p>
                         <p><Link to="/about" className="footer-link">Become a partner</Link></p>
-                        <p><Link to="/about" className="footer-link">Store</Link></p>
+                        <p><Link to="/store" className="footer-link">Store</Link></p>
                     </div>
                     <div className ="team-footer">
                         <h4>TEAMS</h4>
                         <p><Link to="/teams" className="footer-link">Rocket League</Link></p>
                         <p><Link to="/teams" className="footer-link">Tom Clancy's Rainbow Six Siege</Link></p>
-                        <p><Link to="/teams" className="footer-link">Valorant</Link></p>
                     </div>
                     <div className="social">
                         <h4>SOCIAL</h4>
@@ -67,7 +66,6 @@ export default class FooterContent extends React.Component {
                         <h4>TEAMS</h4>
                         <p>Rocket League</p>
                         <p>Tom Clancy's Rainbow Six Siege</p>
-                        <p>Valorant</p>
                     </div>
                     <div className="social">
                         <h4>SOCIAL</h4>

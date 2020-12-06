@@ -5,6 +5,10 @@
     max-width: 100vw;
 }
 
+.company-info {
+    margin-left: 5rem;
+}
+
 .people:last-child {
     margin-right: 2vw;
 }
@@ -13,33 +17,6 @@
     height: 60vh;
     margin-left: 5vw;
 }
-
-.company-info {
-    background-image: url("../assets/rl-background.jpg");
-    background-size: cover;
-    background-attachment: fixed;
-    background-color: rgba(14, 14, 14, .8);
-    height:62vh;
-    margin-top: -2vh;
-}
-
-.background-black {
-    height:62vh;
-    background-color: rgba(14, 14, 14, .8);
-}
-
-.company-info h2 {
-    position: relative;
-    top: 3vh;
-    margin-left: 2vw;
-}
-
-.company-info p {
-    position: relative;
-    top: 2vh;
-    margin-left: 4vw;
-}
-
 .founders-section {
     height: 60vh;
     padding: 3.2vw;
@@ -112,21 +89,6 @@
     margin-top: 6vh;
 }
 
-.email-tag {
-    margin-top: 4vh;
-}
-
-#mailing {
-    margin-left: 2vw;
-}
-
-#contact-about {
-    margin-left: 2vw;
-}
-
-.contact-info{
-    margin-top: 1vh;
-}
 
 @media only screen and (max-width: 700px) { 
 
@@ -186,98 +148,4 @@
         font-size: 4vw;
     }
 
-    .company-info {
-        background-image: url("../assets/mobile-about-page-wallpaper.jpg");
-        background-size: contain;
-        background-repeat: no-repeat;
-        background-position: bottom;
-        width: 100vw;
-        height: 90vh;
-        margin-bottom: 5vh;
-        margin: 0 auto;
-    }
-
-    .background-black {
-        height: 90vh;
-        background-color: rgba(14, 14, 14, .4);
-
-    }
-
 }
-
-/* @media only screen and (max-width: 1050px) {
-
-    .company-info {
-        margin-top: 5rem;
-    }
-
-    .people {
-        font-size: 10px;
-    }
-}
-
-@media only screen and (max-width: 800px) {
-
-
-    .company-info {
-        margin-top: 5rem;
-    }
-
-    .business {
-        justify-content: left;
-        overflow: auto;
-    }
-}
-
-@media only screen and (max-width: 752px) {
-    .about-page h4 {
-        width: 20rem;
-    }
-    .about-page{
-        height: 70rem;
-    }
-}
-
-@media only screen and (max-width: 500px) {
-
-    .about-page h1 {
-        font-size: 20px;
-    }
-
-    .business {
-        margin-left: -5rem;
-        margin-right: -5rem;
-        right: 5rem;
-    }
-
-    .about-page h4 {
-        font-size: 12px;
-        width: 20rem;
-    }
-
-    .about-page{
-        height: 40rem;
-    }
-
-    #about-zelos-text{
-        margin-top: 1rem;
-        margin-left: 2rem;
-    }
-
-    #what-is-zelos{
-        position: relative;
-        right: 6rem;
-    }
-
-    #founders-text{
-        position: relative;
-        right: 6rem;
-        margin-top: 3rem;
-    }
-
-    .about-page p {
-        line-height: 1;
-    }
-} */
-
-
