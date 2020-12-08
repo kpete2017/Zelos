@@ -42,10 +42,14 @@ export default class TeamContent extends React.Component {
                             <h2>Rainbow Six Team</h2>
                         </div>
                     </div>
-                    <RainbowTeam />
+                    <RainbowTeam 
+                        team={this.props.team}
+                    />
                     <br/>
                     <br/>
-                    <RocketTeam />
+                    <RocketTeam 
+                        team={this.props.team}
+                    />
                     <br/>
                     <br/>
                     <FooterContent />

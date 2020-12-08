@@ -21,13 +21,29 @@ import {
 class App extends React.Component {
 
   state = {
-    isLoading: true
+    isLoading: true,
+    homeResults: [],
+    aboutResults: [],
+    teamResults: []
   }
 
   componentDidMount() {
+
+    fetch("http://localhost:3001/homes")
+      .then(response => response.json())
+      .then(results => this.setState({homeResults: results[0]}))
+
+    fetch("http://localhost:3001/abouts")
+      .then(response => response.json())
+      .then(results => this.setState({aboutResults: results[0]}))
+
+    fetch("http://localhost:3001/teams")
+      .then(response => response.json())
+      .then(results => this.setState({teamResults: results[0]}))
+
     setTimeout(() => {
       this.setState({isLoading: false});
-    }, 3000)
+    }, 2000)
   }
 
   render() {
@@ -47,17 +63,22 @@ class App extends React.Component {
             <Switch>
               <Route exact path="/">
                 <BodyContent 
+                home={this.state.homeResults}
                 aboutPage={this.handleAboutPage}
                 teamPage={this.handleTeamPage}/>
               </Route>
               <Route path="/about">
-                <AboutContent />
+                <AboutContent 
+                about={this.state.aboutResults}
+                />
               </Route>
               <Route path="/store">
                 <StoreContent />
               </Route>
               <Route path="/teams">
-                <TeamContent />
+                <TeamContent 
+                  team={this.state.teamResults}
+                />
               </Route>
               <Route path="/apply">
                 <Apply />

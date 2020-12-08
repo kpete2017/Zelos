@@ -1,8 +1,9 @@
 import React from 'react'
-import logo from '../assets/Zelos_Denver_Hue.png'
 import './Store-Page.css'
-import Fade from 'react-reveal/Fade';
 import FooterContent from './Footer-Content'
+import ItemOne from '../components/ItemOne'
+import ItemTwo from '../components/ItemTwo'
+import ItemThree from '../components/ItemThree'
 
 
 export default class StoreContent extends React.Component {
@@ -11,21 +12,27 @@ export default class StoreContent extends React.Component {
         let width = window.innerWidth;
         if (width > 768) {
             return(
-                <Fade>
-                <div className="store-page2">
-                    <div className="black-background2">
-                        <div className="store-background-section">
-                            <div className="store-images">
-                                <h1>Images Carosel</h1>
-                            </div>
-                            <div className="store-checkout">
-                                <h1>checkout Area</h1>
+                <>
+                    <div className="store-page2">
+                        <div className="black-background2">
+                            <div className="store-background-section">
+                                <div className="item_one">
+                                    <h1>item 1</h1>
+                                    <ItemOne />
+                                </div>
+                                <div className="item_two">
+                                    <h1>item 2</h1>
+                                    <ItemTwo />
+                                </div>
+                                <div className="item_three">
+                                    <h1>item 3</h1>
+                                    <ItemThree />
+                                </div>
                             </div>
                         </div>
                     </div>
-                </div>
-                <FooterContent />
-                </Fade>
+                    <FooterContent />
+                </>
             )
         }  else {
             return (

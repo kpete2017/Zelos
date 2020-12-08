@@ -4,6 +4,7 @@
   display: flex;
   justify-content: space-evenly;
   width: 100%;
+  overflow: auto;
 }
 
 .team-r6 {

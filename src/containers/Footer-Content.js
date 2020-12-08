@@ -17,6 +17,14 @@ export default class FooterContent extends React.Component {
         });
     }
 
+    handleOnInstaClick = () => {
+        window.open('https://www.instagram.com/zeloscompete/')
+    }
+
+    handleOnTwitterClick = () => {
+        window.open('https://twitter.com/ZelosCompete')
+    }
+
     getOffset = (el) => {
         const rect = el.getBoundingClientRect();
         return {
@@ -45,8 +53,8 @@ export default class FooterContent extends React.Component {
                     </div>
                     <div className="social">
                         <h4>SOCIAL</h4>
-                        <p onClick={this.handleOnInstaClick}>Instagram</p>
-                        <p onClick={this.handleOnTwitterClick}>Twitter</p>
+                        <p onClick={() => this.handleOnInstaClick()}>Instagram</p>
+                        <p onClick={() => this.handleOnTwitterClick()}>Twitter</p>
                     </div>
                     <img id="zelos-footer-logo" height="400" width="600"src={logo} alt="Zelos Esports"></img>
                 </div>
@@ -69,8 +77,8 @@ export default class FooterContent extends React.Component {
                     </div>
                     <div className="social">
                         <h4>SOCIAL</h4>
-                        <p onClick={window.open('https://www.instagram.com/zeloscompete/')}>Instagram</p>
-                        <p onClick={window.open('https://twitter.com/ZelosCompete')}>Twitter</p>
+                        <p onClick={() => this.handleOnInstaClick()}>Instagram</p>
+                        <p onClick={() => this.handleOnTwitterClick()}>Twitter</p>
                     </div>
                 </div>
             )

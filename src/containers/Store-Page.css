@@ -17,19 +17,30 @@
   text-align: center;
   opacity: 0.9;
   display: grid;
-  grid-template-columns: 1fr 1fr;
-  grid-template-areas: "right left";
-  text-decoration: underline;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-areas: "right middle left";
 }
 
-.store-images {
+.item-one {
   grid-area: right;
-  border-right: 1px solid white;
 }
 
-.store-checkout {
+.store-background-section h4 {
+  background-color: var(--bg-secondary);
+  width: 20rem;
+  margin: 0 auto;
+}
+
+.store-background-section h4:hover {
+  cursor: pointer;
+}
+
+.item-two {
+  grid-area: middle;
+}
+
+.item-three {
   grid-area: left;
-  border-left: 1px solid white;
 }
 
 .black-background2{

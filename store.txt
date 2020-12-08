@@ -1,0 +1,26 @@
+return(
+        <>
+            <div className="store-page2">
+                <div className="black-background2">
+                    <div className="store-background-section">
+                        
+                        <div className="item_two">
+                            <h1>item 2</h1>
+                            <img height="350" width="400"src={demo} alt="Zelos Esports"></img>
+                            <p>Short Desc</p>
+                            <p>$60</p>
+                            <h4>Purchase</h4>
+                        </div>
+                        <div className="item_three">
+                            <h1>item 3</h1>
+                            <img height="350" width="400"src={demo} alt="Zelos Esports"></img>
+                            <p>Short Desc</p>
+                            <p>$60</p>
+                            <h4>Purchase</h4>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <FooterContent />
+        </>
+    )
