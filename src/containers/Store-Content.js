@@ -16,16 +16,16 @@ export default class StoreContent extends React.Component {
                     <div className="store-page2">
                         <div className="black-background2">
                             <div className="store-background-section">
-                                <div className="item_one">
-                                    <h1>Zelos Jersey</h1>
+                                <div className="item-one">
+                                    <h1>Jersey</h1>
                                     <ItemOne />
                                 </div>
-                                <div className="item_two">
-                                    <h1>Zelos Windbreaker</h1>
+                                <div className="item-two">
+                                    <h1>Windbreaker</h1>
                                     <ItemTwo />
                                 </div>
-                                <div className="item_three">
-                                    <h1>Zelos Long Sleeve</h1>
+                                <div className="item-three">
+                                    <h1>Long Sleeve</h1>
                                     <ItemThree />
                                 </div>
                             </div>

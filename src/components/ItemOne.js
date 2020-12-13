@@ -1,13 +1,19 @@
 import React from 'react';
 import { loadStripe } from '@stripe/stripe-js';
-import demo from '../assets/jersey_back.png'
-import './ItemOne.css'
+import SimpleImageSlider from "react-simple-image-slider";
+import './items.css'
 
 const stripePromise = loadStripe('pk_live_51HvTH9BzBvvjMwb2ZxV2DjniRbTrNMrYskiWWoPbTqfXlxJyvqefA6hIkHBuV2MkYavx4nCWmG4edhM6aRN04tO300uz6oNXiJ');
 
+const images = [
+  { url: "https://i.imgur.com/wY6bwqM.png" },
+  { url: "https://i.imgur.com/MvFVGR5.png" }
+];
+
+
 const Checkout = () => {
 
-  const handleClick = async (event) => {
+  const handleClick = async () => {
     const stripe = await stripePromise;
     await stripe.redirectToCheckout({
       lineItems: [{
@@ -24,10 +30,18 @@ const Checkout = () => {
   };
   return (
     <div className="sr-root">
-      <img id="jersey_image" src={demo} alt="Zelos Esports"></img>
-      <button role="link" onClick={handleClick}>
-        Checkout
-      </button>
+      <p>Estimated ship time: 2 weeks</p>
+      <h4 className="submit-button" role="link" onClick={handleClick}>
+        Buy 60$
+      </h4>
+      <SimpleImageSlider
+        style={{margin: ".5rem"}}
+        height="60%"
+        width="32%"
+        images={images}
+        showNavs={true}
+        showBullets={true}
+      />
     </div>
   );
 };

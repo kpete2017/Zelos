@@ -1,0 +1,15 @@
+.slider {
+    height: "80%";
+    width: "80%"
+}
+
+.submit-button {
+    position: relative;
+    bottom: 90%;
+    transition: 400ms;
+}
+
+.submit-button:hover {
+    filter: brightness(150%);
+    transition: 400ms;
+}

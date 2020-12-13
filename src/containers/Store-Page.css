@@ -21,10 +21,6 @@
   grid-template-areas: "right middle left";
 }
 
-.item-one {
-  grid-area: right;
-}
-
 .store-background-section h4 {
   background-color: var(--bg-secondary);
   width: 20rem;
@@ -35,11 +31,18 @@
   cursor: pointer;
 }
 
+.item-one {
+  width: 100%;
+  grid-area: right;
+}
+
 .item-two {
+  width: 100%;
   grid-area: middle;
 }
 
 .item-three {
+  width: 100%;
   grid-area: left;
 }
 
