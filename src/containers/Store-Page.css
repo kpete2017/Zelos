@@ -60,7 +60,7 @@
   background-color: rgba(14, 14, 14, .8);
 }
 
-@media only screen and (max-width: 1000px) { 
+@media only screen and (max-width: 800px) { 
 
   .store-page2 {
     overflow: auto;

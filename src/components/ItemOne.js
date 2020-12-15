@@ -80,7 +80,7 @@ const Checkout = ({store}) => {
       </h4>
       {width > 800 ? 
         <SimpleImageSlider
-        style={{margin: ".5rem", }}
+        style={{margin: ".5rem"}}
         height="60%"
         width="32%"
         images={images}

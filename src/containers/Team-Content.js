@@ -28,8 +28,6 @@ export default class TeamContent extends React.Component {
         };
     }
 
-
-
     render() {
         return(
             <Fade>

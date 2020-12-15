@@ -47,7 +47,7 @@ const Checkout = ({store}) => {
           quantity: 1,
         }],
         mode: 'payment',
-        successUrl: 'https://www.zelosesports.com/',
+        successUrl: 'https://www.zelosesports.com/success',
         cancelUrl: 'https://www.zelosesports.com/store',
         shippingAddressCollection: {
           allowedCountries: ['US', 'CA'],
@@ -86,9 +86,8 @@ const Checkout = ({store}) => {
         showBullets={true}
         />
       :
-        null
-      }
       <img alt="Zelos Esports" height="50%" width="95%" style={{marginTop: "10%"}} src={images[0].url}/>
+      }
     </div>
   );
   

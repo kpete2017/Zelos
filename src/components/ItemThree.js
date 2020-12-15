@@ -48,7 +48,7 @@ const Checkout = ({store}) => {
           quantity: 1,
         }],
         mode: 'payment',
-        successUrl: 'https://www.zelosesports.com/',
+        successUrl: 'https://www.zelosesports.com/success',
         cancelUrl: 'https://www.zelosesports.com/store',
         shippingAddressCollection: {
           allowedCountries: ['US', 'CA'],

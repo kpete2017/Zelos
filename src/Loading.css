@@ -5,3 +5,14 @@
     transform: translate(-50%, -50%);
     text-align: center;
 }
+
+
+@media only screen and (max-width: 1000px) { 
+    #zelos-loading-logo {
+        position: absolute;
+        top: 30%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        text-align: center;
+    }
+}

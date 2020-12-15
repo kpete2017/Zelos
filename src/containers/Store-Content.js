@@ -36,7 +36,8 @@ export default class StoreContent extends React.Component {
                         </div>
                     </div>
                 </div>
-                {width > 800 ? <FooterContent /> : null}
+                {/* Footer Has issues on the store screen within mobile view heights */}
+                {width > 800 ? <FooterContent /> : null} 
             </>
         )
     }

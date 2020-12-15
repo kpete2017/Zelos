@@ -7,7 +7,7 @@ import AboutContent from './containers/About-Content'
 import StoreContent from './containers/Store-Content';
 import TeamContent from './containers/Team-Content';
 import ScrollToTop from './components/ScrollToTop'
-import Apply from './components/Apply'
+import Success from './components/Success'
 import logo from './assets/Zelos_Denver_Hue.png'
 
 
@@ -26,21 +26,16 @@ class App extends React.Component {
   }
 
   componentDidMount() {
-
     fetch("https://zelos-backend.herokuapp.com/zelos")
       .then(response => response.json())
-      .then(result => this.setState({results: result[0]}))
-
-    setTimeout(() => {
-      this.setState({isLoading: false});
-    }, 2000)
+      .then(result => this.setState({results: result[0], isLoading: false}))
   }
 
   render() {
     if(this.state.isLoading) {
       return(
         <div id="zelos-loading-logo">
-          <img height="400" width="600"src={logo} alt="Zelos Esports"></img>
+          <img height="300" width="400"src={logo} alt="Zelos Esports"></img>
           <h1>Loading...</h1>
         </div>
       )
@@ -73,8 +68,8 @@ class App extends React.Component {
                   team={this.state.results}
                 />
               </Route>
-              <Route path="/apply">
-                <Apply />
+              <Route path="/success">
+                <Success />
               </Route>
             </Switch>
           </div>
