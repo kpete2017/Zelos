@@ -36,53 +36,28 @@ export default class FooterContent extends React.Component {
     render() {
 
         let width = window.innerWidth;
-        if (width > 768) {
-            return (
-                <div className="footer">
-                    <div className="company">
-                        <h4>COMPANY</h4>
-                        <p onClick={this.handleAboutClick}>About</p>
-                        <p><Link to="/about" className="footer-link">Contact</Link></p>
-                        <p><Link to="/about" className="footer-link">Become a partner</Link></p>
-                        <p><Link to="/store" className="footer-link">Store</Link></p>
-                    </div>
-                    <div className ="team-footer">
-                        <h4>TEAMS</h4>
-                        <p><Link to="/teams" className="footer-link">Rocket League</Link></p>
-                        <p><Link to="/teams" className="footer-link">Tom Clancy's Rainbow Six Siege</Link></p>
-                    </div>
-                    <div className="social">
-                        <h4>SOCIAL</h4>
-                        <p onClick={() => this.handleOnInstaClick()}>Instagram</p>
-                        <p onClick={() => this.handleOnTwitterClick()}>Twitter</p>
-                    </div>
-                    <img id="zelos-footer-logo" height="400" width="600"src={logo} alt="Zelos Esports"></img>
+        return (
+            <div className="footer">
+                <div className="company">
+                    <h4>COMPANY</h4>
+                    <p onClick={this.handleAboutClick}>About</p>
+                    <p><Link to="/about" className="footer-link">Contact</Link></p>
+                    <p><Link to="/about" className="footer-link">Become a partner</Link></p>
+                    <p><Link to="/store" className="footer-link">Store</Link></p>
                 </div>
-            )
-        } else {
-            return (
-                <div className="footer">
-                    <div className="company">
-                        <h4>COMPANY</h4>
-                        <p onClick={this.handleAboutClick}>About</p>
-                        <p><Link to="/about" className="footer-link">Contact</Link></p>
-                        <p><Link to="/about" className="footer-link">Become a partner</Link></p>
-                        <p><Link to="/store" className="footer-link">Store</Link></p>
-                        <p><Link to="/about" className="footer-link">Privacy Policy</Link></p>
-                    </div>
-                    <div className ="team-footer">
-                        <h4>TEAMS</h4>
-                        <p>Rocket League</p>
-                        <p>Tom Clancy's Rainbow Six Siege</p>
-                    </div>
-                    <div className="social">
-                        <h4>SOCIAL</h4>
-                        <p onClick={() => this.handleOnInstaClick()}>Instagram</p>
-                        <p onClick={() => this.handleOnTwitterClick()}>Twitter</p>
-                    </div>
+                <div className ="team-footer">
+                    <h4>TEAMS</h4>
+                    <p><Link to="/teams" className="footer-link">Rocket League</Link></p>
+                    <p><Link to="/teams" className="footer-link">Tom Clancy's Rainbow Six Siege</Link></p>
                 </div>
-            )
-        }
+                <div className="social">
+                    <h4>SOCIAL</h4>
+                    <p onClick={() => this.handleOnInstaClick()}>Instagram</p>
+                    <p onClick={() => this.handleOnTwitterClick()}>Twitter</p>
+                </div>
+                {width > 800 ? <img  id="zelos-footer-logo" height="400" width="600"src={logo} alt="Zelos Esports"/> : null}
+            </div>
+        )
     }
     
 }

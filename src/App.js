@@ -22,24 +22,14 @@ class App extends React.Component {
 
   state = {
     isLoading: true,
-    homeResults: [],
-    aboutResults: [],
-    teamResults: []
+    results: []
   }
 
   componentDidMount() {
 
-    fetch("http://localhost:3001/homes")
+    fetch("https://zelos-backend.herokuapp.com/zelos")
       .then(response => response.json())
-      .then(results => this.setState({homeResults: results[0]}))
-
-    fetch("http://localhost:3001/abouts")
-      .then(response => response.json())
-      .then(results => this.setState({aboutResults: results[0]}))
-
-    fetch("http://localhost:3001/teams")
-      .then(response => response.json())
-      .then(results => this.setState({teamResults: results[0]}))
+      .then(result => this.setState({results: result[0]}))
 
     setTimeout(() => {
       this.setState({isLoading: false});
@@ -63,21 +53,24 @@ class App extends React.Component {
             <Switch>
               <Route exact path="/">
                 <BodyContent 
-                home={this.state.homeResults}
-                aboutPage={this.handleAboutPage}
-                teamPage={this.handleTeamPage}/>
+                  home={this.state.results}
+                  aboutPage={this.handleAboutPage}
+                  teamPage={this.handleTeamPage}
+                />
               </Route>
               <Route path="/about">
                 <AboutContent 
-                about={this.state.aboutResults}
+                  about={this.state.results}
                 />
               </Route>
               <Route path="/store">
-                <StoreContent />
+                <StoreContent 
+                  store={this.state.results}
+                />
               </Route>
               <Route path="/teams">
                 <TeamContent 
-                  team={this.state.teamResults}
+                  team={this.state.results}
                 />
               </Route>
               <Route path="/apply">

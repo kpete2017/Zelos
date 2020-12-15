@@ -20,6 +20,10 @@ export default class BodyContent extends React.Component {
                     aboutPage={this.props.aboutPage}
                     title={this.props.home.about_title}
                     desc={this.props.home.about_desc}
+                    link_one={this.props.home.link_one}
+                    link_two={this.props.home.link_two}
+                    link_three={this.props.home.link_three}
+
                 />
                 <FeaturedItems />
                 {/* <Schedule /> */}
@@ -27,7 +31,7 @@ export default class BodyContent extends React.Component {
                     teamPage={this.props.teamPage}
                     home={this.props.home}
                 />
-                <Sponsor />
+                <Sponsor home={this.props.home}/>
                 <Sidebar />
                 <FooterContent />
             </div>

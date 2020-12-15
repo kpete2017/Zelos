@@ -10,44 +10,34 @@ export default class StoreContent extends React.Component {
 
     render() {
         let width = window.innerWidth;
-        if (width > 768) {
-            return(
-                <>
-                    <div className="store-page2">
-                        <div className="black-background2">
-                            <div className="store-background-section">
-                                <div className="item-one">
-                                    <h1>Jersey</h1>
-                                    <ItemOne />
-                                </div>
-                                <div className="item-two">
-                                    <h1>Windbreaker</h1>
-                                    <ItemTwo />
-                                </div>
-                                <div className="item-three">
-                                    <h1>Long Sleeve</h1>
-                                    <ItemThree />
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <FooterContent />
-                </>
-            )
-        }  else {
-            return (
+        return(
+            <>
                 <div className="store-page2">
                     <div className="black-background2">
                         <div className="store-background-section">
-                            <div className="store-section2">
-                                <div className="coming-soon-placeholder-2">
-                                    <h1 id="merch-coming-soon">Merchandise Coming Soon</h1>
-                                </div>
+                            <div className="item-one">
+                                <h1>{this.props.store.item1_name}</h1>
+                                <ItemOne 
+                                    store={this.props.store}
+                                />
+                            </div>
+                            <div className="item-two">
+                                <h1>{this.props.store.item2_name}</h1>
+                                <ItemTwo 
+                                    store={this.props.store}
+                                />
+                            </div>
+                            <div className="item-three">
+                                <h1>{this.props.store.item3_name}</h1>
+                                <ItemThree 
+                                    store={this.props.store}
+                                />
                             </div>
                         </div>
                     </div>
                 </div>
-            )
-        }
+                {width > 800 ? <FooterContent /> : null}
+            </>
+        )
     }
 }

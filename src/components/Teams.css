@@ -33,21 +33,6 @@
   background-color: var(--bg-secondary);
 }
 
-.team-valorant {
-  background-image: url("../assets/valorant-team-background.jpg");
-  background-attachment: fixed;
-  background-size: cover;
-  background-position-x: 33vw;
-  background-position-y: 0;
-  box-shadow: 5px 5px 15px rgba(0,0,0,0.9);
-  line-height: 1;
-  width: 30vw;
-  margin: 2vw;
-  height: 70vh;
-  text-align: center;
-  background-color: var(--bg-secondary);
-}
-
 .rl {
   font-size: 2vh;
   z-index: 0;
@@ -138,7 +123,7 @@
   }
 
   .team-section-area {
-    height: 165vh;
+    height: 110vh;
   }
   .team-rl {
     background-size: 100vh;

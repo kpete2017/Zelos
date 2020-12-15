@@ -11,8 +11,8 @@ export default function FeaturedItems() {
         <div className="store-section" id="store">
             <Fade>
                 <div className="black-background">
-                    <h1 id="featured-item-title-text">Zelos Merchandise</h1>
-                    <h4 id="shop-now"><Link to="/store">Shop Now</Link></h4>
+                    <h1 id="featured-item-title-text">Zelos Merchandise Available Now</h1>
+                    <h4 id="shop-now"><Link to="/store">Shop</Link></h4>
                 </div>
             </Fade>
         </div>

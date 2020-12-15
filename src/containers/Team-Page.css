@@ -98,18 +98,6 @@
     background-repeat: no-repeat;
 }
 
-.header-banner3 {
-    height: 44vh;
-    position: relative;
-    margin: 0 auto;
-    width: 75vw;
-    background-image: url("../assets/valorant-banner.png");
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
-}
-
-
 .gradient-div2 {
     height: 44vh;
     background-color: transparent;

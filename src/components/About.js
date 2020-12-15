@@ -6,10 +6,6 @@ import { Link } from "react-router-dom";
 
 export default class about extends React.Component {
 
-    handleLearnMoreClick = () => {
-        alert("Nothing to learn")
-    }
-
     componentDidMount() {
         window.scrollTo(0, 0)
     }
@@ -17,9 +13,9 @@ export default class about extends React.Component {
     render() {
         let width = window.innerWidth;
         if (width > 768) {
-            let linkOne = "https://www.youtube.com/embed/cQCejSske2Q?rel=0;&autoplay=1&controls=0&mute=1&loop=1&showinfo=0&modestbranding=1&playlist=cQCejSske2Q";
-            let linkTwo = "https://www.youtube.com/embed/ls_bjbYZZv8?rel=0;&autoplay=1&controls=0&mute=1&loop=1&showinfo=0&modestbranding=1&playlist=ls_bjbYZZv8";
-            let linkThree = "https://www.youtube.com/embed/jisAkfpszHA?rel=0;&autoplay=1&controls=0&mute=1&loop=1&showinfo=0&modestbranding=1&playlist=jisAkfpszHA";
+            let linkOne = this.props.link_one;
+            let linkTwo = this.props.link_two;
+            let linkThree = this.props.link_three;
             return(
                 <>
                 <div id="container">

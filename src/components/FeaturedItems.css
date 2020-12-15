@@ -17,7 +17,7 @@
   margin: 0 auto;
   margin-top: 5rem;
   text-align: center;
-  font-size: 3rem;
+  font-size: 2rem;
 }
 
 #shop-now {
@@ -44,7 +44,7 @@
   cursor: pointer;
 }
 
-@media only screen and (max-width: 600px) { 
+@media only screen and (max-width: 700px) { 
   .store-section {
     background-image: url("../assets/rainbow-mobile.jpg");
     background-size: contain;
@@ -53,4 +53,12 @@
     width: 100%;
     box-shadow: 5px 5px 15px rgba(0,0,0,0.9);
   }  
+
+  #featured-item-title-text {
+    margin-top: 0;
+  }
+
+  #shop-now {
+    font-size: 100%;
+  }
 }
