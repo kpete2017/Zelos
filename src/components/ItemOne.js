@@ -7,6 +7,8 @@ const stripePromise = loadStripe('pk_live_51HvTH9BzBvvjMwb2ZxV2DjniRbTrNMrYskiWW
 
 const Checkout = ({store}) => {
 
+  console.log(store)
+
   const images = [
     { url: store.item1_picture1 },
     { url: store.item1_picture2 }
@@ -22,19 +24,19 @@ const Checkout = ({store}) => {
 
       switch(activeSize) {
         case "Small":
-           item = "price_1HyQ34BzBvvjMwb2U198SShN";
+           item = store.item1_small_id;
           break;
         case "Medium":
-          item = "price_1HyQ3RBzBvvjMwb2fCvU7DR3";
+          item = store.item1_med_id;
           break;
         case "Large":
-          item = "price_1HyQ3dBzBvvjMwb2q4ArluQS";
+          item = store.item1_large_id;
           break;
         case "ExtraLarge":
-          item = "price_1HyQ3pBzBvvjMwb276yU4yWM";
+          item = store.item1_xl_id;
           break;
         case "TwoExtraLarge":
-          item = "price_1HyQ40BzBvvjMwb20BLpyvm8"
+          item = store.item1_2xl_id
           break;
         default:
           item = "Error"

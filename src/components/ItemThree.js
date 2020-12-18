@@ -22,19 +22,19 @@ const Checkout = ({store}) => {
 
       switch(activeSize) {
         case "Small":
-           item = "price_1HyPz6BzBvvjMwb2xge1jLZk";
+           item = store.item3_small_id;
           break;
         case "Medium":
-          item = "price_1HyPzOBzBvvjMwb2LZLBSsy8";
+          item = store.item3_med_id;
           break;
         case "Large":
-          item = "price_1HyPzgBzBvvjMwb2cjZGNaiP";
+          item = store.item3_large_id;
           break;
         case "ExtraLarge":
-          item = "price_1HyPzsBzBvvjMwb2NnwxdeuL";
+          item = store.item3_xl_id;
           break;
         case "TwoExtraLarge":
-          item = "price_1HyQ01BzBvvjMwb2CQrh0nwu"
+          item = store.item3_2xl_id;
           break;
         default:
           item = "Error"

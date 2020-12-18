@@ -9,6 +9,7 @@ import TeamContent from './containers/Team-Content';
 import ScrollToTop from './components/ScrollToTop'
 import Success from './components/Success'
 import logo from './assets/Zelos_Denver_Hue.png'
+import Lookbook from './containers/Lookbook-Content'
 
 
 import {
@@ -70,6 +71,11 @@ class App extends React.Component {
               </Route>
               <Route path="/success">
                 <Success />
+              </Route>
+              <Route path="/lookbook">
+                <Lookbook 
+                  images={this.state.results}
+                />
               </Route>
             </Switch>
           </div>

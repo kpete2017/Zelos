@@ -23,6 +23,7 @@ export default class HeaderContent extends React.Component {
                         <Link to="/about" id="nav-item">About</Link>
                         <Link to="/store" id="nav-item">Store</Link>
                         <Link to="/teams" id="nav-item">Teams</Link>
+                        <Link to="/lookbook" id="nav-item">Lookbook</Link>
                         <div className="plugs">
                             <img src={insta} width="35" height="35" alt="Zelos Esports" onClick={() => window.open("https://www.instagram.com/zeloscompete/")} id="insta"></img>
                             <img src={twitter} width="35" height="35" alt="Zelos Esports" onClick={() => window.open("https://twitter.com/ZelosCompete")} id="twitter"></img>
