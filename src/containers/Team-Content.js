@@ -12,7 +12,6 @@ export default class TeamContent extends React.Component {
 
         const findElement = document.getElementById(element);
         var offSet = this.getOffset(findElement).top
-        console.log(offSet)
         window.scrollTo({
             top: offSet - 60,
             left: 0,

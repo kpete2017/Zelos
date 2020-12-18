@@ -31,6 +31,9 @@ export default class MobileNav extends Component {
                     <Link to="/teams" id="nav-item-mobile" onClick={() => {
                         this.toggleButton()
                     }}>TEAMS</Link>
+                    <Link to="/lookbook" id="nav-item-mobile" onClick={() => {
+                        this.toggleButton()
+                    }}>Lookbook</Link>
                 </div>
             </div>
         )     

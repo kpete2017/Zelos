@@ -1,4 +1,5 @@
 import React from 'react';
+import './lookbook.css'
 
 const Lookbook = ({images}) => {
 
@@ -6,7 +7,7 @@ const Lookbook = ({images}) => {
     list.push(images.lookbook1, images.lookbook2, images.lookbook3, images.lookbook4, images.lookbook5, images.lookbook6, images.lookbook7, images.lookbook8, images.lookbook9, images.lookbook10, images.lookbook11, images.lookbook12, images.lookbook13, images.lookbook14, images.lookbook15, images.lookbook16, images.lookbook17, images.lookbook18, images.lookbook19, images.lookbook20)
     
     return(
-        <div style={{marginTop: "5%", marginLeft: "5%", width: "80%"}}>
+        <div className="lookbook">
             <h1>Lookbook</h1>
             {list.map(image => {
                 if(image) {

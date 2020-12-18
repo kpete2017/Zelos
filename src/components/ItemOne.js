@@ -7,7 +7,6 @@ const stripePromise = loadStripe('pk_live_51HvTH9BzBvvjMwb2ZxV2DjniRbTrNMrYskiWW
 
 const Checkout = ({store}) => {
 
-  console.log(store)
 
   const images = [
     { url: store.item1_picture1 },
