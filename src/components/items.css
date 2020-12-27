@@ -58,3 +58,15 @@
     transition: 200ms;
     filter: brightness(200%);
 }
+
+.size-button-dim {
+    padding-left: .5rem;
+    padding-right: .5rem;
+    background-color: var(--bg-secondary);
+    margin: .2rem;
+    width: 2rem;
+    margin-bottom: 1rem;
+    transition: 200ms;
+    filter: brightness(60%);
+    cursor: pointer;
+}

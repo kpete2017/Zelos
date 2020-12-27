@@ -15,9 +15,9 @@ export default function RocketTeam({team, refProp}) {
                         <p>{team.rl1_name}</p>
                         <h2>{team.rl1_tag}</h2>
                         <div className="playerplugs">
-                            <img src={insta} width="35" height="35" alt="Zelos Esports" id="insta" onClick={ () => {window.open("https://www.instagram.com/nate_spomer/")} }></img>
-                            <img src={twitter} width="35" height="35" alt="Zelos Esports" id="twitter" onClick={ () => {window.open("https://twitter.com/NateSpomer")} }></img>
-                            <img src={twitch} width="35" height="35" alt="Zelos Esports" id="twitch" onClick={ () => {window.open("https://www.twitch.tv/spooman16")} }></img>
+                            <img src={insta} width="35" height="35" alt="Zelos Esports" id="insta" onClick={ () => {window.open(team.rl1_insta)} }></img>
+                            <img src={twitter} width="35" height="35" alt="Zelos Esports" id="twitter" onClick={ () => {window.open(team.rl1_twitter)} }></img>
+                            <img src={twitch} width="35" height="35" alt="Zelos Esports" id="twitch" onClick={ () => {window.open(team.rl1_twitch)} }></img>
                         </div>
                     </div>
                     <div className="column2">
@@ -32,9 +32,9 @@ export default function RocketTeam({team, refProp}) {
                         <p>{team.rl2_name}</p>
                         <h2>{team.rl2_tag}</h2>
                         <div className="playerplugs">
-                            <img src={insta} width="35" height="35" alt="Zelos Esports" id="insta" onClick={ () => {window.open("https://www.instagram.com/nate_spomer/")} }></img>
-                            <img src={twitter} width="35" height="35" alt="Zelos Esports" id="twitter" onClick={ () => {window.open("https://twitter.com/NateSpomer")} }></img>
-                            <img src={twitch} width="35" height="35" alt="Zelos Esports" id="twitch" onClick={ () => {window.open("https://www.twitch.tv/spooman16")} }></img>
+                            <img src={insta} width="35" height="35" alt="Zelos Esports" id="insta" onClick={ () => {window.open(team.rl2_insta)} }></img>
+                            <img src={twitter} width="35" height="35" alt="Zelos Esports" id="twitter" onClick={ () => {window.open(team.rl2_twitter)} }></img>
+                            <img src={twitch} width="35" height="35" alt="Zelos Esports" id="twitch" onClick={ () => {window.open(team.rl2_twitch)} }></img>
                         </div>
                     </div>
                     <div className="column2">
@@ -49,9 +49,9 @@ export default function RocketTeam({team, refProp}) {
                         <p>{team.rl3_name}</p>
                         <h2>{team.rl3_tag}</h2>
                         <div className="playerplugs">
-                            <img src={insta} width="35" height="35" alt="Zelos Esports" id="insta" onClick={ () => {window.open("https://www.instagram.com/nate_spomer/")} }></img>
-                            <img src={twitter} width="35" height="35" alt="Zelos Esports" id="twitter" onClick={ () => {window.open("https://twitter.com/NateSpomer")} }></img>
-                            <img src={twitch} width="35" height="35" alt="Zelos Esports" id="twitch" onClick={ () => {window.open("https://www.twitch.tv/spooman16")} }></img>
+                            <img src={insta} width="35" height="35" alt="Zelos Esports" id="insta" onClick={ () => {window.open(team.rl3_insta)} }></img>
+                            <img src={twitter} width="35" height="35" alt="Zelos Esports" id="twitter" onClick={ () => {window.open(team.rl3_twitter)} }></img>
+                            <img src={twitch} width="35" height="35" alt="Zelos Esports" id="twitch" onClick={ () => {window.open(team.rl3_twitch)} }></img>
                         </div>
                     </div>
                     <div className="column2">
@@ -66,9 +66,9 @@ export default function RocketTeam({team, refProp}) {
                         <p>{team.rl4_name}</p>
                         <h2>{team.rl4_tag}</h2>
                         <div className="playerplugs">
-                            <img src={insta} width="35" height="35" alt="Zelos Esports" id="insta" onClick={ () => {window.open("https://www.instagram.com/nate_spomer/")} }></img>
-                            <img src={twitter} width="35" height="35" alt="Zelos Esports" id="twitter" onClick={ () => {window.open("https://twitter.com/NateSpomer")} }></img>
-                            <img src={twitch} width="35" height="35" alt="Zelos Esports" id="twitch" onClick={ () => {window.open("https://www.twitch.tv/spooman16")} }></img>
+                            <img src={insta} width="35" height="35" alt="Zelos Esports" id="insta" onClick={ () => {window.open(team.rl4_insta)} }></img>
+                            <img src={twitter} width="35" height="35" alt="Zelos Esports" id="twitter" onClick={ () => {window.open(team.rl4_twitter)} }></img>
+                            <img src={twitch} width="35" height="35" alt="Zelos Esports" id="twitch" onClick={ () => {window.open(team.rl4_twitch)} }></img>
                         </div>
                     </div>
                     <div className="column2">

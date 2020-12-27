@@ -70,15 +70,13 @@ const Checkout = ({store}) => {
     <div className="sr-root">
       <p>{store.item1_ship}</p>
       <div className="size-radio-input">
-        {activeSize === "Small" ? <p className="size-button-active">S</p> : <p className="size-button" onClick={() => handleSizeClick("Small")}>S</p>}  
-        {activeSize === "Medium" ? <p className="size-button-active">M</p> : <p className="size-button" onClick={() => handleSizeClick("Medium")}>M</p>}  
-        {activeSize === "Large" ? <p className="size-button-active">L</p> : <p className="size-button" onClick={() => handleSizeClick("Large")}>L</p>}  
-        {activeSize === "ExtraLarge" ? <p className="size-button-active">XL</p> : <p className="size-button" onClick={() => handleSizeClick("ExtraLarge")}>XL</p>}  
-        {activeSize === "TwoExtraLarge" ? <p className="size-button-active">2XL</p> : <p className="size-button" onClick={() => handleSizeClick("TwoExtraLarge")}>2XL</p>}  
+        { store.item1_small_stock ? activeSize === "Small" ? <p className="size-button-active">S</p> : <p className="size-button" onClick={() => handleSizeClick("Small")}>S</p> : <p className="size-button-dim">S</p>}  
+        { store.item1_med_stock ? activeSize === "Medium" ? <p className="size-button-active">M</p> : <p className="size-button" onClick={() => handleSizeClick("Medium")}>M</p> : <p className="size-button-dim">M</p>}  
+        { store.item1_large_stock ? activeSize === "Large" ? <p className="size-button-active">L</p> : <p className="size-button" onClick={() => handleSizeClick("Large")}>L</p> : <p className="size-button-dim">L</p>}  
+        { store.item1_xl_stock ? activeSize === "ExtraLarge" ? <p className="size-button-active">XL</p> : <p className="size-button" onClick={() => handleSizeClick("ExtraLarge")}>XL</p> : <p className="size-button-dim">XL</p>}  
+        { store.item1_2xl_stock ? activeSize === "TwoExtraLarge" ? <p className="size-button-active">2XL</p> : <p className="size-button" onClick={() => handleSizeClick("TwoExtraLarge")}>2XL</p> : <p className="size-button-dim">2XL</p>}  
       </div>
-      <h4 className="submit-button" role="link" onClick={handleClick}>
-        Buy {store.item1_price}$
-      </h4>
+      <h4 className="submit-button" role="link" onClick={handleClick}>Buy ${store.item1_price}</h4>
       {width > 800 ? 
         <SimpleImageSlider
         style={{margin: ".5rem"}}
