@@ -7,12 +7,12 @@
   transition: 400ms;
   height: 90vh;
   width: 100%;
-  box-shadow: 5px 5px 15px rgba(0,0,0,0.9);
-  text-shadow: 5px 5px 15px rgba(0,0,0,0.9);
+  box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.9);
+  text-shadow: 5px 5px 15px rgba(0, 0, 0, 0.9);
 }
 
 .title-black-tint {
-  background-color: rgba(14, 14, 14, .2);
+  background-color: rgba(14, 14, 14, 0.2);
   height: 90vh;
   width: 100%;
 }
@@ -38,7 +38,7 @@
   margin-top: -5vh;
 }
 
-#zelos-title-screen-logo  {
+#zelos-title-screen-logo {
   height: 45vh;
   width: 30vw;
 }
@@ -65,8 +65,6 @@
 */
 
 @media only screen and (max-width: 700px) {
-
-
   .title {
     background-image: url("../assets/mobile-background.jpg");
     background-attachment: fixed;
@@ -75,11 +73,11 @@
     transition: 400ms;
     height: 80vh;
     width: 100%;
-    box-shadow: 5px 5px 15px rgba(0,0,0,0.9);
-    text-shadow: 5px 5px 15px rgba(0,0,0,0.9);
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.9);
+    text-shadow: 5px 5px 15px rgba(0, 0, 0, 0.9);
   }
 
-  #zelos-title-screen-logo  {
+  #zelos-title-screen-logo {
     margin-top: 5vh;
     height: 40vh;
     width: 100vw;

@@ -1,28 +1,24 @@
-import React, { useState } from 'react';
-import { loadStripe } from '@stripe/stripe-js';
+import React, { useState } from "react";
+import { loadStripe } from "@stripe/stripe-js";
 import SimpleImageSlider from "react-simple-image-slider";
-import './items.css'
+import "./items.css";
 
-const stripePromise = loadStripe('pk_live_51HvTH9BzBvvjMwb2ZxV2DjniRbTrNMrYskiWWoPbTqfXlxJyvqefA6hIkHBuV2MkYavx4nCWmG4edhM6aRN04tO300uz6oNXiJ');
+const stripePromise = loadStripe(
+  "pk_live_51HvTH9BzBvvjMwb2ZxV2DjniRbTrNMrYskiWWoPbTqfXlxJyvqefA6hIkHBuV2MkYavx4nCWmG4edhM6aRN04tO300uz6oNXiJ"
+);
 
-const Checkout = ({store}) => {
-
-  const images = [
-    { url: store.item3_picture1 },
-    { url: store.item3_picture2 }
-  ];
-  
+const Checkout = ({ store }) => {
+  const images = [{ url: store.item3_picture1 }, { url: store.item3_picture2 }];
 
   const [activeSize, setActiveSize] = useState("");
 
   const handleClick = async () => {
-    if(activeSize) {
-
+    if (activeSize) {
       let item;
 
-      switch(activeSize) {
+      switch (activeSize) {
         case "Small":
-           item = store.item3_small_id;
+          item = store.item3_small_id;
           break;
         case "Medium":
           item = store.item3_med_id;
@@ -37,60 +33,127 @@ const Checkout = ({store}) => {
           item = store.item3_2xl_id;
           break;
         default:
-          item = "Error"
+          item = "Error";
           break;
       }
 
       const stripe = await stripePromise;
       await stripe.redirectToCheckout({
-        lineItems: [{
-          price: item,
-          quantity: 1,
-        }],
-        mode: 'payment',
-        successUrl: 'https://www.zelosesports.com/success',
-        cancelUrl: 'https://www.zelosesports.com/store',
+        lineItems: [
+          {
+            price: item,
+            quantity: 1,
+          },
+        ],
+        mode: "payment",
+        successUrl: "https://www.zelosesports.com/success",
+        cancelUrl: "https://www.zelosesports.com/store",
         shippingAddressCollection: {
-          allowedCountries: ['US', 'CA'],
-        }
+          allowedCountries: ["US", "CA"],
+        },
       });
     } else {
-      alert("Please enter a size before proceeding to checkout")
+      alert("Please enter a size before proceeding to checkout");
     }
   };
 
   const handleSizeClick = (size) => {
-    setActiveSize(size)
+    setActiveSize(size);
   };
-  
+
   let width = window.innerWidth;
   return (
     <div className="sr-root">
       <p>{store.item3_ship}</p>
       <div className="size-radio-input">
-      { store.item1_small_stock ? activeSize === "Small" ? <p className="size-button-active">S</p> : <p className="size-button" onClick={() => handleSizeClick("Small")}>S</p> : <p className="size-button-dim">S</p>}  
-        { store.item3_med_stock ? activeSize === "Medium" ? <p className="size-button-active">M</p> : <p className="size-button" onClick={() => handleSizeClick("Medium")}>M</p> : <p className="size-button-dim">M</p>}  
-        { store.item3_large_stock ? activeSize === "Large" ? <p className="size-button-active">L</p> : <p className="size-button" onClick={() => handleSizeClick("Large")}>L</p> : <p className="size-button-dim">L</p>}  
-        { store.item3_xl_stock ? activeSize === "ExtraLarge" ? <p className="size-button-active">XL</p> : <p className="size-button" onClick={() => handleSizeClick("ExtraLarge")}>XL</p> : <p className="size-button-dim">XL</p>}  
-        { store.item3_2xl_stock ? activeSize === "TwoExtraLarge" ? <p className="size-button-active">2XL</p> : <p className="size-button" onClick={() => handleSizeClick("TwoExtraLarge")}>2XL</p> : <p className="size-button-dim">2XL</p>}   
+        {store.item1_small_stock ? (
+          activeSize === "Small" ? (
+            <p className="size-button-active">S</p>
+          ) : (
+            <p className="size-button" onClick={() => handleSizeClick("Small")}>
+              S
+            </p>
+          )
+        ) : (
+          <p className="size-button-dim">S</p>
+        )}
+        {store.item3_med_stock ? (
+          activeSize === "Medium" ? (
+            <p className="size-button-active">M</p>
+          ) : (
+            <p
+              className="size-button"
+              onClick={() => handleSizeClick("Medium")}
+            >
+              M
+            </p>
+          )
+        ) : (
+          <p className="size-button-dim">M</p>
+        )}
+        {store.item3_large_stock ? (
+          activeSize === "Large" ? (
+            <p className="size-button-active">L</p>
+          ) : (
+            <p className="size-button" onClick={() => handleSizeClick("Large")}>
+              L
+            </p>
+          )
+        ) : (
+          <p className="size-button-dim">L</p>
+        )}
+        {store.item3_xl_stock ? (
+          activeSize === "ExtraLarge" ? (
+            <p className="size-button-active">XL</p>
+          ) : (
+            <p
+              className="size-button"
+              onClick={() => handleSizeClick("ExtraLarge")}
+            >
+              XL
+            </p>
+          )
+        ) : (
+          <p className="size-button-dim">XL</p>
+        )}
+        {store.item3_2xl_stock ? (
+          activeSize === "TwoExtraLarge" ? (
+            <p className="size-button-active">2XL</p>
+          ) : (
+            <p
+              className="size-button"
+              onClick={() => handleSizeClick("TwoExtraLarge")}
+            >
+              2XL
+            </p>
+          )
+        ) : (
+          <p className="size-button-dim">2XL</p>
+        )}
       </div>
       <h4 className="submit-button" role="link" onClick={handleClick}>
         Buy ${store.item3_price}
       </h4>
-      {width > 800 ? 
-      <SimpleImageSlider
-        style={{margin: ".5rem", }}
-        height="60%"
-        width="32%"
-        images={images}
-        showNavs={true}
-        showBullets={true}
+      {width > 800 ? (
+        <SimpleImageSlider
+          style={{ margin: ".5rem" }}
+          height="60%"
+          width="32%"
+          images={images}
+          showNavs={true}
+          showBullets={true}
         />
-      :
-        <img alt="Zelos Esports" height="50%" width="95%" style={{marginTop: "10%"}} src={images[0].url}/>
-      }
+      ) : (
+        <img
+          alt="Zelos Esports"
+          height="50%"
+          width="95%"
+          style={{ marginTop: "10%" }}
+          src={images[0].url}
+        />
+      )}
     </div>
-  ); 
+  );
 };
 
 export default Checkout;

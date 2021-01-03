@@ -1,72 +1,72 @@
 .slider {
-    height: "80%";
-    width: "80%"
+  height: "80%";
+  width: "80%";
 }
 
 .submit-button {
-    position: relative;
-    bottom: 90%;
-    transition: 400ms;
-    -webkit-touch-callout: none; 
-    -khtml-user-select: none; 
-    -moz-user-select: none;
-    -ms-user-select: none; 
-    user-select: none; 
+  position: relative;
+  bottom: 90%;
+  transition: 400ms;
+  -webkit-touch-callout: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
 }
 
 .submit-button:hover {
-    filter: brightness(150%);
-    transition: 400ms;
-    transform: scale(1.10);
+  filter: brightness(150%);
+  transition: 400ms;
+  transform: scale(1.1);
 }
 
 .size-radio-input {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
 }
 
 .size-button {
-    padding-left: .5rem;
-    padding-right: .5rem;
-    background-color: var(--bg-secondary);
-    margin: .2rem;
-    width: 2rem;
-    margin-bottom: 1rem;
-    transition: 200ms;
-        -webkit-touch-callout: none; 
-    -khtml-user-select: none; 
-    -moz-user-select: none;
-    -ms-user-select: none; 
-    user-select: none; 
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+  background-color: var(--bg-secondary);
+  margin: 0.2rem;
+  width: 2rem;
+  margin-bottom: 1rem;
+  transition: 200ms;
+  -webkit-touch-callout: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
 }
 
 .size-button:hover {
-    cursor: pointer;
-    filter: brightness(150%);
-    transform: scale(1.10);
-    transition: 200ms;
+  cursor: pointer;
+  filter: brightness(150%);
+  transform: scale(1.1);
+  transition: 200ms;
 }
 
 .size-button-active {
-    padding-left: .5rem;
-    padding-right: .5rem;
-    background-color: var(--bg-secondary);
-    margin: .2rem;
-    width: 2rem;
-    margin-bottom: 1rem;
-    transition: 200ms;
-    filter: brightness(200%);
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+  background-color: var(--bg-secondary);
+  margin: 0.2rem;
+  width: 2rem;
+  margin-bottom: 1rem;
+  transition: 200ms;
+  filter: brightness(200%);
 }
 
 .size-button-dim {
-    padding-left: .5rem;
-    padding-right: .5rem;
-    background-color: var(--bg-secondary);
-    margin: .2rem;
-    width: 2rem;
-    margin-bottom: 1rem;
-    transition: 200ms;
-    filter: brightness(60%);
-    cursor: pointer;
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+  background-color: var(--bg-secondary);
+  margin: 0.2rem;
+  width: 2rem;
+  margin-bottom: 1rem;
+  transition: 200ms;
+  filter: brightness(60%);
+  cursor: pointer;
 }

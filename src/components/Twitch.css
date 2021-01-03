@@ -1,21 +1,21 @@
 #twitch-viewer {
-    position: absolute;
-    top: 80rem;
-    right: 4rem;
+  position: absolute;
+  top: 80rem;
+  right: 4rem;
 }
 
 #exit {
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    z-index: 2;
-    position: absolute;
-    top: 78rem;
-    right: 4.5rem;
-    transition: 400ms;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  z-index: 2;
+  position: absolute;
+  top: 78rem;
+  right: 4.5rem;
+  transition: 400ms;
 }
 
 #exit:hover {
-    color: #df49a6;
-    transform: rotate(-180deg);
-    transition: 400ms;
-    cursor: pointer;
+  color: #df49a6;
+  transform: rotate(-180deg);
+  transition: 400ms;
+  cursor: pointer;
 }

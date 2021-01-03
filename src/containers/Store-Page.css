@@ -6,14 +6,13 @@
   width: 100%;
 }
 
-.store-page2 h1{
+.store-page2 h1 {
   font-size: 150%;
 }
 
-.store-page2 p{
+.store-page2 p {
   margin-top: -5%;
 }
-
 
 .store-background-section {
   height: 80%;
@@ -55,21 +54,19 @@
   grid-area: left;
 }
 
-.black-background2{
+.black-background2 {
   height: 95vh;
-  background-color: rgba(14, 14, 14, .8);
+  background-color: rgba(14, 14, 14, 0.8);
 }
 
-@media only screen and (max-width: 800px) { 
-
+@media only screen and (max-width: 800px) {
   .store-page2 {
     overflow: auto;
   }
-  
+
   .store-background-section {
     display: inline-block;
     overflow: auto;
     width: 100%;
   }
-  
 }

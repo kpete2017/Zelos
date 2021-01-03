@@ -1,13 +1,11 @@
 .lookbook {
-    margin: 0 auto;
-    margin-top: 5%;
-    width: 80%;
+  margin: 0 auto;
+  margin-top: 5%;
+  width: 80%;
 }
 
 @media only screen and (max-width: 800px) {
-    .lookbook {
-        margin-top: 20%;
-    }
-    
+  .lookbook {
+    margin-top: 20%;
+  }
 }
-  
