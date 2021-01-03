@@ -2,7 +2,7 @@ import React from "react";
 import logo from "../assets/Zelos_Denver_Hue.png";
 import "./Title.css";
 
-export default function Title() {
+export default function Title({title}) {
   return (
     <div className="title" id="title">
       <div className="title-black-tint"></div>
@@ -14,7 +14,7 @@ export default function Title() {
           src={logo}
           alt="Zelos Esports"
         ></img>
-        <h1 id="zelos-title-screen-text">{this.props.title}</h1>
+        <h1 id="zelos-title-screen-text">{title}</h1>
       </div>
     </div>
   );

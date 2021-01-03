@@ -1,7 +1,7 @@
 import React from "react";
 import "./Sponsor.css";
 
-export default function Sponsor() {
+export default function Sponsor({home}) {
   return (
     <div className="sponsors-section">
       <h1>Our Partners</h1>
@@ -10,21 +10,21 @@ export default function Sponsor() {
           id="sponsor1"
           height="150"
           width="150"
-          src={this.props.home.partner1}
+          src={home.partner1}
           alt="Zelos Esports"
         ></img>
         <img
           id="sponsor2"
           height="150"
           width="150"
-          src={this.props.home.partner2}
+          src={home.partner2}
           alt="Zelos Esports"
         ></img>
         <img
           id="sponsor3"
           height="150"
           width="150"
-          src={this.props.home.partner3}
+          src={home.partner3}
           alt="Zelos Esports"
         ></img>
       </div>

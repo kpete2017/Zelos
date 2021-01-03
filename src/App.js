@@ -45,8 +45,6 @@ class App extends React.Component {
               <Route exact path="/">
                 <BodyContent
                   home={this.state.results}
-                  aboutPage={this.handleAboutPage}
-                  teamPage={this.handleTeamPage}
                 />
               </Route>
               <Route path="/about">

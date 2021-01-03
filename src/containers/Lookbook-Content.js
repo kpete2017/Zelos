@@ -44,6 +44,7 @@ const Lookbook = ({ images }) => {
                 marginTop: "1rem",
               }}
               src={image}
+              key={image}
             />
           );
         } else {
