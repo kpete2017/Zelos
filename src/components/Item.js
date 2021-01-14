@@ -8,7 +8,7 @@ const stripePromise = loadStripe(
 );
 
 const Checkout = ({ store }) => {
-  const images = [{ url: store.item1_picture1 }, { url: store.item1_picture2 }];
+  const images = [{ url: store.picture_1 }, { url: store.picture_2 }];
 
   const [activeSize, setActiveSize] = useState("");
 
@@ -18,19 +18,19 @@ const Checkout = ({ store }) => {
 
       switch (activeSize) {
         case "Small":
-          item = store.item1_small_id;
+          item = store.small_id;
           break;
         case "Medium":
-          item = store.item1_med_id;
+          item = store.med_id;
           break;
         case "Large":
-          item = store.item1_large_id;
+          item = store.large_id;
           break;
         case "ExtraLarge":
-          item = store.item1_xl_id;
+          item = store.xl_id;
           break;
         case "TwoExtraLarge":
-          item = store.item1_2xl_id;
+          item = store.two_xl_id;
           break;
         default:
           item = "Error";
@@ -38,20 +38,23 @@ const Checkout = ({ store }) => {
       }
 
       const stripe = await stripePromise;
-      await stripe.redirectToCheckout({
-        lineItems: [
-          {
-            price: item,
-            quantity: 1,
+      await stripe
+        .redirectToCheckout({
+          lineItems: [
+            {
+              price: item,
+              quantity: 1,
+            },
+          ],
+          mode: "payment",
+          successUrl: "https://www.zelosesports.com/success",
+          cancelUrl: "https://www.zelosesports.com/store",
+          shippingAddressCollection: {
+            allowedCountries: ["US", "CA"],
           },
-        ],
-        mode: "payment",
-        successUrl: "https://www.zelosesports.com/",
-        cancelUrl: "https://www.zelosesports.com/store",
-        shippingAddressCollection: {
-          allowedCountries: ["US", "CA"],
-        },
-      });
+        })
+        .then((response) => response.json())
+        .then((result) => console.log(result));
     } else {
       alert("Please enter a size before proceeding to checkout");
     }
@@ -65,9 +68,9 @@ const Checkout = ({ store }) => {
 
   return (
     <div className="sr-root">
-      <p>{store.item1_ship}</p>
+      <p>{store.ship}</p>
       <div className="size-radio-input">
-        {store.item1_small_stock ? (
+        {store.small_stock ? (
           activeSize === "Small" ? (
             <p className="size-button-active">S</p>
           ) : (
@@ -78,7 +81,7 @@ const Checkout = ({ store }) => {
         ) : (
           <p className="size-button-dim">S</p>
         )}
-        {store.item1_med_stock ? (
+        {store.med_stock ? (
           activeSize === "Medium" ? (
             <p className="size-button-active">M</p>
           ) : (
@@ -92,7 +95,7 @@ const Checkout = ({ store }) => {
         ) : (
           <p className="size-button-dim">M</p>
         )}
-        {store.item1_large_stock ? (
+        {store.large_stock ? (
           activeSize === "Large" ? (
             <p className="size-button-active">L</p>
           ) : (
@@ -103,7 +106,7 @@ const Checkout = ({ store }) => {
         ) : (
           <p className="size-button-dim">L</p>
         )}
-        {store.item1_xl_stock ? (
+        {store.xl_stock ? (
           activeSize === "ExtraLarge" ? (
             <p className="size-button-active">XL</p>
           ) : (
@@ -117,7 +120,7 @@ const Checkout = ({ store }) => {
         ) : (
           <p className="size-button-dim">XL</p>
         )}
-        {store.item1_2xl_stock ? (
+        {store.two_xl_stock ? (
           activeSize === "TwoExtraLarge" ? (
             <p className="size-button-active">2XL</p>
           ) : (
@@ -133,13 +136,13 @@ const Checkout = ({ store }) => {
         )}
       </div>
       <h4 className="submit-button" role="link" onClick={handleClick}>
-        Buy ${store.item1_price}
+        Buy ${store.price}
       </h4>
       {width > 800 ? (
         <SimpleImageSlider
           style={{ margin: ".5rem" }}
-          height="60%"
-          width="32%"
+          height="55vh"
+          width="25vw"
           images={images}
           showNavs={true}
           showBullets={true}

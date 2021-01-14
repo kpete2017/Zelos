@@ -6,11 +6,14 @@
   width: 100%;
 }
 
+.team-section-flex {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+
 .team-r6 {
-  background-image: url("../assets/dims.jfif");
-  background-attachment: fixed;
-  background-size: cover;
-  width: 30vw;
+  width: 27vw;
   margin: 2vw;
   height: 70vh;
   text-align: center;
@@ -60,34 +63,18 @@
   height: 10vh;
 }
 
-.valorant {
-  font-size: 1.8vh;
-  z-index: 0;
-  height: 70vh;
-  width: 30vw;
-  margin: 0 auto;
-  line-height: 0.8;
-}
-
 .rl-black-background {
   position: relative;
   background-color: rgba(14, 14, 14, 0.8);
   height: 70vh;
-  width: 30vw;
+  width: 25vw;
 }
 
 .r6-black-background {
   position: relative;
   background-color: rgba(14, 14, 14, 0.8);
   height: 70vh;
-  width: 30vw;
-}
-
-.valorant-black-background {
-  position: relative;
-  background-color: rgba(14, 14, 14, 0.8);
-  height: 70vh;
-  width: 30vw;
+  width: 27vw;
 }
 
 #teams-text {

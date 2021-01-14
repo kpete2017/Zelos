@@ -1,5 +1,6 @@
 import React from "react";
 import "./lookbook.css";
+import Fade from "react-reveal/Fade";
 
 const Lookbook = ({ images }) => {
   let list = [];
@@ -28,30 +29,32 @@ const Lookbook = ({ images }) => {
   );
 
   return (
-    <div className="lookbook">
-      <h1>Lookbook</h1>
-      {list.map((image) => {
-        if (image) {
-          return (
-            <img
-              alt="Zelos-Esports"
-              style={{
-                backgroundSize: "cover",
-                width: "70%",
-                display: "flex",
-                flexWrap: "wrap",
-                margin: "0 auto",
-                marginTop: "1rem",
-              }}
-              src={image}
-              key={image}
-            />
-          );
-        } else {
-          return null;
-        }
-      })}
-    </div>
+    <Fade>
+      <div className="lookbook">
+        <h1>Lookbook</h1>
+        {list.map((image) => {
+          if (image) {
+            return (
+              <img
+                alt="Zelos-Esports"
+                style={{
+                  backgroundSize: "cover",
+                  width: "70%",
+                  display: "flex",
+                  flexWrap: "wrap",
+                  margin: "0 auto",
+                  marginTop: "1rem",
+                }}
+                src={image}
+                key={image}
+              />
+            );
+          } else {
+            return null;
+          }
+        })}
+      </div>
+    </Fade>
   );
 };
 

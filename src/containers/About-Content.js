@@ -2,8 +2,9 @@ import React from "react";
 import "./About-Page.css";
 import Fade from "react-reveal/Fade";
 import logo from "../assets/Zelos2.png";
+import Founder from "../components/Founder";
 
-export default function AboutContent({ about }) {
+export default function AboutContent({ about, founders }) {
   let width = window.innerWidth;
   return (
     <div className="about-page">
@@ -24,46 +25,9 @@ export default function AboutContent({ about }) {
         <div className="founders-section">
           <h1 id="founders-text">Company Founders</h1>
           <div className="business">
-            <div className="people">
-              <h2>
-                {about.founder1_title}
-                <br />-<br />
-                {about.founder1_desc}
-              </h2>
-              {/* <img className="headshot" height="200" width="200"src={WeirdFace} alt="Zelos Esports"></img> */}
-            </div>
-            <div className="people">
-              <h2>
-                {about.founder2_title}
-                <br />-<br />
-                {about.founder2_desc}
-              </h2>
-              {/* <img className="headshot" height="200" width="200"src={WeirdFace} alt="Zelos Esports"></img> */}
-            </div>
-            <div className="people">
-              <h2>
-                {about.founder3_title}
-                <br />-<br />
-                {about.founder3_desc}
-              </h2>
-              {/* <img className="headshot" height="200" width="200"src={WeirdFace} alt="Zelos Esports"></img> */}
-            </div>
-            <div className="people">
-              <h2>
-                {about.founder4_title}
-                <br />-<br />
-                {about.founder4_desc}
-              </h2>
-              {/* <img className="headshot" height="200" width="200"src={WeirdFace} alt="Zelos Esports"></img> */}
-            </div>
-            <div className="people">
-              <h2>
-                {about.founder5_title}
-                <br />-<br />
-                {about.founder5_desc}
-              </h2>
-              {/* <img className="headshot" height="200" width="200"src={WeirdFace} alt="Zelos Esports"></img> */}
-            </div>
+            {founders.map((founder) => {
+              return <Founder founder={founder} key={founder.id}/>;
+            })}
           </div>
         </div>
       </Fade>

@@ -1,8 +1,8 @@
 .store-page2 {
-  background-image: url("../assets/rainbow-background.jpg");
-  background-size: cover;
-  background-attachment: fixed;
+  position: relative;
+  min-height: 100vh;
   height: auto;
+  top: 7vh;
   width: 100%;
 }
 
@@ -15,18 +15,16 @@
 }
 
 .store-background-section {
-  height: 80%;
+  height: auto;
+  min-height: 80%;
   width: 80%;
   background-color: var(--bg-primary);
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
   text-align: center;
+  margin: 0 auto;
   opacity: 0.95;
-  display: grid;
-  grid-template-columns: 34% 33% 33%;
-  grid-template-areas: "right middle left";
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
 }
 
 .store-background-section h4 {
@@ -39,25 +37,12 @@
   cursor: pointer;
 }
 
-.item-one {
-  width: 100%;
-  grid-area: right;
+.item {
+  width: 33%;
+  height: 77vh;
+  margin-bottom: 10vh;
 }
 
-.item-two {
-  width: 100%;
-  grid-area: middle;
-}
-
-.item-three {
-  width: 100%;
-  grid-area: left;
-}
-
-.black-background2 {
-  height: 95vh;
-  background-color: rgba(14, 14, 14, 0.8);
-}
 
 @media only screen and (max-width: 800px) {
   .store-page2 {
