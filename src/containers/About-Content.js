@@ -8,29 +8,39 @@ export default function AboutContent({ about, founders }) {
   let width = window.innerWidth;
   return (
     <div className="about-page">
-      <Fade>
-        <div className="intro-section">
-          <h1 id="what-is-zelos">{about.about_page_title}</h1>
-          <img
-            id="zelos-about-logo"
-            height="400"
-            width="500"
-            src={logo}
-            alt="Zelos Esports"
-          ></img>
-          <h4 id="about-zelos-text">{about.about_page_desc}</h4>
-        </div>
-      </Fade>
-      <Fade bottom>
+      <div className="intro-section">
+        <h1 id="what-is-zelos">{about.about_page_title}</h1>
+        <img
+          id="zelos-about-logo"
+          height="400"
+          width="500"
+          src={logo}
+          alt="Zelos Esports"
+        ></img>
+        <h4 id="about-zelos-text">{about.about_page_desc}</h4>
+      </div>
+      {width > 756 ? (
+        <Fade bottom>
+          <div className="founders-section">
+            <h1 id="founders-text">Company Founders</h1>
+            <div className="business">
+              {founders.map((founder) => {
+                return <Founder founder={founder} key={founder.id} />;
+              })}
+            </div>
+          </div>
+        </Fade>
+      ) : (
         <div className="founders-section">
           <h1 id="founders-text">Company Founders</h1>
           <div className="business">
             {founders.map((founder) => {
-              return <Founder founder={founder} key={founder.id}/>;
+              return <Founder founder={founder} key={founder.id} />;
             })}
           </div>
         </div>
-      </Fade>
+      )}
+
       {width > 756 ? (
         <Fade bottom>
           <div className="company-info">

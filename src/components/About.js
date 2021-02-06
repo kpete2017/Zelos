@@ -64,7 +64,6 @@ export default class About extends React.Component {
     } else {
       return (
         <>
-          <Fade bottom>
             <div className="about" id="about">
               <div className="about-container">
                 <h1>WE ARE ZELOS</h1>
@@ -88,7 +87,6 @@ export default class About extends React.Component {
                 </h2>
               </div>
             </div>
-          </Fade>
         </>
       );
     }

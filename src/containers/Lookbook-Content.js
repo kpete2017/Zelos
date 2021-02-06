@@ -28,27 +28,47 @@ const Lookbook = ({ images }) => {
     images.lookbook20
   );
 
+  let width = window.innerWidth;
+
   return (
     <Fade>
       <div className="lookbook">
         <h1>Lookbook</h1>
         {list.map((image) => {
           if (image) {
-            return (
-              <img
-                alt="Zelos-Esports"
-                style={{
-                  backgroundSize: "cover",
-                  width: "70%",
-                  display: "flex",
-                  flexWrap: "wrap",
-                  margin: "0 auto",
-                  marginTop: "1rem",
-                }}
-                src={image}
-                key={image}
-              />
-            );
+            if (width > 800) {
+              return (
+                <img
+                  alt="Zelos-Esports"
+                  style={{
+                    backgroundSize: "cover",
+                    width: "70%",
+                    display: "flex",
+                    flexWrap: "wrap",
+                    margin: "0 auto",
+                    marginTop: "1rem",
+                  }}
+                  src={image}
+                  key={image}
+                />
+              );
+            } else {
+              return (
+                <img
+                  alt="Zelos-Esports"
+                  style={{
+                    backgroundSize: "cover",
+                    width: "100%",
+                    display: "flex",
+                    flexWrap: "wrap",
+                    margin: "0 auto",
+                    marginTop: "1rem",
+                  }}
+                  src={image}
+                  key={image}
+                />
+              );
+            }
           } else {
             return null;
           }

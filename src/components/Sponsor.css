@@ -26,6 +26,12 @@
   padding: 1vw;
   box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.9);
   border-radius: 4.5px;
+  transition: 400ms;
+}
+
+#sponsor1:hover {
+  filter: brightness(50%);
+  transition: 400ms;
 }
 
 #sponsor2 {
@@ -35,6 +41,12 @@
   padding: 1vw;
   box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.9);
   border-radius: 4.5px;
+  transition: 400ms;
+}
+
+#sponsor2:hover {
+  filter: brightness(50%);
+  transition: 400ms;
 }
 
 #sponsor3 {

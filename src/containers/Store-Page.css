@@ -15,8 +15,8 @@
 }
 
 .store-background-section {
-  height: auto;
   min-height: 80%;
+  height: auto;
   width: 80%;
   background-color: var(--bg-primary);
   text-align: center;
@@ -31,6 +31,7 @@
   background-color: var(--bg-secondary);
   width: 12rem;
   margin: 0 auto;
+  height: auto;
 }
 
 .store-background-section h4:hover {
@@ -43,15 +44,20 @@
   margin-bottom: 10vh;
 }
 
-
 @media only screen and (max-width: 800px) {
   .store-page2 {
-    overflow: auto;
+    overflow: none;
   }
 
   .store-background-section {
     display: inline-block;
-    overflow: auto;
+    overflow: none;
     width: 100%;
+  }
+
+  .item {
+    width: 100%;
+    height: auto;
+    margin-bottom: 2vh;
   }
 }

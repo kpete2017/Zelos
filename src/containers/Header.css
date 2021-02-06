@@ -55,16 +55,46 @@ header {
 #insta {
   margin: 1rem;
   cursor: pointer;
+  transition: 400ms;
+}
+
+#insta:hover {
+  filter: brightness(50%);
+  transition: 400ms;
 }
 
 #twitter {
   margin: 1rem;
   cursor: pointer;
+  transition: 400ms;
+}
+
+#twitter:hover {
+  filter: brightness(50%);
+  transition: 400ms;
+}
+
+
+#youtube {
+  margin: 1rem;
+  cursor: pointer;
+  transition: 400ms;
+}
+
+#youtube:hover {
+  filter: brightness(50%);
+  transition: 400ms;
 }
 
 #twitch {
   margin: 1rem;
   cursor: pointer;
+  transition: 400ms;
+}
+
+#twitch:hover {
+  filter: brightness(50%);
+  transition: 400ms;
 }
 
 .hamburger {

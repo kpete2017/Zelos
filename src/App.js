@@ -25,7 +25,6 @@ class App extends React.Component {
   }
 
   render() {
-    console.log(this.state.results);
     if (this.state.isLoading) {
       return (
         <div id="zelos-loading-logo">

@@ -13,9 +13,9 @@ const Checkout = ({ store }) => {
   const [activeSize, setActiveSize] = useState("");
 
   const handleClick = async () => {
+    console.log(store)
+    let item;
     if (activeSize) {
-      let item;
-
       switch (activeSize) {
         case "Small":
           item = store.small_id;
@@ -53,8 +53,6 @@ const Checkout = ({ store }) => {
             allowedCountries: ["US", "CA"],
           },
         })
-        .then((response) => response.json())
-        .then((result) => console.log(result));
     } else {
       alert("Please enter a size before proceeding to checkout");
     }
@@ -150,7 +148,7 @@ const Checkout = ({ store }) => {
       ) : (
         <img
           alt="Zelos Esports"
-          height="50%"
+          height="35%"
           width="95%"
           style={{ marginTop: "10%" }}
           src={images[0].url}

@@ -22,27 +22,6 @@
   height: 70vh;
 }
 
-.team-rl {
-  background-image: url("../assets/RocketLeague.jpg");
-  background-attachment: fixed;
-  background-size: cover;
-  box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.9);
-  line-height: 1;
-  width: 30vw;
-  height: 70vh;
-  margin: 2vw;
-  text-align: center;
-  background-color: var(--bg-secondary);
-}
-
-.rl {
-  font-size: 2vh;
-  z-index: 0;
-  height: 30vh;
-  width: 30vw;
-  margin: 0 auto;
-}
-
 .r6 {
   font-size: 2vh;
   overflow-wrap: normal;
@@ -108,7 +87,7 @@
   }
 
   .team-section-area {
-    height: 110vh;
+    height: 50vh;
   }
   .team-rl {
     background-size: 100vh;
