@@ -32,6 +32,7 @@
 #sponsor1:hover {
   filter: brightness(50%);
   transition: 400ms;
+  cursor: pointer;
 }
 
 #sponsor2 {
@@ -47,6 +48,7 @@
 #sponsor2:hover {
   filter: brightness(50%);
   transition: 400ms;
+  cursor: pointer;
 }
 
 #sponsor3 {
